@@ -4,3 +4,5 @@ enable=true
 
 [editor.gutters]
 layout = ["diff","spacer"]
+
+

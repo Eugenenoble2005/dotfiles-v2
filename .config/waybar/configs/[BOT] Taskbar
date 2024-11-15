@@ -24,7 +24,6 @@
     
   ],
   "modules-left":[
-    "wlr/taskbar",
-    "custom/cava_mviz"
+    "hyprland/workspaces#kanji",
   ]
 }

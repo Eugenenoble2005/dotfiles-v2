@@ -1,4 +1,4 @@
-font_family   Monospace Bold
+font_family   Cascadia Code Light Italic
 font_size 		12.0
 bold_font       auto
 italic_font      auto
@@ -29,9 +29,9 @@ window_padding_width 4
 # cursor #dddddd
 
 # BEGIN_KITTY_THEME
-# Vibrant Ink
+# Base2Tone Earth Dark
 include current-theme.conf
 # END_KITTY_THEME
 #
 #
-# include wallust/kitty.conf
+ # include wallust/kitty.conf

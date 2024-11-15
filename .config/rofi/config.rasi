@@ -5,11 +5,11 @@
 
 /* ---- Configuration ---- */
 configuration {
-	font: "Fira Code SemiBold 12";
+	font: "Cascadia Code Italic 12";
 }
 
 element-text {
-    font:	"Fira Code SemiBold 14";
+    font:	"Cascadia Code Italic  14";
 }
 
 
@@ -175,4 +175,26 @@ element-text {
 
 //@theme "/home/noble/.local/share/rofi/themes/style_8.rasi"
 
-@theme "/home/noble/.local/share/rofi/themes/squared-material-red.rasi"
+//@theme "/home/noble/.local/share/rofi/themes/squared-material-red.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/squared-everforest.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/DarkBlue.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+
+//@theme "/usr/share/rofi/themes/fancy2.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/style_7.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/style_3.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/windows11-grid-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/material.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/squared-material-red.rasi"
+
+@theme "/usr/share/rofi/themes/Monokai.rasi"

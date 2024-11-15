@@ -1,0 +1,9 @@
+rm -rf .config/nushell/
+z .dotfiles
+ls
+z .config
+ls
+z
+vim .zshrc
+z
+z .dotfiles

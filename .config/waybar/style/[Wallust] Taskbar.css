@@ -57,12 +57,14 @@ tooltip label{
     border-radius: 9px;
     padding-left: 4px;
     padding-right: 4px;
+    margin-left: 20px;
     animation: gradient_f 20s ease-in infinite;
     transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.active {
     background-color: transparent;
+    border-bottom: 1px solid red;
     color: #D3D3D3;
     padding-left: 8px;
     padding-right: 8px;
@@ -139,7 +141,6 @@ tooltip label{
 }
 
 #workspaces {
-	border-radius: 12px;
 	padding: 0px 6px;
 }
 

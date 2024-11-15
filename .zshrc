@@ -31,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 #nitch
 
 #pokemon-colorscripts --no-title -s   -r
-
+shuf -n 1 ~/.config/eww/cache.txt | cowsay
 # Set-up icons for files/folders in terminal
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
@@ -52,6 +52,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=50'
 export PATH=$PATH:/home/noble/.spicetify
 export PATH=$PATH:/home/noble/.dotnet
 export PATH=$PATH:/home/noble/.local/bin
+export PATH=$PATH:/home/noble/.local/share/gem/ruby/3.3.0/bin
 export conf=~/.config
 export wap=~/Pictures/wallpapers
 eval "$(zoxide init zsh)"
