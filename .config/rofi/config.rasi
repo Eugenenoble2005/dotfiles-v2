@@ -197,4 +197,10 @@ element-text {
 
 //@theme "/home/noble/.local/share/rofi/themes/squared-material-red.rasi"
 
-@theme "/usr/share/rofi/themes/Monokai.rasi"
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/nord-oneline.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/style_4.rasi"
+
+@theme "/usr/share/rofi/themes/arthur.rasi"

@@ -7,3 +7,24 @@ z
 vim .zshrc
 z
 z .dotfiles
+ls
+where
+exit
+ls
+exit
+ld
+ls
+ping
+ls
+dotnet
+exit
+ls
+z 
+z $wap
+z ~/Pictures/
+ls
+z wallpapers/
+ls
+exit
+ls
+exit

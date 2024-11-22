@@ -15,8 +15,8 @@
 //"margin-bottom": 0,
 //"margin-left": 0,
 //"margin-right": 0,
-	"modules-center": ["hyprland/submap","hyprland/window"], 
   "modules-right":[
+  "hyprland/window",
   "tray",
    "battery",
     "clock",

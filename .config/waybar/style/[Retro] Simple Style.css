@@ -1,15 +1,10 @@
 /* ---- 💫 https://github.com/JaKooLit 💫 ---- */
 /* Simple Style */
 
-@define-color background #1d2021;
-@define-color foreground #ebdbb2;
-@define-color dim        #928374;
-@define-color yellow     #fabd2f;
-@define-color red        #fb4934;
-@define-color green      #b8bb26;
-
+@import '../../.config/waybar/wallust/colors-waybar.css';
 * {
-	font-family: "JetBrains Mono Nerd Font";
+	font-family: Cascadia Code;
+  font-style: italic;
 	font-weight: bold;
 	min-height: 0;	
 	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
@@ -33,6 +28,7 @@ window#waybar.empty #window {
 #taskbar button,
 #workspaces button {
   color: @foreground;
+  margin-left: 15px;
 }
 
 #taskbar button.active,
@@ -40,13 +36,14 @@ window#waybar.empty #window {
   border-bottom: 1px solid green;
 }
 .modules-left{
-   background: rgba(28,32,33,0.8);
+   background: @background;
 }
 .modules-center{
-   background: rgba(28,32,33,0.8);
+  background: none;
 }
 .modules-right{
-   background: rgba(28,32,33,0.8);
+   background: @background;
+
 }
 
 #taskbar button.urgent,

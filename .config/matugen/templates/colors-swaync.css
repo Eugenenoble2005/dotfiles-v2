@@ -1,0 +1,8 @@
+@define-color text {{colors.primary.default.hex}};
+@define-color background {{colors.surface.default.rgbd | set_alpha 0.9}};
+@define-color cursor {{colors.secondary.default.hex}};
+@define-color hovered {{color.inverse_primary.default.hex}};
+@define-color button-background {{colors.primary_fixed.default.hex}};
+@define-color button-active {{colors.secondary_fixed.default.hex}};
+@define-color border {{color.outline.default.hex}};
+@define-color urgent {{color.error.default.hex}};

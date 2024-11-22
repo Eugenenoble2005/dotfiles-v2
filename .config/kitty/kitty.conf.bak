@@ -29,7 +29,7 @@ window_padding_width 4
 # cursor #dddddd
 
 # BEGIN_KITTY_THEME
-# Base2Tone Earth Dark
+# Brogrammer
 include current-theme.conf
 # END_KITTY_THEME
 #

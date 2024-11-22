@@ -1,0 +1,3 @@
+@define-color foreground {{colors.on_surface.default.hex}};
+@define-color background {{colors.surface.default.rgba | set_alpha: 0.9}};
+

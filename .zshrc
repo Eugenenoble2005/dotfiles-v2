@@ -1,7 +1,7 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-#nitch
+nitch
 # if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 #   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 # fi
@@ -31,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 #nitch
 
 #pokemon-colorscripts --no-title -s   -r
-shuf -n 1 ~/.config/eww/cache.txt | cowsay
+shuf -n 1 ~/.config/eww/cache.txt
 # Set-up icons for files/folders in terminal
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
@@ -56,6 +56,7 @@ export PATH=$PATH:/home/noble/.local/share/gem/ruby/3.3.0/bin
 export conf=~/.config
 export wap=~/Pictures/wallpapers
 eval "$(zoxide init zsh)"
+eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/uew.omp.json)"
 #do oxide
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
