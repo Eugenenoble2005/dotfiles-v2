@@ -8,13 +8,13 @@
 	font-weight: bold;
 	min-height: 0;	
 	/* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
-	font-size: 97%;
+	font-size: 90%;
 	font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
 
 }
 
 window#waybar {
-  background: transparent;
+  background: @background;
   color: @foreground;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -23,26 +23,24 @@ window#waybar.empty,
 window#waybar.empty #window {
     padding: 0px;
     border: 0px;
-    background-color: transparent;
+    background-color: @background;
 }
 #taskbar button,
 #workspaces button {
   color: @foreground;
-  margin-left: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
 }
 
 #taskbar button.active,
 #workspaces button.active {
-  border-bottom: 1px solid green;
+  background: @background_light;
 }
 .modules-left{
-   background: @background;
 }
 .modules-center{
-  background: none;
 }
 .modules-right{
-   background: @background;
 
 }
 
@@ -101,7 +99,6 @@ window#waybar.empty #window {
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
   color: @foreground;
-  padding: 3px 6px 3px 6px;
 }
 
 #battery.warning,

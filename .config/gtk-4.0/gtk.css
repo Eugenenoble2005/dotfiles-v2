@@ -1,0 +1,5 @@
+@import "colors-gtk.css";
+*{
+  font-family: Cascadia Code;
+  font-style: Italic;
+}

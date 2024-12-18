@@ -28,3 +28,13 @@ ls
 exit
 ls
 exit
+ls
+exit
+ls
+exit
+ls
+exit
+ping google.com
+ls
+z ..
+exit

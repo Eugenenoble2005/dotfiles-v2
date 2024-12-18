@@ -1,7 +1,7 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-nitch
+#nitch
 # if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
 #   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 # fi
@@ -20,7 +20,6 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
-
 source $ZSH/oh-my-zsh.sh
 
 # Check archlinux plugin commands here
@@ -40,7 +39,6 @@ alias lt='eza -a --tree --level=1 --icons'
 alias backup_dots='~/./backup_dots.sh'
 alias s="sudo"
 alias pkgs="pacman -Q"
-alias hx="helix"
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
 
@@ -56,7 +54,8 @@ export PATH=$PATH:/home/noble/.local/share/gem/ruby/3.3.0/bin
 export conf=~/.config
 export wap=~/Pictures/wallpapers
 eval "$(zoxide init zsh)"
-eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/uew.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/powerlevel10k_classic.omp.json)"
+
 #do oxide
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

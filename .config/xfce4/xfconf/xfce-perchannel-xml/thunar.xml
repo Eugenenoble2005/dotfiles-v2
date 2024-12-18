@@ -10,4 +10,9 @@
   <property name="last-menubar-visible" type="bool" value="false"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_RECENCY,THUNAR_COLUMN_LOCATION,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,135,50,88,296,50,50,514,50,50,80,50,120"/>
+  <property name="last-window-width" type="int" value="1366"/>
+  <property name="last-window-height" type="int" value="768"/>
 </channel>

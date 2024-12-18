@@ -1,2 +1,12 @@
 [language-server.omnisharp]
 command="omnisharp"
+
+[language-server]
+yuckls = {command="yuckls"}
+
+[[language]]
+name="yuck"
+scope="source.yuck"
+injection-regex="yuck"
+file-types=["yuck"]
+language-servers = ["yuckls"]

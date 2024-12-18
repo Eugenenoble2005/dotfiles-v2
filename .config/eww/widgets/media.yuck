@@ -1,30 +1,27 @@
 (defpoll isSpotify
   :interval "1s"
   :initial false
-  `ruby ~/.config/hypr/UserScripts/MediaWidget.rb --is-spotify`
+  `ruby scripts/MediaWidget.rb --is-spotify`
 )
 (defpoll mediatitle 
   :interval "1s" 
   :initial "Nothing Playing"
   :run-while isSpotify
-  `ruby ~/.config/hypr/UserScripts/MediaWidget.rb --title`
+  `ruby scripts/MediaWidget.rb --title`
 )
 (defpoll mediaartist 
  :interval "1s"
  :initial "Nothing Playing"
  :run-while isSpotify
- `ruby ~/.config/hypr/UserScripts/MediaWidget.rb --artist`
+ `ruby scripts/MediaWidget.rb --artist`
 )
 (defpoll mediaart 
-  :interval "1s"
+  :interval "10s"
   :initial "/home/noble/.config/hypr/wallpaper_effects/.wallpaper_current"
   :run-while isSpotify
   `ruby ~/.config/hypr/UserScripts/MediaWidget.rb --arturl`
 )
-(deflisten cava
-  `bash ~/.config/hypr/UserScripts/EwwCava.sh`
   
-)
 (defwindow media
   :stacking "bg"
   :monitor 0
@@ -37,3 +34,4 @@
     (label :text mediaartist :class "mediaartist")
   )
 )
+

@@ -18,3 +18,27 @@ output_path="~/.config/cava/config"
 [templates.hyprland]
 input_path="./templates/colors-hyprland.conf"
 output_path="~/.config/hypr/wallust/wallust-hyprland.conf"
+
+[templates.rofi]
+input_path="./templates/colors-rofi.rasi"
+output_path="~/.config/rofi/wallust/colors-rofi.rasi"
+
+[templates.eww]
+input_path="./templates/colors-eww.scss"
+output_path="~/.config/eww/styles/colors-eww.scss"
+
+[templates.qt5]
+input_path="./templates/colors-qt.conf"
+output_path="~/.config/qt5ct/colors/colors-qt.conf"
+
+[templates.qt6]
+input_path="./templates/colors-qt.conf"
+output_path="~/.config/qt6ct/colors/colors-qt.conf"
+
+[templates.gtk3]
+input_path="./templates/colors-gtk.css"
+output_path = "~/.config/gtk-3.0/colors-gtk.css"
+
+[templates.gtk4]
+input_path="./templates/colors-gtk.css"
+output_path="~/.config/gtk-4.0/colors-gtk.css"

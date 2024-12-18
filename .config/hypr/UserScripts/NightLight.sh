@@ -1,4 +1,4 @@
 
-hyprsunset -t 3000
+hyprsunset -t 2500
 
 

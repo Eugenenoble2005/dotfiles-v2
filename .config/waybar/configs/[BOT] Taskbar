@@ -5,25 +5,18 @@
 //"mode": "dock",
 "exclusive": true,
 "passthrough": false,
-"position": "top",
-"spacing": 4,
+"position": "left",
+"spacing": 0,
 "fixed-center": true,
 "ipc": true,
-
 
 //"margin-top": 0,
 //"margin-bottom": 0,
 //"margin-left": 0,
 //"margin-right": 0,
-  "modules-right":[
-  "hyprland/window",
-  "tray",
-   "battery",
-    "clock",
-    "hyprland/submap",
-    
+  "modules-center":[
+    "hyprland/workspaces#roman",
   ],
-  "modules-left":[
-    "hyprland/workspaces#kanji",
+  "modules-left": [
   ]
 }
