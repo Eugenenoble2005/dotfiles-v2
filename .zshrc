@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 #nitch
 
 #pokemon-colorscripts --no-title -s   -r
-shuf -n 1 ~/.config/eww/cache.txt
+#shuf -n 1 ~/.config/eww/cache.txt
 # Set-up icons for files/folders in terminal
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
@@ -39,6 +39,7 @@ alias lt='eza -a --tree --level=1 --icons'
 alias backup_dots='~/./backup_dots.sh'
 alias s="sudo"
 alias pkgs="pacman -Q"
+alias hx="helix"
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
 
@@ -54,7 +55,7 @@ export PATH=$PATH:/home/noble/.local/share/gem/ruby/3.3.0/bin
 export conf=~/.config
 export wap=~/Pictures/wallpapers
 eval "$(zoxide init zsh)"
-eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/powerlevel10k_classic.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/agnoster.minimal.omp.json)"
 
 #do oxide
 

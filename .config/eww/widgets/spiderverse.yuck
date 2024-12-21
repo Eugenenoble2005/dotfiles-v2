@@ -1,4 +1,0 @@
-(defwidget workspaces [data ?text frame]
-  (label :text "${data}" :wrap true)
-  (label :text "${text}" :wrap false)
-)

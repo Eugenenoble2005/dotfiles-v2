@@ -1,8 +1,13 @@
-theme="base16_transparent"
+theme="modus_vivendi_tinted"
 [editor.soft-wrap]
 enable=true
 
 [editor.gutters]
 layout = ["diff","spacer"]
+
+[editor.cursor-shape]
+insert="bar"
+normal="block"
+select="underline"
 
 

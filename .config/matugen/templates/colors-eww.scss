@@ -1,2 +1,6 @@
 $foreground: {{colors.on_surface.default.hex}};
 $background: {{colors.surface.default.rgba | set_alpha: 0.6}};
+
+$selected: {{colors.on_tertiary.dark.hex}};
+
+$outline: {{colors.outline.default.hex}};

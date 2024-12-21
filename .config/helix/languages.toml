@@ -10,3 +10,4 @@ scope="source.yuck"
 injection-regex="yuck"
 file-types=["yuck"]
 language-servers = ["yuckls"]
+

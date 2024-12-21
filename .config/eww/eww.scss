@@ -1,4 +1,72 @@
-@import "styles/colors-eww.scss"
-@import "styles/datetime.scss"
-@import "styles/media.scss"
-@import "styles/artist-lyrics.scss"
+@import "styles/colors-eww.scss";
+
+* {
+  font-family: Cascadia Code;
+  font-style: italic;
+  color: $foreground;
+}
+
+.bar {
+  background: $background;
+}
+
+.workspace-button {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.transparent-box {
+  background: transparent;
+}
+
+.workspace-bar {
+  background: transparent;
+}
+
+.dashboard {
+  background: $background;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+
+.dashboard-time {
+  font-size: 50px;
+  color: $foreground;
+}
+.dashboard-time-second{
+  font-size: 20px;
+}
+.workspace-unselected{
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.workspace-selected {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+  border-radius: 20%;
+  color: $outline;
+  font-size: 30px;
+}
+.bar-image{
+  margin-right: -7px;
+  margin-top: 15px;
+}
+.dashboard .box-outline-right{
+  border-right: 1px solid $outline;
+}
+.dashboard .box-outline-top{
+  border-top: 1px solid $outline;
+}
+.dashboard .song-title{
+  font-size:25px
+}
+.dashboard .media-box{
+  margin-top: 35px;
+}
+.dashboard .cava{
+  color: $outline;
+}

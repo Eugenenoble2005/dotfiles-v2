@@ -1,0 +1,21 @@
+(defwindow bar 
+  :monitor 0
+  :exclusive true
+  :geometry (geometry :x 0 :y 0 :width "20px" :height "100%" :anchor "center left" )
+  (box :orientation "vertical" :halign "fill"   
+    (workspaces)
+  )
+)
+
+(defwidget workspaces []
+  (box :orientation "vertical" :space-evenly false :class "workspace-bar" :valign "center"
+    (for workspace in workspaces-json
+     (button :class "workspace-button" :tooltip "Switch to workspace ${workspace}"
+        (label :text "${workspace}" :class  "${workspace == active-workspace ? 'workspace-selected' : 'workspace-unselected'}")
+        ;(image :path "${workspace == active-workspace ? 'assets/selected.png' : 'assets/unselected.png'}" :image-height 15 )
+      ) 
+    )
+  )
+)
+(defvar workspaces-json  "[1,2,3,4,5,6,7,8,9,0]")
+(defvar active-workspace "1") ;set by script

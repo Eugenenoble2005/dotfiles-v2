@@ -1,13 +1,2 @@
-(include "widgets/spiderverse.yuck")
-(include "widgets/datetime.yuck")
-(include "widgets/media.yuck")   
-(include "widgets/artist-lyrics.yuck")
-
-(defwindow
-  :monitor 0
-
-  (workspaces :text "hello world"
-    :data "eww is awesome"
-    :frame "eww is cool"
-  )
-)
+(include "windows/bar.yuck")
+(include "windows/dashboard.yuck")
