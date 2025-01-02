@@ -1,29 +1,56 @@
 (defwindow dashboard
   :monitor 0
-  :geometry (geometry  :width "400px" :anchor "top left" :x "20px" :y "20px")
+  :stacking "fg"
+  :geometry (geometry  :width "400px" :anchor "top right" :x "20px" :y "20px")
   :stacking "bg"
      
   (dashboard)
 )
-(defwidget dashboard [] 
-  (box :orientation "vertical"  
+(defwidget dashboard [?sigma] 
+  (centerbox :orientation "vertical"  
     (box :orientation "horizontal"
-      (box :orientation "vertical" :space-evenly false :spacing 10 :class "box-outline-right"
+      (box :orientation "vertical" :space-evenly false :spacing 10 :class "box-outline-right box-outline-bottom"
         (label :text "${hour}" :class "dashboard-time")
         (box :space-evenly false :halign "center"
          (label :text "${minute}:" :class "dashboard-time")
-         (label :text "${second}" :class "dashboard-time-second")
+         (label :text "${second}" :class "dashboard-time-second color-source")
         )
       )
-      (box :class "box-outline" 
+      (box :class "box-outline box-outline-bottom" 
        (systray)
       )
     )
-    (box :class "box-outline-top" :visible is-spotify 
+    (box :visible is-spotify   
       (media)
+    )
+    (box :orientation "vertical" :css "box {margin-top:20px;margin-bottom:20px;font-size:15px}" :space-evenly false :spacing 20
+      (box
+        (label :text "${username}@${hostname}" )
+        (label :text "${kernel_version}")
+      )
+      (box 
+        (label :text "Power")
+        (label :text "${power_level}%")
+      )
     )
   )
 )
+(defwidget media []
+  (box :orientation "vertical" :space-evenly false :class "media-box"
+    (label :text "${mpris_title}" :class "song-title"  :wrap true)
+    (label :text "${mpris_artist}" :wrap true :class "color-source")
+    (label :text "${cava}" :style "font-size:20px" :class "cava")
+  )
+)
+
+(defpoll mpris_title :interval "1s" `playerctl metadata xesam:title`)
+(defpoll mpris_artist :interval "1s" `playerctl metadata xesam:artist`)
+(defpoll mpris_arturl :interval "1s" `playerctl metadata mpris:artUrl`)
+(defpoll volume :interval "1s" `pamixer --get-volume`)
+(defpoll brightness :interval "1s" `brightnessctl -m | cut -d, -f4 | sed 's/%//'`)
+(defvar time-visible true)
+(defpoll is-spotify :interval "1s" `ruby ~/.config/eww/scripts/is-spotify.rb`)
+(deflisten cava `~/.config/eww/scripts/cava.sh`)
 ;there is probably a better way to do this
 (defpoll hour :interval "1s"
               :initial "initial-value"  ; optional, defaults to poll at startup
@@ -38,18 +65,10 @@
               :initial "initial-value"  ; optional, defaults to poll at startup
               :run-while time-visible   ; optional, defaults to 'true'
   `date +%S` )
+(defpoll kernel_version :interval "99h" `pacman -Q | grep arch1`)
+(defpoll username :interval "99h" `whoami`)
+(defpoll hostname :interval "99h" `cat /proc/sys/kernel/hostname`)
+(defpoll power_level :interval "20s" `cat /sys/class/power_supply/BAT1/capacity`)
 
-(defwidget media []
-  (box :orientation "vertical" :space-evenly false :class "media-box"
-    (label :text "${mpris_title}" :class "song-title"  :wrap true)
-    (label :text "${mpris_artist}" :wrap true)
-    (label :text "${cava}" :style "font-size:20px" :class "cava")
-  )
-)
-(defpoll mpris_title :interval "1s" `playerctl metadata xesam:title`)
-(defpoll mpris_artist :interval "1s" `playerctl metadata xesam:artist`)
-(defpoll mpris_arturl :interval "1s" `playerctl metadata mpris:artUrl`)
-(defpoll volume :interval "1s" `pamixer --get-volume`)
-(defpoll brightness :interval "1s" `brightnessctl -m | cut -d, -f4 | sed 's/%//'`)
-(defpoll is-spotify :interval "1s" `ruby ~/.config/eww/scripts/is-spotify.rb`)
-(deflisten cava `~/.config/eww/scripts/cava.sh`)
+
+

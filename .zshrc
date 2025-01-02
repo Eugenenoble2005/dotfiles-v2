@@ -12,7 +12,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="fishy"
+ZSH_THEME="agnoster"
 
 plugins=(
     git
@@ -55,7 +55,7 @@ export PATH=$PATH:/home/noble/.local/share/gem/ruby/3.3.0/bin
 export conf=~/.config
 export wap=~/Pictures/wallpapers
 eval "$(zoxide init zsh)"
-eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/agnoster.minimal.omp.json)"
+# eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/catppuccin_mocha.omp.json)"
 
 #do oxide
 

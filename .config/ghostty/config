@@ -1,0 +1,6 @@
+font-family = Cascadia Code
+font-style = semibold italic
+font-size = 14
+window-decoration=false
+config-file=colors-ghostty
+gtk-single-instance=true

@@ -2,9 +2,8 @@
 # Rofi menu for Quick Edit / View of Settings (SUPER E)
 
 # define your preferred text editor and terminal to use
-editor=nvim
-tty=kitty
-
+editor=helix
+tty="kitty --class floating.term"
 configs="$HOME/.config/hypr/configs"
 UserConfigs="$HOME/.config/hypr/UserConfigs"
 

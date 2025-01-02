@@ -42,3 +42,11 @@ output_path = "~/.config/gtk-3.0/colors-gtk.css"
 [templates.gtk4]
 input_path="./templates/colors-gtk.css"
 output_path="~/.config/gtk-4.0/colors-gtk.css"
+
+[templates.alacritty]
+input_path="./templates/colors-alacritty.toml"
+output_path="~/.config/alacritty/colors-alacritty.toml"
+
+[templates.ghostty]
+input_path="./templates/colors-ghostty"
+output_path="~/.config/ghostty/colors-ghostty"

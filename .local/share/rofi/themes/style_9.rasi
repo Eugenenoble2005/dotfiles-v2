@@ -11,10 +11,7 @@ configuration {
     font:                        "JetBrainsMono Nerd Font 10";
     icon-theme:                  "Tela-circle-dracula";
 }
-
-@theme "~/.config/rofi/theme.rasi"
-
-
+@theme "~/.config/rofi/wallust/colors-rofi.rasi"
 // Main //
 window {
     height:                      30em;
