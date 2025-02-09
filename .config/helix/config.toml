@@ -10,7 +10,8 @@ select="underline"
 [editor]
 color-modes=true
 mouse=true
-line-number="relative"
+# line-number="relative"
+gutters = ["diagnostics", "spacer", "diff"]
 
 [editor.statusline]
 separator="angle"
@@ -18,3 +19,5 @@ mode.normal="NORMAL"
 mode.insert="INSERT"
 mode.select="VISUAL"
 
+[editor.inline-diagnostics]
+cursor-line="warning"

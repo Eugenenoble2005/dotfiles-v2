@@ -3,6 +3,8 @@ command="omnisharp"
 
 [language-server]
 yuckls = {command="yuckls"}
+ols = {command = "/home/noble/.local/share/nvim/mason/bin/ols"}
+avalonials = {command="avalonia-ls"}
 
 [[language]]
 name="yuck"
@@ -11,6 +13,13 @@ injection-regex="yuck"
 file-types=["yuck"]
 language-servers = ["yuckls"]
 
-[keys.normal]
-C-a="goto_line_end_newline"
-0="goto_line_start"
+[[language]]
+name="xml"
+scope="source.axaml"
+injection-regex="axaml"
+file-types=["axaml"]
+language-servers=["avalonials"]
+grammar="xml"
+auto-format=true
+formatter={command="xaml-styler",args=["--write-to-stdout" ,"--take-pipe"]}
+

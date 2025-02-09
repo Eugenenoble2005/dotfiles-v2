@@ -38,3 +38,6 @@ ping google.com
 ls
 z ..
 exit
+ls
+ping google.com
+hx ~/.zshrc

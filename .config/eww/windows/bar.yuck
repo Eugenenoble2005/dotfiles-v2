@@ -7,7 +7,7 @@
   )
 )
 (defwidget workspaces [?orientation]
-  (box :orientation orientation :space-evenly false :class "workspace-bar" :valign "center"
+  (box :orientation orientation :space-evenly false :spacing -5 :class "workspace-bar" :valign "center"
     (for workspace in workspaces-json
      (button :class "workspace-button" :tooltip "Switch to workspace ${workspace}"
         (label :text "${workspace}" :class  "${workspace == active-workspace ? 'workspace-selected' : 'workspace-unselected'}")

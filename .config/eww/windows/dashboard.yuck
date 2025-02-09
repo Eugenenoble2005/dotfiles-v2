@@ -1,7 +1,6 @@
 (defwindow dashboard
   :monitor 0
-  :stacking "fg"
-  :geometry (geometry  :width "400px" :anchor "top right" :x "20px" :y "20px")
+  :geometry (geometry  :width "400px" :anchor "bottom right" :y "20px")
   :stacking "bg"
      
   (dashboard)
@@ -69,6 +68,4 @@
 (defpoll username :interval "99h" `whoami`)
 (defpoll hostname :interval "99h" `cat /proc/sys/kernel/hostname`)
 (defpoll power_level :interval "20s" `cat /sys/class/power_supply/BAT1/capacity`)
-
-
 

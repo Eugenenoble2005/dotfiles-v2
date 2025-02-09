@@ -1,0 +1,15 @@
+(defwindow topbar
+  :monitor 0
+  :exclusive true
+  :geometry (geometry :width "100%" :anchor "center top")
+  (box :spacing -500
+    (workspaces :orientation "horizontal") 
+    (label :text lyric :truncate true )
+  )
+)
+
+(defpoll
+  lyric
+  :interval "30s"
+  `ruby ~/Documents/artist-lyrics-v2/main.rb --artist \"Kendrick Lamar\"`
+)
