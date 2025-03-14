@@ -22,16 +22,13 @@
 
 .workspace-bar {
   background: $background;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
+
 }
 
 .dashboard {
   background: $background;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 0%;
-  border-bottom-right-radius: 0%;
-  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .dashboard-time {

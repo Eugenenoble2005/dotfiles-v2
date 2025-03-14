@@ -1,14 +1,14 @@
 (defwindow dashboard
   :monitor 0
-  :geometry (geometry  :width "400px" :anchor "bottom right" :y "20px")
-  :stacking "bg"
-     
+  :geometry (geometry  :width "400px" :anchor "top left" :y "20px")
+  :stacking "bg"     
   (dashboard)
+
 )
 (defwidget dashboard [?sigma] 
   (centerbox :orientation "vertical"  
     (box :orientation "horizontal"
-      (box :orientation "vertical" :space-evenly false :spacing 10 :class "box-outline-right box-outline-bottom"
+      (box :orientation "vertical" :space-evenly false :class "box-outline-right box-outline-bottom"
         (label :text "${hour}" :class "dashboard-time")
         (box :space-evenly false :halign "center"
          (label :text "${minute}:" :class "dashboard-time")
@@ -23,10 +23,10 @@
       (media)
     )
     (box :orientation "vertical" :css "box {margin-top:20px;margin-bottom:20px;font-size:15px}" :space-evenly false :spacing 20
-      (box
-        (label :text "${username}@${hostname}" )
-        (label :text "${kernel_version}")
-      )
+      ; (box
+      ;   (label :text "${username}@${hostname}" )
+      ;   (label :text "${kernel_version}")
+      ; )
       (box 
         (label :text "Power")
         (label :text "${power_level}%")
@@ -35,7 +35,7 @@
   )
 )
 (defwidget media []
-  (box :orientation "vertical" :space-evenly false :class "media-box"
+  (box :orientation "vertical" :space-evenly false :class "media-box" :spacing -10
     (label :text "${mpris_title}" :class "song-title"  :wrap true)
     (label :text "${mpris_artist}" :wrap true :class "color-source")
     (label :text "${cava}" :style "font-size:20px" :class "cava")

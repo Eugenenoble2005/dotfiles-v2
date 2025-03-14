@@ -8,16 +8,27 @@ normal="block"
 select="underline"
 
 [editor]
-color-modes=true
-mouse=true
+# color-modes=true
+# mouse=false
 # line-number="relative"
 gutters = ["diagnostics", "spacer", "diff"]
 
 [editor.statusline]
-separator="angle"
-mode.normal="NORMAL"
-mode.insert="INSERT"
-mode.select="VISUAL"
+separator="|"
+mode.normal="N"
+mode.insert="I"
+mode.select="V"
+left = ["diagnostics", "position","file-name"]
+center=[]
+right=[]
+# right=[]
+# center=[]
+
+
+[editor.lsp]
+display-inlay-hints = true
 
 [editor.inline-diagnostics]
 cursor-line="warning"
+
+

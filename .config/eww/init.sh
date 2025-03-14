@@ -1,2 +1,2 @@
-eww open bar
+eww open topbar
 eww open dashboard

@@ -1,10 +1,10 @@
-[language-server.omnisharp]
-command="omnisharp"
 
 [language-server]
 yuckls = {command="yuckls"}
 ols = {command = "/home/noble/.local/share/nvim/mason/bin/ols"}
 avalonials = {command="avalonia-ls"}
+csharp_ls= {command="/home/noble/.local/share/nvim/mason/bin/csharp-ls"}
+omnisharp={"command"="omnisharp" , timeout=200000}
 
 [[language]]
 name="yuck"
@@ -20,6 +20,40 @@ injection-regex="axaml"
 file-types=["axaml"]
 language-servers=["avalonials"]
 grammar="xml"
-auto-format=true
+auto-format=false
 formatter={command="xaml-styler",args=["--write-to-stdout" ,"--take-pipe"]}
 
+[[language]]
+name = "c-sharp"
+scope = "source.csharp"
+injection-regex = "c-?sharp"
+file-types = ["cs", "csx", "cake"]
+roots = ["sln", "csproj"]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+indent = { tab-width = 4, unit = "\t" }
+language-servers = ["omnisharp"]
+
+
+[[language]]
+name = "odin"
+auto-format = false
+scope = "source.odin"
+file-types = ["odin"]
+roots = ["ols.json", "main.odin"]
+language-servers = [ "ols" ]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+indent = { tab-width = 4, unit = "\t" }
+formatter = { command = "odinfmt", args = [ "-stdin" ] }
+
+
+[[language]]
+name = "nu"
+scope = "source.nu"
+injection-regex = "nu"
+file-types = ["nu", "nuon"]
+shebangs = ["nu"]
+comment-token = "#"
+indent = { tab-width = 2, unit = "  " }
+language-servers = [ "nu-lsp" ]

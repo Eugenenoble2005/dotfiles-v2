@@ -1,3 +1,7 @@
 .topbar {
-  background: $background;
+  background: transparent;
+
+  box {
+    background: $background_transparent;
+  }
 }

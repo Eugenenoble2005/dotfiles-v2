@@ -41,3 +41,18 @@ exit
 ls
 ping google.com
 hx ~/.zshrc
+exit
+z .config/nu
+ls
+hx config.nu
+helix config.nu
+z
+ls
+hx .oh-my-posh.nu
+helix
+ls
+exit
+ls
+ls where
+z ..
+exit

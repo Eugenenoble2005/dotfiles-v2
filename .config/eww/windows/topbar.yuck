@@ -1,15 +1,15 @@
+;; Bottom bar now ig
 (defwindow topbar
   :monitor 0
   :exclusive true
-  :geometry (geometry :width "100%" :anchor "center top")
-  (box :spacing -500
+  :geometry (geometry :width "100%" :anchor "center bottom")
+  (box :spacing -500 :class "topbarbox" :orientation "horizontal"
     (workspaces :orientation "horizontal") 
-    (label :text lyric :truncate true )
   )
 )
 
 (defpoll
   lyric
-  :interval "30s"
-  `ruby ~/Documents/artist-lyrics-v2/main.rb --artist \"Kendrick Lamar\"`
+  :interval "1h"
+  `ruby ~/Documents/artist-lyrics-v2/main.rb --artist \"The Weeknd\"`
 )
