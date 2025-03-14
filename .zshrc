@@ -40,9 +40,10 @@ alias backup_dots='~/./backup_dots.sh'
 alias s="sudo"
 alias pkgs="pacman -Q"
 alias hx="helix"
+alias lg="lazygit"
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
-
+export npm_config_prefix="$HOME/.local"
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
@@ -50,8 +51,10 @@ setopt appendhistory
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=50'
 export PATH=$PATH:/home/noble/.spicetify
 export PATH=$PATH:/home/noble/.dotnet
+export PATH=$PATH:/home/noble/.dotnet/tools
 export PATH=$PATH:/home/noble/.local/bin
 export PATH=$PATH:/home/noble/.local/share/gem/ruby/3.3.0/bin
+export PATH=$PATH:/home/noble/.local/share/odin
 export conf=~/.config
 export wap=~/Pictures/wallpapers
 eval "$(zoxide init zsh)"
