@@ -10,3 +10,1486 @@ z ..
 ls
 stow .
 stow --adopt .
+git add .
+git commit -m "fix nushell"
+git push
+z nushell/
+ls
+z doc
+z
+z arch-hyprland/
+ls
+ni
+z cache.txt
+z arch-hyprland/
+z nushell/
+z eww
+ls
+open cache.txt
+open cache.txt | line
+help random
+random int 10..20
+nmtui
+z eww
+open cache.txt | line
+z doc
+ls
+z nu
+ls
+z fsf
+z swengine
+help open
+z
+ls
+kilall hyprsunset
+killall hyprsunset
+hello
+z proj
+ls
+mkdir nutut
+z nutut/
+ls
+z nutut/
+ls
+z proj
+ls
+z nutut/
+z ...
+z go/
+z go
+z nutut
+ls
+./main.nu
+nu main.nu
+ls
+nu main.nu
+ls $env.wap
+config nu
+ls $env.wap
+nu main.nu
+z avalonia
+z kitty
+z avalonia
+ls
+z testapplication
+dotnet run
+z avalonia
+odin
+dotnet
+odin
+dotnet
+dotnet run
+dotnet run > ar_test
+ls
+help write
+help save 
+dotnet run | save ar_test.txt
+ls
+rm ar_test.txt
+dotnet run
+z /usr/share/fonts
+ls
+z gsfonts/
+ls
+yay gsfonts
+pacre gsfonts
+ls *roman
+ls *Roman
+ls
+ls | describe
+ls | explain
+ls fonts
+ls
+mutool
+yay acrobat
+ping google.com
+dotnet run
+helix
+z 
+z $env.wap
+ls
+z config
+z helix
+ls
+z avalonia
+helix
+z kitty
+hx kitty.conf
+z kitty
+z avalonia
+z avaloniapdfr
+ls
+ls -l
+z avaloniapdfr
+ls
+dotnet run
+z doc
+ls
+ls | explain
+ls | describe
+ls | explore
+ls | xplore
+config nu
+ls | xplore
+ls
+z $wap
+z $env.wap
+z doc
+git clone https://github.com/mozilla/pdf.js --depth 1
+z pdf.js/
+cloc .
+hx
+ls
+ls | xplore
+ls --raw
+z src/
+ls
+z display/
+ls
+hx
+z ..
+ls
+z avalonia
+dotnet run
+z avalonia
+killall hyprsunset
+top
+dotnet run
+yay
+yay gsfonts
+yay ghostscript
+config nu
+yare ghostscript
+ls
+z dow
+ls
+gs PDFspecs.pdf
+gs mee514-assignment.pdf
+gs -h
+gs -h | xplore
+gs -h | fzf
+ls *pdf
+ls *arabic
+ls *Arabic
+ls _Arabic
+ls *pdf
+ls *MEE
+ls *Arabic
+ls *Arabic*
+ls *arabic*
+ls
+ls *.pdf
+ls *Arabic*
+ls *Arabic
+ls *Arabic*
+gs Beginners_Guide_To_Arabic.pdf
+ls *Arabic* | where type == "file"
+ls *Arabic* | where type == "file" | first | gs $in
+ls *Arabic* | where type == "file" | first 
+ls *Arabic* | where type == "file" | first | get name | gs $in
+dotnet run
+pkgs
+ls
+ls | xplore
+z z eww
+z eww
+ls
+z scripts/
+ls
+./cava.sh
+eww reload
+killall eww
+eww open dashboard
+z .cache
+z oh-my-posh/
+ls
+z themes/
+ls
+z themes/
+z testapplication
+ls
+ls | xplore
+ls
+ls *a*
+ls *a* | each { |val| print $val }
+print gdg
+ls *a* | each { |val| echo $val }
+ls *a* | each { |val| echo $val.name }
+z testapplication
+odin
+z odin
+dotnet run
+cls
+help
+help --find clear
+clear
+dotnet run
+cleat
+clear
+dotnet run
+true
+true | each |fact| {}
+true | each { |fact| }
+1..0
+1..1000000000000000
+1..1000000000000000 | each { ping google.com }
+ping google.com
+dotnet run
+tutor
+tutor begin
+tutor tables
+ls | select name
+ls | select name,modified
+ls | select name modified
+ls | select 1
+ls | select 1 | get name modified
+ls | select 1 | get name 
+tutor tables
+tutor cells
+Hyprland
+$env.DESKTOP_SESSION
+$env | explain
+$env | xplore
+$env | describe
+ps | describe
+exit 
+yay zathura
+yay zathura-mupdf
+yay zathura-pdf
+z doc
+git clone https://github.com/pwmt/zathura
+git clone https://github.com/pwmt/zathura --depth 1
+z zathura/
+cloc .
+git fetch --unshallow
+git log
+jx
+hx
+ls
+meson builddir
+z builddir/
+meson build
+meson
+ninja
+cp compile_commands.json ../
+z ..
+ls
+hx compile_commands.json
+open compile_commands.json
+open compile_commands.json 
+open compile_commands.json  | explore
+z zathura/
+z ..
+ls
+z doc
+git clone https://github.com/pwmt/zathura-pdf-mupdf
+z zathura-pdf-mupdf/
+hx
+clocl .
+cloc .
+hx
+ls
+meson builddir
+ls | get name
+ls
+z builddir/
+clear
+meson
+yay mupdf-third
+yay muddf
+yay mupdf
+ls
+meson
+yay third
+yay mupdf
+ls
+meson
+z ..
+ls
+yain mupdf-git
+ls
+z builddir/
+ls
+z ..
+ls
+z builddir/
+ls
+meson
+ninja
+meson
+z ..
+ls
+hx meson.build
+rm -rf builddir/
+meson builddir
+z builddir/
+ls
+ninja
+cp compile_commands.json ../
+z ..
+z doc
+ls
+ls *.pdf
+ls *pdf
+ls
+z dow
+ls *pdf
+ls *pdf | first | get name | zathura $in
+ls *pdf | 2 | get name | zathura $in
+ls *pdf | second | get name | zathura $in
+ls *pdf | count 2 | get name | zathura $in
+ls *pdf | select  2 | get name | zathura $in
+ls
+zathura `MEE 513 MATERIAL.pdf`
+zathura mee514-assignment.pdf
+zathura PDFspecs.pdf
+z avalonia
+ls
+git log
+ls
+git add .
+git commit -m "trying another approach"
+git push
+ls
+git log
+config bu
+config nu
+gco 23b513e64bb5ec0913873ddfed8a5c22c97552ff
+ls
+hx
+gco main
+z avalonia.log
+z avalonia
+helix
+killall eww
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+top
+ps
+journalctl
+journalctl --since "5 minutes ago" -p err
+z avalonia
+z $env.wap
+z $wap
+z zathura
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+ls
+dotnet add package Avalonia.Controls.PanAndZoom
+clear
+ls
+dotnet build
+avalonia-solution-parser .
+dotnet run
+git branch use-pixman
+git reset --hard
+z ..
+git reset --hard
+git branch
+gco use-pixman
+z zathura
+z edit
+z
+zoxide edit
+z zathura
+hex
+hx
+ls
+z avalonia
+z zathura
+helix
+git log
+gco 2754798c73cb520f8aab1c4e32cc1e8dfb086a02
+git stash
+git commit -m "trying another approach"
+gco 2754798c73cb520f8aab1c4e32cc1e8dfb086a02
+cloc .
+hx
+gco main
+gco develop
+ls
+hx
+git stash list
+git stash apply
+git stash apply stash@{0}
+git log
+z ..
+z hypr
+ls
+hx
+ls
+z avalonia
+helix
+yain caraspace-git
+yain caraspace-bin
+yay caraspace
+yay carapace
+hx
+z zathura
+z doc
+z dow
+zathura PDFspecs.pdf
+helix
+z ..
+z avalonia
+ls
+z AvaloniaPdfRenderer/
+ls
+z kitty
+hx kitty.conf
+z avalonia
+z AvaloniaPdfRenderer/
+ls
+z kitty
+hx kitty.conf
+kitten themes
+z helix
+hx
+z ..
+ls
+nitch
+z kitty
+ls
+z avalonia
+hx current-theme.conf
+z ..
+z avalonia
+helix
+z avalonia
+ls
+z ..
+z kitty
+ls
+hx kitty.conf
+hx wallust/kitty.conf
+z matugen
+ls
+z matugen
+helix
+ls
+z kitty
+ls
+helix
+kitten themes
+z avalonia
+dotnet run
+z doc
+z AvaloniaLSP/
+hx
+ls
+z AvaloniaVS/
+ls
+z AvaloniaVS.Shared/
+ls
+dotnet run
+z avalonia
+kilall hyprsunset
+killall hyprsunset
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z zathura
+z doc
+z zathura-pdf-mupdf/
+dotnet build
+dotnet run
+z avalonia
+dotnet run
+z doc
+zathura PDFspecs.pdf
+z dow
+zathura PDFspecs.pdf
+ls *.pdf
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+ls
+ls | explore
+ls
+zsh
+exit
+z avalonia
+z doc
+hx
+z avalonia
+helix
+z ..
+z kitty
+z avalonia
+yay htract
+httrack
+htrack
+yay httrack
+z avalonia
+dotnet run
+z dow
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+z dow
+ls | where modified > 1d
+ls | where modified > 365d
+ls | where modified > 365 d
+ls | where modified > "365d"
+ls | where modified
+ls
+ls | describe
+describe
+ls
+ls | where modified > 1d
+ls | where modified > date(2d)
+ls | where modified > (date 2d)
+ls | where modified > (date now)
+ls | where modified > (date now) - 2wk
+ls | where modified > (date now) - 2d
+ls | where modified > 2wk
+ls | where modified > 2day
+ls | where modified > 2dy
+ls | where modified > 2yr
+date now
+ls | where modified > (date now) - 2wk
+ls | where modified > (date now) - 1wk
+ls | where modified > (date now) - 9wk
+ls | where modified > (date now) - 0wk
+ls | where modified > (date now) - 1wk
+ls | where modified <  (date now) - 1wk
+ls | where modified <  1wk
+ls | where accessed
+ls | where modified > 120d
+ls | where modified >= (date now) - 2hr
+ls | where modified >= (date now) - 10hr
+ls | where modified >= (date now) - 30hr
+ls | where modified >= (date now) - 100hr
+ls | where modified >= (date now) - 90days
+ls | where modified >= (date now) - 90day
+ls | where modified >= (date now) - 1day
+ls | where modified > 1day
+z avaloniaa
+z avalonia
+ls
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z ..
+z AvaloniaPdfRenderer/
+ls
+rm Font.cs HtmlRenderLegacy.cs PdfCanvas.cs
+ls
+helix
+ls
+hx
+cloc .
+dotnet run
+z ..
+dotnet run
+z eww
+ls
+z scripts/
+ls
+hx workspaces.rb
+ls
+echo $env.HYPRLAND_INSTANCE_SIGNATURE
+socat
+socat -U - UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT:$env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT: $env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT:$env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock 
+^socat -U - UNIX-CONNECT:$env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock 
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock 
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | lines
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each |ev| { echo f}
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each { |ev | echo $ev }
+ls
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each { |ev| $ev | save --append "testfile.txt"  }
+ls
+hx testfile.txt
+ls
+rm -rf testfile.txt
+ls
+z eww
+ls
+z scripts/
+ls
+./workspaces.nu
+nu workspaces.nu
+help commands
+help commands | explore
+nu workspaces.nu
+dotnet run
+nu workspaces.nu
+help commands | explore
+echo hello | loop
+help loop
+loop true
+help loop
+loop { true { echo g}}
+help commands | explore
+help loop
+help block
+help loop
+loop {if true {break}; echo pant}
+z scripts/
+z eww
+z scripts/
+loop {if true {break}; }; echo "gdg"
+help loop
+loop {if true {break}; }; "gdg"
+loop {if 1>2 {break}; }; "gdg"
+z scripts/
+z eww
+z scripts/
+zoxide edit
+z scripts/
+z ew
+z scripts/
+loop { echo "gdg"; sleep 1sec}
+while(true) { echo "gdgdg" }
+z scripts/
+z ew
+z scripts/
+while(true) { $(ping google.com)  }
+while (true) { ping google.com }
+nu workspaces.nu
+z hypr
+z Scripts/
+ls
+z ..
+ls
+z ..
+z
+z hypr
+ls
+z config hypr
+ls
+hx workspaces.nu
+z dow
+ranger
+ls
+ls *.ppt
+ls | where modified >= (date now) - 1day
+ls *.pptx
+zathura `LESSON 1_Introduction to Material Selection-1.pptx`
+z eww
+ls
+z scripts/
+ls
+hx is-spotify.rb
+ls
+z scripts/
+z nu
+z eww
+z scripts/
+ls
+nu is-spotify.nu
+hx is-spotify.nu
+z ..
+ls
+hx
+z ..
+z 
+z ew
+z ..
+z eww
+yay zoxide
+yay zocide
+config nu
+z nushell
+ls
+zoxide init nushell | save -f ~/.zoxide.nu
+z
+hx .zoxide.nu
+open .zoxide.nu
+ls *zoxide.*
+z eww
+playerctl metadata
+playerctl metadata | split 
+playerctl metadata | split row
+playerctl metadata | split row " " 
+sudo pacman -Syu
+sudo pacman -Rcs haskell
+pkgs
+hx .zshrc
+config nu
+pkgs
+pkgs | grep haskell
+pkgs | list
+pkgs | lists
+pkgs | lines
+pkgs | lines | explore
+pkgs | lines | describe
+pkgs | lines 
+pkgs | lines | explore
+pkgs | lines | where 0 
+pkgs | lines | where 0 == "zsh 5.9-5"
+pkgs | lines | where 0 == zsh 5.9-5
+pkgs | lines | where 0 == "zsh 5.9-5"
+pkgs | lines | where 0 != "gd"
+pkgs | lines | where 0 == "gdg"
+pkgs | lines | where 0 == "zsh"
+pkgs | lines | where 0 == "*zsh*"
+pkgs | lines | where 0 == *zsh*
+pkgs | grep haskell | lines
+pkgs | grep haskell | lines 
+pkgs | grep haskell | lines | each { |pkg| let p = pkg | split row " " | first ; print p } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first ; print p } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first ; print $p } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first ; sudo pacman -Rcs ($p) } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+sudo pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+sudo pacman -Q | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -R $in ;  } 
+while ($pkgs | grep haskell | lines | length) > 0 {<\n>    let pkg = ($pkgs | grep haskell | lines | first)<\n>    let p = ($pkg | split row " " | first)<\n>    sudo pacman -Rcs $p<\n>}<\n>
+while (pkgs | grep haskell | lines | length) > 0 {<\n>    let pkg = (pkgs | grep haskell | lines | first)<\n>    let p = ($pkg | split row " " | first)<\n>    sudo pacman -Rcs $p<\n>}<\n>
+pkgs | grep haskell
+sudo pacman -Syu
+z doc
+z ..
+z doc
+z Avalonia/
+ls
+z src/
+ls
+z Avalonia.Controls/
+ls
+z DateTimePickers/
+ls
+hx DatePicker.cs
+z ..
+iwctl
+bash
+ls
+^ls
+ls
+whereis ls
+/usr/bin/ls
+hx
+z doc
+z Odin/
+z scripts/
+z scrip
+z scripts
+ls
+./is-spotify.nu
+chmod +x ./is-spotify.nu
+./is-spotify.nu
+nu is-spotify.nu
+l
+ls
+ls | where size > 1B
+ls | where size > 1b
+ls | where size > 10b
+ls | where size > 12mb
+ls | where size < 100mb
+z vide
+ls
+ls | where size < 100mb
+ls | where size >  100mb
+ls
+z `Black Mirror/`
+ls
+z S05/
+ls
+z avalonia
+z avalonia
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z avalonia
+ls
+ls | explore | get name
+z avalonia
+dotnet run
+cleat
+clear
+helix
+z kitty
+z avalonia
+uptime
+uptime | describe
+help commands
+yazi
+range
+ranger
+ping google.com
+nmcli
+nmtui
+yain yazi
+ls
+pwd
+pwd | explain
+z eww
+ls
+ls | explore | get name
+ls | where modified >= (date now) - 1day
+z vid
+pacre mpv
+sudo pacman -Rcs yazi
+sudo pacman -Rcs mpv
+z vid
+uptime
+useradd -h
+usermod -h
+useradd -h
+z hypr
+ls
+z config hypr
+ls
+hx
+ls
+z .dotfiles
+ls
+z .config/
+ls
+z doc
+helix
+z avalonia
+z kitty
+z avalonia
+dotnet run
+z avalonia
+dotnet run
+sudo pacman -Rcs mpv
+dotnet run
+z avalonia
+dotnet run
+z avalonia
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+ld
+dotnet run
+z /mnt/
+ls
+z wwn-0x50004cf20f13c4c6-part5/
+ls
+ks
+ls
+z Videos/
+ls
+ls | where type == file
+z dow
+ls
+ls | where type == file
+ls | where type == file | where name == *.mp4
+ls | where type == file | where name == *.zip
+ls | where type == file | where name == *.zip*
+ls *mp4
+ls
+ls | fzf
+ls
+ls | explore
+z .config/
+ls
+ls | where type != file
+ls | where type != file and type != dir
+ls | where type != file and type != dir | lines
+ls | where type != file and type != dir | line
+ls | where type != file and type != dir | lines
+ls | where type != file and type != dir | each { |$file| print $file } 
+l
+yay
+yay powershell
+z doc
+ls
+git clone https://github.com/PowerShell/PowerShell.git --depth 
+git clone https://github.com/PowerShell/PowerShell.git --depth 1
+yain powershell --editmenu
+z PowerShell/
+z power
+ls
+cloc .
+yain powershell-bin
+fastfetch
+z avalonia
+ls
+dotnet run
+ls
+git add .
+z ..
+s
+ls
+z AvaloniaPdfRenderer/
+ls
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+ls
+ls *.txt
+ls *.txt | each {|$f| rm $f }
+rm
+ls *.txt | each {|$f| rm $f }
+ls
+ls *.txt | each {|$f| rm $f }
+ls *.txt | get name |  each {|$f| rm $f }
+ls
+ls *txt
+ls
+z ..
+ls
+git add .
+git commit -m "lazy loading"
+git push
+git push --set-upstream origin use-pixman
+clear
+ls *txt
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z dow
+zathura `LESSON 1_Introduction to Material Selection-1.pptx`
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+z dow
+zathura `Transporation Systems (1).pptx`
+dotnet run
+ls
+ls *txt
+ls | descibe
+ls | describe
+z dow
+ls
+z dow
+ls
+ls *.doc
+ls *.docx
+xdg-open `MEE 598 Assignment 2024-2025 No 2.docx`
+z avalonia
+z avalonia
+avalonia-solution-parser .
+z avalonia
+dotnet run
+z doc
+z zathura-pdf-mupdf/
+ls
+z ..
+z AvaloniaPdfRenderer
+ls
+touch PdfCanvas.cs
+dotnet run
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z zathura
+z avalonia
+dotnet run
+z dow
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+z doc
+z MuPDF.NET/
+dotnet run
+z dow
+dotnet run
+pkgs | grep sway
+cloc ../
+cloc .
+dotnet run
+z config
+z avalonia
+ls
+dotnet run
+killall sway
+sway
+exit
+z zathura
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+clear
+dotnet run
+ls *arabic*
+ls *pdf
+zathura Beginners_Guide_To_Arabic.pdf
+zathura PDFspecs.pdf
+evince PDFspecs.pdf
+dotnet run
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z ..
+sl
+ls
+git add .
+git commit -m "link mapping"
+git push
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z doc
+ls
+z dow
+ls
+yazi
+ping google.com
+sudo pacman -Syu
+sudo pacman -Rcs cava
+sudo pacman -S cava
+sudo pacman -Syu
+clear
+ls
+dotnet run
+hx
+dotnet run
+xdg-open `MEE 598 Assignment 2024-2025 No 2.docx`
+z dow
+ls
+ls *pdf
+z ..
+ls
+git add .
+git commit -m "some progress into text mapping. Should probably merge into main now"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z videos
+z kitty
+ls
+z matugen
+ls
+hx \
+hx
+ping google.com
+z kitty
+z matugen
+hx
+hx kitty.conf
+z $env.wap
+ls | where type == file | sort_by modified | first
+ls | where type == file | sort modified | first
+help sort
+ls | where type == file | sort modified | first
+ls | where type == file | sort_by
+ls | where type == file | sort by modified
+ls | where type == file | sort modified
+help sort
+help commands
+help commands | explore
+z $env.wap
+ls | where type == file | sort-by  modified | first
+ls | where type == file | sort-by  modified | last
+ls | where type == file | sort-by  modified | last | get name
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z kitty
+ls
+cava
+yain cava
+pacre libcava
+sudo pacman -Rcs libcava
+sudo pacman -S cava
+cava
+killall eww
+eww logs
+z eww
+ls
+z scripts/
+ls
+./cava.sh
+ls
+z ..
+hx
+z ..
+z ...
+z eww
+z scripts/
+z ..
+cd ..
+ls
+ls | explore
+z hypr
+ls
+z hypr
+ls
+hx .initial_startup_done
+ls
+rm -rf Fonts/ foreground.png hypr hypridle.conf hyprlock.conf hyprlock.png nohup.out pyprland.toml v2.3.1 vivek.png
+ls
+z Scripts/
+ls
+z ..
+ls
+z ..
+ls
+z UserConfigs/
+ls
+z ..
+ls
+z Scripts/
+ls
+hx songdetail.sh
+ls
+z ..
+ls
+hx media_monitor_config.conf
+ls
+z scripts/
+ls
+hx AirplaneMode.sh
+z avalonia
+killall hyprsunset
+helix
+z matugen
+ls
+hx
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z kitty
+z swengine
+z matugen
+ls
+hx
+ls
+hx
+z matugen
+z kitty
+l
+z helix
+z avalonia
+ls
+z AvaloniaPdfRenderer.TestApplication/
+z dow
+evince PDFspecs.pdf
+ls *.pdf
+evince Beginners_Guide_To_Arabic.pdf
+dotnet run
+z doc
+z Avalonia/
+evince Beginners_Guide_To_Arabic.pdf
+ping google.com
+z ..
+z AvaloniaPdfRenderer/
+ls
+hx Extensions.cs
+touch Extensions.cs
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+yain powershell-bin
+psh
+posh
+powershell
+pwsh
+dotnet run
+zathura Beginners_Guide_To_Arabic.pdf
+dotnet run
+z doc
+z Avalonia/
+zathura Beginners_Guide_To_Arabic.pdf
+dotnet run
+killall hyprsunset
+dotnet run
+clear
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z ..
+ls
+git add .
+git commit -m "some progress into text selection"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+cloc .
+cloc ../
+dotnet run
+z doc
+z holyc-lang/
+cloc .
+z ..
+ls
+z langserver/
+cloc .
+z ..
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+zathura Beginners_Guide_To_Arabic.pdf
+dotnet run
+cleat
+clear
+dotnet run
+dotnet build
+ping google.com
+z doc
+z yuckls/
+dotnet run
+d
+dotnet run
+z vid
+ls
+ls | where type == file
+z `invicibke 3/`
+ls
+mv Anora.2024.720p.WEBDL.Hindi.English.ESubs.MoviesMod.cash.mkv ../
+ls
+z ..
+s
+ls
+ls | where type == file
+dotnet run
+clear
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+z ..
+ls
+git add .
+git commit -m "rewriting selection lmao"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+dd
+dotnet run
+clear
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+z testapplication
+dotnet run
+ping google.com
+dotnet run
+z doc
+ls
+dotnet run
+z ..
+ls
+git add .
+git commit -m "ok"
+git push
+z doc
+z Avalonia/
+z avaloniapd
+dotnet run
+z testapplication
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+z testapplication
+dotnet run
+z ..
+ls
+git add .
+git commit -m "some more progress into the new text selection approach"
+git push
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+ping google.com
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+z zathura
+dotnet run
+z ..
+ls
+git add .
+git commit -m "fleshed out text selection algoritihm. Might rewrite"
+git push
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z testapplication
+dotnet run
+zathura mee514-assignment.pdf
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+z ..
+sl
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z ..
+git add .
+git commit -m "ss"
+git push
+cloc .
+dotnet run
+clear
+zathura PDFspecs.pdf
+dotnet run
+clear
+ping google.com
+nmcli
+ping google.com
+dotnet run
+clear
+dotnet run
+z testapplication
+ls
+dotnet run
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+d
+z avalonia
+z ..
+dotnet run
+ping google.com
+z dow
+ls
+evince PDFspecs.pdf
+evince `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+clear
+dotnet run
+zathura PDFspecs.pdf
+dotnet run
+clear
+dotnet run
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+clear
+zathura Beginners_Guide_To_Arabic.pdf
+mupdf
+mupdf Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+z zathura
+z doc
+z zathura-pdf-mupdf/
+zathura PDFspecs.pdf
+z doc
+z MuPDF.NET/
+z avalonia
+dotnet run
+z avalonia
+ls
+z doc
+ls
+z dow
+ls
+dotnet run
+d
+dotnet run
+zathura invoicesample.pdf
+dotnet run
+z ..
+ls
+git add .
+git commit -m "wtf"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+clear
+dotnet run
+yain thunar
+dotnet run
+clear
+dotnet run
+clear
+killall eww
+swww
+swww restore
+uptime
+Hyprland
+H
+swww restore
+z $wap
+z wall
+ls | where type == file | sort-by  modified | first
+ls | where type == file | sort-by  modified | last
+ls | where type == file | sort-by  modified 
+ls | where type == file | sort-by  modified | explire
+reboot
+swww restore
+killall eww
+z .config/
+ls
+rm -rf pavucontrol.ini
+ls
+pulseaudio --start
+systemctl --user start pulseaudio
+systemctl --user start pulseaudiogg
+systemctl --user start pulseaudio
+sudo systemctl --user start pulseaudio
+sudo pacman  -Rcs pulseaudio
+reboot
+waybar
+killall eww
+rofi
+rm -rf .cache/swww/
+cava
+pkgs | grep pulse
+pkgs | grep piperwire
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+sudo pacman -Rcs pulseaudio
+pkgs 
+pkgs | grep pulseaudio
+z hypr
+sudo pacman -Rcs pulseaudio-alsa
+sudo pacman -S pipewire
+sudo pacman -S pipewire-pulse
+reboot
+htop
+ping google.com
+systemctl --user start pipewire
+sudo pacman -S pamixer
+z hypr
+ls
+yain pipewire-pulse
+z config hypr
+reboot
+killall eww
+z .dotfiles
+ls
+z .config/
+ls
+ls | explore
+ls
+rm -rf Thunar/ ags/ alacritty/ cava/ fastfetch/ ghostty/ nvim-backup/ nwg-look/ pulse/ wallust/ waybar/ wlogout/ xfce4/ xsettingsd/ 
+ls
+z dconf/
+ls
+hx user
+z ..
+sl
+ls
+rm -rf dconf/
+ls
+z swappy/
+ls
+hx config
+z ..
+sl
+ls
+z ..
+ls
+rm -rf .p10k.zsh
+ls
+z .zshrc
+rm -rf .zshrc
+ls
+z .local/
+ls
+z share/
+ls
+z ..
+ls

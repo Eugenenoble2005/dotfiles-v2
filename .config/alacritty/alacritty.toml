@@ -1,8 +1,0 @@
-[general]
-import = [
-  "colors-alacritty.toml"
-]
-
-[font]
-normal = {family="Cascadia Code" , style = "Italic"}
-size=14

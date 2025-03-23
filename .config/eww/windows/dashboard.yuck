@@ -48,7 +48,7 @@
 (defpoll volume :interval "1s" `pamixer --get-volume`)
 (defpoll brightness :interval "1s" `brightnessctl -m | cut -d, -f4 | sed 's/%//'`)
 (defvar time-visible true)
-(defpoll is-spotify :interval "1s" `ruby ~/.config/eww/scripts/is-spotify.rb`)
+(defpoll is-spotify :interval "1s" `nu ~/.config/eww/scripts/is-spotify.nu`)
 (deflisten cava `~/.config/eww/scripts/cava.sh`)
 ;there is probably a better way to do this
 (defpoll hour :interval "1s"

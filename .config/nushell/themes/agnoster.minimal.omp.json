@@ -6,25 +6,28 @@
       "segments": [
         {
           "foreground": "#ffffff",
+          "background": "black",
           "style": "plain",
           "template": "{{ reason .Code }}\u274c ",
           "type": "status"
         },
         {
           "foreground": "#ff0000",
+          "background": "black",
           "style": "plain",
           "template": "# ",
           "type": "root"
         },
         {
           "foreground": "#ffffff",
+          "background": "black",
           "style": "plain",
           "template": "{{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
         {
-          "background": "#007ACC",
-          "foreground": "#ffffff",
+          "background": "red",
+          "foreground": "black",
           "properties": {
             "folder_icon": "\u2026",
             "folder_separator_icon": " \ue0b1 ",
@@ -36,8 +39,8 @@
           "type": "path"
         },
         {
-          "background": "#007ACC",
-          "foreground": "#ffffff",
+          "background": "green",
+          "foreground": "black",
           "properties": {
             "cherry_pick_icon": "\u2713 ",
             "commit_icon": "\u25b7 ",
@@ -52,7 +55,7 @@
           "type": "git"
         },
         {
-          "foreground": "#007ACC",
+          "foreground": "red",
           "style": "plain",
           "template": "\ue0b0 ",
           "type": "text"
