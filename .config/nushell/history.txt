@@ -1493,3 +1493,486 @@ z share/
 ls
 z ..
 ls
+git add .
+git commit -m "shed stuff"
+git push
+z arch-hyprland/
+killall eww
+sudo pacman -Syyu
+sudo pacman -Syu
+z 
+rm -rf .zen/
+z avalonia
+z testapplication
+dotnet run
+clear
+z dow
+dotnet run
+z .config/
+ls
+z nwg-look
+ls
+rm -rf nwg-look nvim-backup
+ls
+z .config/
+ls
+z nwg-look/
+ls
+z ..
+ls
+z dotfiles
+ls
+z .config/
+ls
+z gtk-4.0/
+ls
+z ..
+ls
+stow .
+z ..
+ls
+stow .
+ls
+ls | where type == file and where modified > date(now)
+ls | where  modified > date(now)
+ls | where  modified > date
+ls | where  modified > date(today)
+ls | where  modified > date(nowy)
+ls | where  modified > date(now)
+ls | where  date(modified) > now
+help date
+ls | where modified >= date now
+ls | where modified >= (date now)
+ls | where modified >= (date now) - 1day
+ls | where modified >= (date now) - 10s
+ls | where modified >= (date now) - 5m
+ls | where modified >= (date now) - 5min
+ls | where modified >= (date now) - 5min | each {|l| rm -rf $l }
+ls | where modified >= (date now) - 5min | get name |  each {|l| rm -rf $l }
+ls
+z .config/
+ls
+z .config/
+ls
+z ..
+ls
+ls | where type == symlink
+rm -rf Thunar ags alacritty dconf fastfetch ghostty pulse_backup wallust waybar wlogout xfce4 xsettingsd 
+ls
+z rofi
+ls
+z ..
+z .config/
+ls
+z ..
+z rofi
+z ..
+z .config/
+ls
+z .config/
+z
+z .config/
+ls
+z kitty
+z ..
+z .config/
+ls
+z dotfiles
+ls
+z .config/
+ls
+hx --health | qml
+hx --health | grep qml
+yay qmlls
+dotnet run
+yay
+yain spotify
+btoo
+btop
+gotop
+htop
+yain spotify
+spicetify backup apply
+helix
+kak
+z avalonia
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+netcoredb
+dotnet run
+z zathura
+z mupdf
+z zathura-pdf-mupdf/
+z zathura-p
+zathura `MEE 533-MCE519 - PPC.pdf`
+dotnet run
+cleat
+clear
+dotnet run
+spicetify backup apply
+spicetify backup
+d
+dotnet run
+cleat
+clear
+dotnet run
+cleat
+clear
+dotnet run
+clear
+dotnet run
+hx
+ls
+git pull
+ls
+dotnet restore
+z ..
+z AvaloniaPdfRenderer/
+dotnet restore
+ls
+rm -rf bin/ obj/
+ls
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+rm -rf bin/ obj/
+dotnet run
+z dow
+ls
+cp `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf` ~/Music/AVALONIAPDF.pdf
+dotnet run
+cleat
+clear
+dotnet run
+ld
+dotnet run
+cleat
+clear
+dotnet run
+cleat
+clear
+dotnet run
+clear
+dotnet run
+hyprsunert
+z .dotfiles
+ls
+z .config/
+ls
+ls | explore
+z hypr
+ls
+hx hyprland.conf
+z .config/hypr
+ls
+hyprctl reload
+z .config/hypr
+ls
+rm -rf initial-boot.sh
+ls
+z configs/
+ls
+rm Settings.conf
+ls
+hyprctl reload
+hx Keybinds.conf
+hyprctl reload
+pkgs | grep nm
+pkgs | grep nm-applet
+hyprctl reload
+l
+ls
+z ..
+sl
+ls
+z ..
+cd ..
+ls
+hyprctl reload
+ls
+touch keybinds.conf
+ls
+rm -rf keybinds.conf
+touch keybinds
+ls
+hyprctl reload
+ls
+hyprctl reload
+ls
+mv keybinds keybinds.conf
+hyprctl reload
+ls
+vim keybinds.conf
+ls
+z .dotfiles/
+sl
+z .config/
+ls
+z hypr/
+ls
+vim keybinds.conf
+exit
+hyprctl reload
+ls
+mv keybinds.conf keybinds
+hyprctl reload
+mv keybinds keybinds.conf
+hyprctl reload
+ls
+touch window-rules.conf
+hyprctl reload
+ls
+touch config.conf
+hyprctl reload
+ls
+z configs/
+ls
+z ..
+ls
+cd  ,,
+cd ..
+ls configs/
+rm -rf configs/
+sl
+ls
+ls UserConfigs/
+rm -rf UserConfigs/
+ls
+hyprctl reload
+ls
+rm -rf .initial_startup_done
+ls
+ls Scripts/
+rm -rf Scripts/
+ls
+z wallust/
+ls
+hx wallust-hyprland.conf
+ls
+z ..
+ls
+z ..
+cd ..
+ls
+ls UserScripts/
+ls
+ls UserScripts/ | explore
+ls
+rm -rf UserScripts/
+ls
+hyprctl reload
+ls scripts/
+rm -rf scripts/AirplaneMode.sh
+hyprctl reload
+ls scripts/
+ls scripts/ | explore
+touch scripts/Brightness.nu
+brightnessctl
+	brightnessctl -m | cut -d, -f4 | sed 's/%//'<\n>
+brightnessctl
+help
+help commands | explore
+brightnessctl | split
+brightnessctl | split ","
+brightnessctl | split ,
+brightnessctl | split column ,
+brightnessctl | split column ","
+brightnessctl 
+brightnessctl -m | split column ',' | get column4 | str replace '%' ''
+brightnessctl -m | split column ',' 
+brightnessctl -m | split row ,
+brightnessctl -m 
+brightnessctl -m
+brightnessctl -m | split column ,
+brightnessctl -m | split column , | get column4
+brightnessctl -m | split column , | get column4 | split row %
+brightnessctl -m | split column , | get column4 | split row % | get row0
+brightnessctl -m | split column , | get column4 | split row % | get 0
+	brightnessctl -m | cut -d, -f4 | sed 's/%//'<\n>
+brightnessctl -m | split column , | get column4 | split row % | get 0
+nu scripts/Brightness.nu
+nu scripts/Brightness.nu --inc
+nu scripts/Brightness.nu inc
+nu scripts/Brightness.nu --inc
+nu scripts/Brightness.nu --inc 53
+nu scripts/Brightness.nu 
+nu scripts/Brightness.nu inc 223
+nu scripts/Brightness.nu ingc 223
+nu scripts/Brightness.nu dec  223
+nu scripts/Brightness.nu dec 223
+nu scripts/Brightness.nu dinc 100
+nu scripts/Brightness.nu inc 10
+nu scripts/Brightness.nu inc 100
+nu scripts/Brightness.nu inc 50
+nu scripts/Brightness.nu inc 80
+nu scripts/Brightness.nu inc 10
+nu scripts/Brightness.nu inc 15
+nu scripts/Brightness.nu inc 23
+brightnessctl set 80
+nu scripts/Brightness.nu inc 23
+nu scripts/Brightness.nu inc 100
+nu scripts/Brightness.nu inc 1000
+nu scripts/Brightness.nu inc 1
+nu scripts/Brightness.nu inc 20
+nu scripts/Brightness.nu dec 5
+ls
+rm scripts/Brightness.sh scripts/BrightnessKbd.sh
+ls scripts/
+z scripts/
+rm -rf ChangeBlur.sh ChangeLayout.sh ClipManager.sh DarkLight.sh GameMode.sh KeyHints.sh KillActiveProcess.sh LockScreen.sh Polkit-NixOS.sh Polkit.sh  PortalHyprland.sh Refresh.sh RefreshNoWaybar.sh RofiEmoji.sh RofiSearch.sh SwitchKeyboardLayout.sh TouchPad.sh UptimeNixOS.sh WallustSwww.sh WaybarCava.sh WaybarLayout.sh WaybarStyles.sh Wlogout.sh
+sl
+ls
+hyprctl reload
+ls
+touch MediaCtrl.nu
+hyprctl reload
+nu MediaCtrl.nu pause
+hyprctl reload
+ls
+rm MediaCtrl.sh
+ls
+rm Sounds.sh
+ls
+touch Volume.nu
+pamixer --get-volume
+pamixer --get-volume | split row
+pamixer --get-volume | split row \r\n
+pamixer --get-volume 
+pamixer --get-volume | split column  \r\n
+pamixer --get-volume | split column  
+nu Volume.nu
+pamixer --get-volume | split column  
+pamixer --get-volume 
+pamixer --get-volume | split column  
+pamixer --get-volume | split column  .
+pamixer --get-volume | split row .
+pamixer --get-volume | split row . | get 0
+pamixer --get-volume | split row \r\n
+pamixer --get-volume | split row \r\n | get 1
+pamixer --get-volume | split row \r\n | get 0
+pamixer
+pamixer --get-volume
+psh
+pwsh
+pamixer --get-volume
+pamixer --get-volume | lines
+pamixer --get-volume | lines | get 0
+pamixer --get-volume | lines | get 1
+nu Volume.nu inc
+hyprctl reload
+nu Volume.nu dec
+ls
+rm -rf Volume.sh
+ls
+touch ScreenShot.nu
+date
+date now
+grim
+z gtk
+ls
+z ..
+z gtk-4.0
+ls
+hx gtk.css
+RANDOM
+random
+random chars
+cd $env.wap and 
+ls
+grim -
+z $env.wap
+z ..
+ls
+z Screenshots/
+ls
+rm -rf *
+ls
+grim - | sals
+nu ScreenShot.nu now
+eog `Screenshot_$Tue, 25 Mar 2025 23:21:47 +0100 (now)_$hN8qhW5JUyGoSVPIzZXs9w2So`
+slurp
+mktemp
+ls
+rm -rf tmp.waVZe7y2aG
+whereis mktemp
+pacre mktemp
+sudo pacman -Rcs mktemp
+whereis mktemp
+man mktemp
+yay mktemp
+ls
+grim -g "$(slurp)"
+slurp | grim -g $in
+ls
+nu ScreenShot.nu area
+ls
+z scripts/
+z hypr
+z scripts/
+ls
+rm -rf `Screenshot_$Tue, 25 Mar 2025 23:29:47 +0100 (now)_$bbsjaNzOgrP1Dvqs8DtPrJoGS`
+ls
+mktemp
+ls
+rm -rf tmp.xfTahE7EtH
+ls
+nu ScreenShot.nu area
+help save
+ld
+ls
+rm -rf tmp.J0597s9Bx5 tmpfile
+ls
+nu ScreenShot.nu area
+ls
+z $env.wap
+sl
+z ..
+z Screenshots/
+ls
+rm `Screenshot_$Tue, 25 Mar 2025 23:21:47 +0100 (now)_$hN8qhW5JUyGoSVPIzZXs9w2So`
+ls
+rm `Screenshot_$Tue, 25 Mar 2025 23:21:47 +0100 (now)_$hN8qhW5JUyGoSVPIzZXs9w2So`
+rm `Screenshot_$Tue, 25 Mar 2025 23:32:26 +0100 (now)_$zBa8lDnZU8L87Br3a7YLdsSdp`
+ls
+rm tmpfile
+sl
+ls
+nu ScreenShot.nu area
+ls
+ls
+vim tmpfile
+rm tmpfile
+ls
+nu ScreenShot.nu area
+ls
+eog `Screenshot_$Tue, 25 Mar 2025 23:33:31 +0100 (now)_$JasZeqG93t4Hyyrlh4bLQoIJF`
+eog `Screenshot_$Tue, 25 Mar 2025 23:35:11 +0100 (now)_$PG6vQiwV14pF1a5iiO6TZEnJH`
+sl
+ls
+rm -rf `Screenshot_$Tue, 25 Mar 2025 23:33:31 +0100 (now)_$JasZeqG93t4Hyyrlh4bLQoIJF` `Screenshot_$Tue, 25 Mar 2025 23:35:11 +0100 (now)_$PG6vQiwV14pF1a5iiO6TZEnJH`
+ls
+ls
+rm -rf *
+;s
+ls
+;s
+ls
+eog Screenshot_25-Mar_23-37-25_31677.png
+rm -rf ScreenShot.sh
+sl
+ls
+z ..
+ls
+z ..
+cd ..
+ls
+rm hypr.png
+ls
+z .dotfiles/
+ls
+z ..
+ls
