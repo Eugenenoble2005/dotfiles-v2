@@ -16,7 +16,6 @@ def change_brightness [func : string, step : int] {
     } else if $new_brightness > 100 {
       $new_brightness = 100;
     }
-    print $new_brightness
     brightnessctl set $"($new_brightness)%";
 }
 

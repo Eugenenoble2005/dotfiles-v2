@@ -3,17 +3,11 @@ command = "null"
 arguments = ["img", "--transition-type", "center"]
 set = false
 
-[templates.waybar]
-input_path = "./templates/colors-waybar.css"
-output_path = "~/.config/waybar/wallust/colors-waybar.css"
 
 [templates.kitty]
 input_path="./templates/colors-kitty.conf"
 output_path="~/.config/kitty/wallust/kitty.conf"
 
-[templates.cava]
-input_path="./templates/colors-cava"
-output_path="~/.config/cava/config"
 
 [templates.hyprland]
 input_path="./templates/colors-hyprland.conf"
@@ -43,10 +37,3 @@ output_path = "~/.config/gtk-3.0/colors-gtk.css"
 input_path="./templates/colors-gtk.css"
 output_path="~/.config/gtk-4.0/colors-gtk.css"
 
-[templates.alacritty]
-input_path="./templates/colors-alacritty.toml"
-output_path="~/.config/alacritty/colors-alacritty.toml"
-
-[templates.ghostty]
-input_path="./templates/colors-ghostty"
-output_path="~/.config/ghostty/colors-ghostty"

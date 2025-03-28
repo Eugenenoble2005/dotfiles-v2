@@ -1,15 +1,52 @@
-;; Bottom bar now ig
 (defwindow topbar
   :monitor 0
+  :geometry (geometry :width "95%" :height "10" :anchor "top center")
+  :stacking "bg"
   :exclusive true
-  :geometry (geometry :width "100%" :anchor "center bottom")
-  (box :spacing -500 :class "topbarbox" :orientation "horizontal"
-    (workspaces :orientation "horizontal") 
+  (box
+    (box :class "boxleft" :space-evenly false :spacing 20
+      (label :text "󰣇" :class "icon" )
+      (label :text "${activetitle} " :truncate true :limit-width 20 :class { activetitle == "󰋜" ? "icon" : "normal"})
+      (label :text "" :class "icon" :class "icon hyprlogo")
+      (label :text " | ${activeworkspace}" :class "workspace")
+    )
+    (box :space-evenly false :halign "end" :spacing 20 :class "boxright"
+      (label :text cava :class "cava")
+      (box 
+       (label :text time )
+      )
+      (box :spacing 20
+      (label 
+          :text "${
+            battery == 100 ? "󰁹" :
+            battery < 100 && battery >=90 ? "󰂂" :
+            battery < 90 && battery >= 80 ? "󰂁" :
+            battery < 80 && battery >= 70 ? "󰂀" :
+            battery < 70 && battery >= 60 ? "󰁿" :
+            battery < 60 && battery >= 50 ? "󰁾" :
+            battery < 50 && battery >= 40 ? "󰁽" :
+            battery < 40 && battery >= 30 ? "󰁼" :
+            battery < 30 && battery >= 20 ? "󰁻" :
+            battery < 20 && battery >= 10 ? "󰁺" :
+            "󰁺"
+          }"
+          :tooltip battery
+         :class "${
+            battery >= 50 ? "battery-healthy icon" :
+            battery >= 20 && battery < 50 ? "battery-warning icon" :
+            battery < 20 ? "battery-critical icon" :
+          charging == 'Charging' ? "battery-charging icon" : "icon"
+        }"
+      )
+      )
+      (systray :spacing 20)
+    )
   )
 )
+(defvar activetitle "")
+(defvar activeworkspace "1")
+(defpoll time :interval "1s" `date +%H:%M:%S`)
 
-(defpoll
-  lyric
-  :interval "1h"
-  `ruby ~/Documents/artist-lyrics-v2/main.rb --artist \"The Weeknd\"`
-)
+(defpoll battery :interval "1s" `cat /sys/class/power_supply/BAT1/capacity`)
+(defpoll charging :interval "1s" `cat /sys/class/power_supply/BAT1/status`)
+(deflisten cava `nu ~/.config/eww/scripts/cava.nu`)

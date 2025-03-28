@@ -1,6 +1,6 @@
 $foreground: {{colors.on_surface.default.hex}};
-$background: {{colors.surface.default.hex }};
-$background_transparent : {{colors.surface.default.rgba | set_alpha: 0.8 }};
+$background: black;
+$background_transparent : {{colors.surface.default.hex }};
 
 $selected: {{colors.on_tertiary.dark.hex}};
 

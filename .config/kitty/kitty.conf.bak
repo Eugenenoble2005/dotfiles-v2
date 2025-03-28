@@ -1,4 +1,4 @@
-font_family   Cascadia Code Bold Italic
+font_family   Cascadia Code Italic
 font_size 		14.0
 bold_font       auto
 italic_font      true
@@ -30,9 +30,9 @@ enable_audio_bell no
 # cursor #dddddd
 
 # BEGIN_KITTY_THEME
-# Yorumi Abyss
+# Base2Tone Drawbridge Dark
 include current-theme.conf
 # END_KITTY_THEME
 #
 #
-# include wallust/kitty.conf
+include wallust/kitty.conf

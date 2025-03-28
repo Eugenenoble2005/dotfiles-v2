@@ -1,4 +1,0 @@
-@define-color foreground {{colors.on_surface.default.hex}};
-@define-color background {{colors.surface.default.rgba | set_alpha: 0.6}};
-@define-color background_light {{colors.surface_variant.dark.rgba | set_alpha : 0.6 }};
-

@@ -5,6 +5,7 @@ ols = {command = "/home/noble/.local/share/nvim/mason/bin/ols"}
 avalonials = {command="avalonia-ls"}
 csharp_ls= {command="/home/noble/.local/share/nvim/mason/bin/csharp-ls"}
 omnisharp={"command"="omnisharp" , timeout=200000}
+qmlls={"command"="/usr/lib/qt6/bin/qmlls", timeout=20000}
 
 [[language]]
 name="yuck"

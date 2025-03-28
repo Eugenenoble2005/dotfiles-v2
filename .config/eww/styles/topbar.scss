@@ -1,7 +1,50 @@
-.topbar {
-  background: transparent;
+.icon {
+  font-size: 28px;
+}
 
-  box {
-    background: $background_transparent;
+.topbar {
+  background: $background;
+  border: 1px solid $source;
+
+  .boxleft {
+    margin-left: 20px;
+
+    .icon {
+      color: $source
+    }
+
+    .hyprlogo {
+      margin-left: -25px;
+    }
+
+    .workspace {
+      margin-left: -20px;
+    }
+  }
+
+  //box right
+  .boxright {
+    margin-right: 20px;
+
+    .compbox {
+      background: $background_transparent;
+      padding: 10px;
+    }
+
+    .cava {
+      color: $source;
+    }
+
+    .battery-warning {
+      color: yellow;
+    }
+
+    .battery-critical {
+      color: red;
+    }
+
+    .battery-charging {
+      color: green;
+    }
   }
 }
