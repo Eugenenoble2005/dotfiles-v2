@@ -30,7 +30,7 @@ enable_audio_bell no
 # cursor #dddddd
 
 # BEGIN_KITTY_THEME
-# Base2Tone Drawbridge Dark
+# Vibrant Ink
 include current-theme.conf
 # END_KITTY_THEME
 #

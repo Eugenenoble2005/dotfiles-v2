@@ -1,6 +1,6 @@
 (defwindow topbar
   :monitor 0
-  :geometry (geometry :width "95%" :height "10" :anchor "top center")
+  :geometry (geometry :width "90%" :height "10" :anchor "top center")
   :stacking "bg"
   :exclusive true
   (box
@@ -8,7 +8,7 @@
       (label :text "󰣇" :class "icon" )
       (label :text "${activetitle} " :truncate true :limit-width 20 :class { activetitle == "󰋜" ? "icon" : "normal"})
       (label :text "" :class "icon" :class "icon hyprlogo")
-      (label :text " | ${activeworkspace}" :class "workspace")
+      (label :text "|${activeworkspace}" :class "workspace")
     )
     (box :space-evenly false :halign "end" :spacing 20 :class "boxright"
       (label :text cava :class "cava")

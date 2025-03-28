@@ -37,3 +37,6 @@ output_path = "~/.config/gtk-3.0/colors-gtk.css"
 input_path="./templates/colors-gtk.css"
 output_path="~/.config/gtk-4.0/colors-gtk.css"
 
+[templates.mako]
+input_path="./templates/colors-mako"
+output_path="~/.config/mako/config"

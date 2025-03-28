@@ -3,11 +3,13 @@ def get_volume [] {
 }
 
 def inc_volume [] {
-  pamixer -i 5 --allow-boost --set-limit 150
+  pamixer -i 5 --allow-boost --set-limit 150;
+  notify 
 }
 
 def dec_volume [] {
   pamixer -d 5
+  notify 
 }
 
 def main [...args] {
@@ -15,4 +17,8 @@ def main [...args] {
     "inc" =>  { inc_volume },
     "dec" => {dec_volume}
   }
+}
+
+def notify [] {
+  notify-send -e -h int:value:(get_volume) -h string:x-canonical-private-synchronous:volume_notif -u low  "Volume:" (get_volume)
 }

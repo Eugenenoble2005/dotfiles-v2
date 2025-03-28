@@ -2958,3 +2958,287 @@ ls
 z 
 z .dotfiles/
 ls
+git add .
+git commit -m "fix eww stuff"
+git push
+z gtk
+ls
+hx bookmarks
+ls
+hx colors-gtk.css
+hx settings.inil
+ls
+rm settings.ini settings.inil
+ls
+z .config/
+ls
+z config
+ls
+rm nwg-look/
+rm -rf nwg-look/
+rm gedit/
+rm -rf gedit/ gnome-session/
+hx .gtkrc-2.0
+rm .gtkrc-2.0
+Hyprland
+z gtk
+ls
+neofetch
+ff
+fastfetch
+zsh
+yay zoxide
+zoxide init
+zoxide init nushell
+yay
+yay blueman
+z music
+ls
+rm AVALONIAPDF.pdf `LESSON 1_Introduction to Material Selection-1.pptx` `LESSON 5 - BILL OF ENGINEERING MEASUREMENT AND EVALUATION.pptx` `Lesson Four_ Standards and Specifications.pptx` `Lesson Three_ Material Selection Methods.pptx` `Lesson Two_ Materials Grouping-1.pptx`
+ls
+z music
+ls
+notify-send "hello world"
+bash notification.sh
+dbus-monitor
+hx notification.sh
+ls
+notify-send "hello world"
+z dow
+ls
+z doc
+ls
+git clone https://www.github.com/jakoolit/dotfiles.git
+notify-send "hello world"
+dbus-monitor "interface='org.freedesktop.Notifications'"
+ls
+z music
+ls
+notify-send "hello world"
+git clone https://www.github.com/jakoolit/dotfiles.git --depth 1
+nu notification.nu
+notify-send "hello world"
+nu notification.nu
+z dotfiles/
+z config/
+ls
+z ..
+ls
+z ..
+ls
+rm -rf dotfiles/
+git clone https://www.github.com/jakoolit/hyprland-dots.git --depth 1
+z hyprland-dots/
+ls
+z config/
+ls
+z hypr/
+ls
+z animations/
+ls
+z ..
+ls
+z Monitor_Profiles/
+ls
+z ..
+ls
+z workspaces.conf
+hx workspaces.conf
+ls
+z Monitor_Profiles/
+ls
+z ..
+ls
+z UserScripts/
+ls
+z ..
+ls
+z scripts/
+ls
+gx
+	notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:$current -u low -i $icon "Screen" "Brightness:$current%"<\n>
+	notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:$current -u low  "Screen" "Brightness:10%"<\n>
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "gdg"
+z music
+ls
+notify-send "gdg"
+dbus-monitor "interface='org.freedesktop.Notifications'"
+nu notification.nu
+notify-send "gdg"
+gdbus-monitor
+yay gdbus-monitor
+yay gdbus
+notify-send "gdg"
+method call time=1743179437.352580 sender=:1.1066 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify | str starts-with "method call"
+"method call time=1743179437.352580 sender=:1.1066 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify" | str starts-with "method call"
+"method call time=1743179437.352580 sender=:1.1066 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify" | str starts-with "method calgl"
+"gdgdg" | append "gd gdg" | to text
+z hypr
+ls
+z eww
+z hypr
+help reduce
+nu notification.nu
+nu notification.nu
+notify-send "gdg"
+nu notification.nu
+notify-send "gdg"
+"method call time=1743185785.039178 sender=:1.1109 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify<\n>   string "notify-send"<\n>   uint32 0<\n>   string ""<\n>   string "gdg"<\n>   string ""<\n>   array [<\n>   ]<\n>   array [<\n>      dict entry(<\n>         string "urgency"<\n>         variant             byte 1<\n>      )<\n>      dict entry(<\n>         string "sender-pid"<\n>         variant             int64 247489<\n>      )<\n>   ]<\n>   int32 -1<\n>^C" | lines
+notify-send "gdg"
+nu notification.nu
+notify-send "gdg"
+plugin
+plugin list
+cargo install --locked nu_plugin_dbus<\n>plugin add ~/.cargo/bin/nu_plugin_dbus<\n>plugin use dbus # or restart nu
+cargo install --locked nu_plugin_dbus;<\n>plugin add ~/.cargo/bin/nu_plugin_dbus;<\n>plugin use dbus; # or restart nu
+z doc
+z hyprland-dots/
+ls
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+cargo install --locked nu_plugin_dbus<\n>
+plugin add ~/.cargo/bin/nu_plugin_dbusq
+plugin add ~/.cargo/bin/nu_plugin_dbu
+plugin add ~/.cargo/bin/nu_plugin_dbus
+help generate
+help generate | less
+ls
+kitten themes
+ls
+fastfetch
+z $env.wap
+ls
+z matugen
+ls
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+hyprpm add https://github.com/outfoxxed/hy3
+z doc
+z hyprland/
+hx
+gco main
+hyprpm update
+hyprpm add https://github.com/outfoxxed/hy3
+hyprpm enable hy3
+z hypr
+ls
+hyprctl reload
+reboot
+z hypr
+hyprpm enable hy3
+z music
+ls
+rm notification.sh
+ls
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "dgd"
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "gdg"
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "gdgd"
+hyprnotify "gd"
+hyprctl notify "gdddg"
+hyprctl notify "gdddg" "dgdg"
+hyprctl notify -1 10000 "rgb(ff1ea3)" "Hello everyone!"
+yay mako
+man mako
+mako
+killall swaync
+notify-send "gdgd"
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+mako
+history
+history | explore
+z .config/
+ls
+z dot
+ls
+z .config/
+ls
+rm -rf swaync/
+ls
+mkdir mako
+ls
+z .dotfiles/
+stow .
+z .config/
+ls
+z .config/
+z config
+ls
+z mako
+z mako/
+ls
+z hyprland
+z hypr
+yay
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+z hypr
+z doc
+z hyprland-dots/
+z config/
+z hypr/
+ls
+z hypr/
+z .config/
+ls
+z mako
+ls
+hx cnfig
+hx config
+ls
+mako
+killall mako
+mako
+killall mako
+mako
+hx config
+z matugen
+ls
+z templates/
+ls
+hx colors-mako
+ls
+z ..
+ls
+z ../
+ls
+hx config.toml
+z .dotfiles/
+ls
+z .config/
+ls
+rm -rf mako/
+ls
+z .config/
+ls
+z mako
+rm -rf mako/
+killall mako
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall mako
+z .config/
+ls
+z config
+ls
+z mako
+ls
+rm -rf mako
+ls
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z mako/
+ls
+killall mako
+z hypr/
+z config hypr
+ls
+z doc
+z hyprland-dots/
+z hypr
+z scripts/
+ls
+nu MediaCtrl.nu next
+playerctl status
+z .dotfiles/
+ls

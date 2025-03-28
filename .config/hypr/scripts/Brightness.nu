@@ -17,8 +17,13 @@ def change_brightness [func : string, step : int] {
       $new_brightness = 100;
     }
     brightnessctl set $"($new_brightness)%";
+    notify
 }
 
+def notify [] {
+	notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:(get_backlight) -u low "Screen" $"Brightness:(get_backlight)%"
+  
+}
 def main [ ...args ] {
   match $args.0 {
     "inc" =>  {change_brightness "increase" $args.1}
