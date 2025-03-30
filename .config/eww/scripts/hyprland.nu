@@ -21,6 +21,7 @@ def set_active_workspace [event] {
   match $ev {
     "workspace" => {
       $event | split row ">>" | last | eww update activeworkspace=($in) 
-    }
+    } 
   }
 }
+

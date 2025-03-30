@@ -2,9 +2,16 @@
   font-size: 28px;
 }
 
+@keyframes colorChange {
+  10% {
+    background: linear-gradient(to bottom, $background 90%, $source 100%);
+    /* Back to Red */
+  }
+}
+
 .topbar {
-  background: $background;
-  /* border: 1px solid $source; */
+  background: linear-gradient(to bottom, $background 70%, $source 100%);
+  animation: colorChange 2s infinite;
 
   .boxleft {
     margin-left: 20px;
@@ -33,6 +40,7 @@
 
     .cava {
       color: $source;
+      text-shadow: 0 0 5px $source, 0 0 5px $source;
     }
 
     .battery-warning {
@@ -45,6 +53,16 @@
 
     .battery-charging {
       color: green;
+    }
+
+    .hyprsunset_button {
+      padding: 0px 10px;
+      background: none;
+    }
+
+    .hyprsunset_button_active {
+      padding: 0px 10px;
+      background: $source;
     }
   }
 }

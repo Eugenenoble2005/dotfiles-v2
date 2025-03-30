@@ -4,3 +4,4 @@ background-color=#000000
 progress-color={{ colors.source_color.default.hex }}
 font=Cascadia Code Italic
 border-color={{ colors.source_color.default.hex }}
+anchor=bottom-right

@@ -3242,3 +3242,508 @@ nu MediaCtrl.nu next
 playerctl status
 z .dotfiles/
 ls
+git add .
+git commit -m "switch to mako"
+git push
+rm -rf $env.wap/
+z $env.wap
+rm -rf *
+ls
+killall mako
+sudo pacman -SYu
+config nu
+pacupg
+z eww
+eww logs
+eww reload
+z hypr
+z eww
+ls
+yay cascadia
+z matugen
+ls
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z avalonia
+ls
+dotnet run
+z matugen
+ls
+yain dolhpin
+yain dolhpin; sudo pacman -Rcs thunar
+yain dolphin
+yare dolphin
+z hypr
+yay
+yain freedownloadmanager
+reboot
+z hypr
+hyprctl reload
+z hypr
+ls
+yay linux-wifi-hotspot
+systemctl enable create_ap --now
+yain create_ap
+create_ap
+create_ap wlan0 tun1 Ghad
+sudo create_ap wlan0 tun1 Ghad
+sudo create_ap wl01 tun1 Ghad
+create_ap wl01 tun1 Ghad
+ip link
+sudo create_ap wl01 tun0 Ghad
+sudo create_ap wlo1 tun0 Ghad
+sudo create_ap wlo1 tun0 GHand
+sudo create_ap -n wlo1 tun0 GHand
+iw list | grep "Supported interface modes" -A 10
+iwconfig
+lspci | grep Network
+lspci
+yay rtl88
+z hypr
+hx
+lspci
+lspci | grep Network
+yay rtl8821ce-dkms
+reboot
+ping google.com
+lspci | grep Network
+ip 
+ip link
+sudo create_ap -n wlo1 tun0 GHand
+yay rtl8821ce-dkms
+ping google.com
+ip link
+ip a
+ip link
+sudo create_ap -n wlo1 tun0 GHand
+ping google.com
+yain linux-wifi-hotspot
+pacre
+config nu
+ls
+pacre linux-wifi-hotspot-git
+pacre linux-wifi-hotspot-bin-debug
+yain linux-wifi-hotspot
+yain linux-wifi-hotspot-bin
+z eww
+nmtui
+sudo systemctl restart NetworkManager
+nmtui
+nmcli dev wifi
+nmcli dev wifi list
+killall create_ap
+sudo killall create_Ap
+sudo killall create_ap
+cava
+fastfetch
+owofetch
+htop
+z kitty
+ls
+htop
+kitten themes
+hyprctl hyprsunset temperature 2500
+hyprsunset
+z hypr
+ls
+hyprctl reload
+hyprctl hyprsunset temperature 2500
+hyprctl
+hyprctl hyprsunset
+hyprctl hyprsunset identify
+hyprctl hyprsunset identity
+z doc
+ls
+z hyprsunset/
+ls
+git pull
+hyprctl hyprsunset gamma
+hyprctl hyprsunset matrix
+hyprctl hyprsunset gamma 50
+hyprctl hyprsunset gamma 100
+hyprctl hyprsunset gamma 1000
+hyprctl hyprsunset gamma 10
+hyprctl hyprsunset gamma 100
+hyprctl hyprsunset temperature 
+hyprctl hyprsunset temperature 2000
+hyprctl hyprsunset temperature 2500
+hyprsunset
+hyprsunset identity
+hyprctl hyprsunset identity
+hyprctl reload
+hyprctl hyprsunset identity
+z hypr
+hyprctl hyprsunset identity
+hyprctl reload
+hyprctl hyprsunset identity
+hyprctl reload
+hyprctl reload sunset
+hyprctl hyprsunset identity
+Hyprland
+swww restore
+hyprctl hyprsunset identity
+hyprctl hyprsunset temperature 
+z eww
+z hypr
+z eww
+ls
+z scripts/
+ls
+hyprctl hyprsunset identity
+touch hyprsunset.nu
+ls
+nu hyprsunset.nu get
+nu hyprsunset.nu set blue-light
+nu hyprsunset.nu set identity
+nu hyprsunset.nu set
+hyprctl hyprsunset temperature 
+hyprctl hyprsunset identity
+hyprctl hyprsunset temperature 9000
+hyprctl hyprsunset temperature 
+z hyprsunset/
+z hyprsunset
+ls
+hx
+z eww
+z doc
+ls
+z doc
+z hyprland
+yain blender
+cfdisk
+sudo cfdisk
+resize2fs -h
+yay d
+yay dlang
+yay google-chrome
+pacre google-chrome
+z hyp
+z hyprland
+z hypr
+hx
+hyprctl reload
+Hyprland
+swww restore
+man mako
+makoctl
+z matugen
+ls
+z $env.wap
+ls
+matugen image `fantasy art, skeleton, Skeleton Horses, giant, video game art | 3840x2160 Wallpaper - wallhaven.cc.jpg` --show-colors
+makoctl reload
+z $env.wap
+ls
+fastfetch
+ls
+z music
+ls
+wf-recorder --file=myrecording.mp4
+ls
+vlc myrecording.mp4
+z .config/gtk-3.0
+ls
+z .themes
+ls
+mkdir matugen
+ls
+cp ~/.config/gtk-3.0 matugen/ -r
+cp
+cp ~/.config/gtk-3.0 matugen/ 
+cp ~/.config/gtk-3.0 matugen/ --recursive 
+ls
+z matugen/
+ls
+z config
+ls
+cp gtk-3.0 ~/.themes/matugen/
+cp gtk-3.0 ~/.themes/matugen/ -r
+zsh
+ls
+z gtk-3.0
+ls
+z ..
+z .themes
+ls
+z matugen/
+ls
+z gtk-3.0
+ls
+z themes
+ls
+z matugen/
+ks
+ls
+z gtk-3.0
+z matugen
+ls
+z themes
+z matugen/
+ls
+z gtk-3.0/
+ls
+z gtk-3.0/
+bash
+ls
+rm gtk-3.0
+cp ~/.dotfiles/.config/gtk-3.0/ . -r
+ls
+z ..
+sl
+ls
+hx gtk.css
+z ..
+ls
+z Thunar/
+z ..
+z themes
+z Dracula/
+ls
+z gtk-3.20/
+ls
+z matugen/
+ls
+z gtk-3.0/
+ls
+brave
+brave --gtk-version=4
+brvae
+brave
+brave --qt-version=6
+z gtk-4
+ls
+hx settings.ini
+ls
+rm settings.ini
+ls
+hx gtk-dark.css
+ls
+hx gtk.css
+ls
+hx colors-gtk.css
+open ~/.config/gtk-3.0/gtk.css
+cp ~/.dotfiles/.config/gtk-3.0/gtk.css .
+ls
+rm * -rf
+ls
+cp ~/.config/gtk-3.0/* .
+ls
+brave --qt-version=6
+brave
+killall nautilus
+z .dotfiles/
+z .config/
+ls
+cat gtk-4.0/
+ls
+z gtk-4.0/
+ls
+hx colors-gtk.css
+ls
+hx settings.ini
+ls
+ls  ../gtk-3.0/
+z ..
+ls
+z gtk-3.0/
+ls
+hx gtk.css
+ls
+z ..
+sl
+ls
+z gtk-4.0/
+ls
+rm * -rf
+cp ~/.config/gtk-3.0/* .
+ls
+yare zen-browser-bin
+yay layan
+killall nautilus
+brave --gtk-version=4
+z .dotfiles/
+ls
+z .config/
+ls
+z gtk-4.0/
+ls
+hx gtk.css
+ls
+hx
+z gtk-4
+ls
+z gtk-4
+ls
+z .gtkrc-2.0
+z gtk-3
+ls
+hx colors-gtk.css
+cp ~/.config/gtk-3.0/* .config/gtk-4.0/ -r
+rm -rf ~/.config/gtk-4.0/*
+cp ~/.config/gtk-3.0/* .config/gtk-4.0/ -r
+yay graphite
+yay antgtk
+yay ant
+yay ant-gtk
+yay -gtk
+yay \-gtk
+yay gtk-theme
+killall nautilus
+yain zoxide-git
+yay ant-gtk
+yay windows-gtk
+yay 10-gtk
+yain thunar
+hyprctl clients
+baobab
+lsblk
+df
+df -h
+df
+df -h
+z Pictures/
+ls
+z Screenshots/
+ls
+rm *
+z hypr
+ls
+slurp
+z hypr
+ls
+z scripts/
+ls
+nu ScreenShot.nu area
+hyprctl reload
+slurp
+z screenshots
+ls
+rm *
+lsw
+nu ScreenShot.nu gdg
+nu ScreenShot.nu area
+df -h
+z screenshots
+ls
+yazi
+rm *
+;s
+ls
+yzi
+yazi
+ls
+rm *
+ls
+z hypr
+ls
+date now `#.bash_history#`
+dote
+date
+help data
+date now humanize
+date humanize
+data noe
+date
+date now | data humanize $in
+date now | date humanize $in
+ssg
+ssh
+whereis ssh
+man ssh
+ping google.com
+hyprctl clients
+z hypr
+ls
+ls | explore
+yay linux-zen
+time pwsh
+time
+pwsh
+ls
+ping google.com
+yay linux-zen
+pkgs | grep linux
+yare linux
+sudo pacman -Rcs linux
+sudo rm -rf /boot/ 
+yain linux-zen
+reboot
+pkgs | grep linux
+inxi
+df -h
+ping google.com
+create_ap wl01 tun1 Ghad
+sudo create_ap -n wlo1 tun0 GHand
+lablk
+df -h
+z eww
+z scripts/
+ls
+z doc
+ls
+z artist-lyrics-v2
+z ..
+z scripts/
+z eww script
+ls
+z ..
+config
+config user-colors
+config use-colors
+killall fdm
+z proj
+ls
+z AvaloniaPdfRenderer/
+git add .
+git commit -m "swihfhf"
+git push
+z ..
+ls
+rm -rf *
+git clone https://www.github.com/eugenenoble2005/odin-hyprland-ctmcontrol --depth 1
+z odin-hyprland-ctmcontrol/
+kitten themes
+z odin-hyprland-ctmcontrol/
+z odin-hyprland-ctmcontrol
+z eww
+z hyprland-dots
+z hyprland
+ls
+z hypr
+z hyprland
+brave --gtk-version=4
+pkgs | grep linux
+watch sys {}
+pswh
+pwsh
+yay linux-zen
+z hyprpaper
+z doc
+z proj
+ls
+git clone https://www.github.com/hyprwm/hyprpaper.git 
+z hyprpaper/
+z eww
+ls
+z hyprpaper/
+z hyprpaper
+cloc .
+hx
+ls
+mkdir build
+ls
+z build/
+cmake ..
+make
+time
+^time
+^ls
+ls
+bash time
+(bash time)
+time
+timeit
+timeit make
+help timeit
+timeit { make }
+z .dotfiles/

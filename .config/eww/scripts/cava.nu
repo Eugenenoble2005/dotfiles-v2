@@ -12,7 +12,7 @@ let config_file = "/tmp/bar_cava_config"
 
 $"
 [general]
-bars = 10
+bars = 20
 
 [input]
 method = pulse

@@ -7,76 +7,37 @@
   /* color: $foreground; */
 }
 
-.bar {
-  background: transparent;
-}
 
-.workspace-button {
-  background-color: transparent;
-  box-shadow: none;
-}
-
-.transparent-box {
-  background: transparent;
-}
-
-.workspace-bar {
+.music {
   background: $background;
-
 }
 
-.dashboard {
-  background: $background;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-}
-
-.dashboard-time {
+.music-time {
   font-size: 50px;
   color: $foreground;
 }
 
-.dashboard-time-second {
+.music-time-second {
   font-size: 20px;
 }
 
-.workspace-unselected {
-  margin: 0px;
-  font-size: 15px;
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-}
-
-.workspace-selected {
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  margin: 0px;
-  color: $source;
-  font-size: 12px;
-}
-
-.bar-image {
-  margin-right: -7px;
-  margin-top: 15px;
-}
-
-.dashboard .box-outline-right {
+.music .box-outline-right {
   border-right: 1px solid $outline;
 }
 
-.dashboard .box-outline-top {
+.music .box-outline-top {
   border-top: 1px solid $outline;
 }
 
-.dashboard .box-outline-bottom {
+.music .box-outline-bottom {
   border-bottom: 1px solid $outline;
 }
 
-.dashboard .song-title {
+.music .song-title {
   font-size: 25px
 }
 
-.dashboard .media-box {
+.music .media-box {
   //margin-top: 35px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -86,15 +47,6 @@
   }
 }
 
-.dashboard .cava {
-  color: $source;
-}
-
-.spotify-logo {
-  margin-left: 25px;
-  margin-top: 20px;
-}
-
-.color-source {
+.music .cava {
   color: $source;
 }

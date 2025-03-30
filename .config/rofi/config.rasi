@@ -235,4 +235,10 @@ element-text {
 
 //@theme "/usr/share/rofi/themes/DarkBlue.rasi"
 
+//@theme "/home/noble/.local/share/rofi/themes/style_3.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/android_notification.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/style_7.rasi"
+
 @theme "/home/noble/.local/share/rofi/themes/style_3.rasi"

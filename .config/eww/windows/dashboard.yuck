@@ -1,37 +1,13 @@
-(defwindow dashboard
+(defwindow music
   :monitor 0
-  :geometry (geometry  :width "400px" :anchor "top left" :y "20px")
+  :geometry (geometry  :width "400px" :anchor "top right" :y "0px" :x "68px")
   :stacking "bg"     
-  (dashboard)
+  (music)
 
 )
-(defwidget dashboard [?sigma] 
-  (centerbox :orientation "vertical"  
-    (box :orientation "horizontal"
-      (box :orientation "vertical" :space-evenly false :class "box-outline-right box-outline-bottom"
-        (label :text "${hour}" :class "dashboard-time")
-        (box :space-evenly false :halign "center"
-         (label :text "${minute}:" :class "dashboard-time")
-         (label :text "${second}" :class "dashboard-time-second color-source")
-        )
-      )
-      (box :class "box-outline box-outline-bottom" 
-       (systray)
-      )
-    )
+(defwidget music[?sigma] 
     (box :visible is-spotify   
-      (media)
-    )
-    (box :orientation "vertical" :css "box {margin-top:20px;margin-bottom:20px;font-size:15px}" :space-evenly false :spacing 20
-      ; (box
-      ;   (label :text "${username}@${hostname}" )
-      ;   (label :text "${kernel_version}")
-      ; )
-      (box 
-        (label :text "Power")
-        (label :text "${power_level}%")
-      )
-    )
+      (media)    
   )
 )
 (defwidget media []
@@ -49,22 +25,4 @@
 (defpoll brightness :interval "1s" `brightnessctl -m | cut -d, -f4 | sed 's/%//'`)
 (defvar time-visible true)
 (defpoll is-spotify :interval "1s" `nu ~/.config/eww/scripts/is-spotify.nu`)
-;there is probably a better way to do this
-(defpoll hour :interval "1s"
-              :initial "initial-value"  ; optional, defaults to poll at startup
-              :run-while time-visible   ; optional, defaults to 'true'
-  `date +%H`)
-(defpoll minute :interval "1s"
-              :initial "initial-value"  ; optional, defaults to poll at startup
-              :run-while time-visible   ; optional, defaults to 'true'
-  `date +%M`)
-
-(defpoll second :interval "1s"
-              :initial "initial-value"  ; optional, defaults to poll at startup
-              :run-while time-visible   ; optional, defaults to 'true'
-  `date +%S` )
-(defpoll kernel_version :interval "99h" `pacman -Q | grep arch1`)
-(defpoll username :interval "99h" `whoami`)
-(defpoll hostname :interval "99h" `cat /proc/sys/kernel/hostname`)
-(defpoll power_level :interval "20s" `cat /sys/class/power_supply/BAT1/capacity`)
 

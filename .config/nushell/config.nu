@@ -33,4 +33,4 @@ alias yain  = yay -S
 alias gco = git checkout
 alias pkgs = pacman -Q
 alias pacupg = sudo pacman -Syu
-
+alias pacre = sudo pacman -Rcs

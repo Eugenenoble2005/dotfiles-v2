@@ -1,6 +1,6 @@
 (defwindow topbar
   :monitor 0
-  :geometry (geometry :width "90%" :height "10" :anchor "top center")
+  :geometry (geometry :width "95%" :height "10" :anchor "top center")
   :stacking "bg"
   :exclusive true
   (box
@@ -10,10 +10,11 @@
       (label :text "" :class "icon" :class "icon hyprlogo")
       (label :text "|${activeworkspace}" :class "workspace")
     )
-    (box :space-evenly false :halign "end" :spacing 20 :class "boxright"
+    (box :space-evenly false :halign "end" :spacing 10 :class "boxright"
       (label :text cava :class "cava")
-      (box 
-       (label :text time )
+      (label :text time )
+      (button :class "${blue_light_filter_on == 'true' ? 'hyprsunset_button_active' : 'hyprsunset_button'}" :onclick "nu ~/.config/eww/scripts/hyprsunset.nu set"
+       (label :text "" :class "icon")
       )
       (box :spacing 20
       (label 
@@ -39,7 +40,7 @@
         }"
       )
       )
-      (systray :spacing 20)
+      (systray :spacing 10)
     )
   )
 )
@@ -50,3 +51,4 @@
 (defpoll battery :interval "1s" `cat /sys/class/power_supply/BAT1/capacity`)
 (defpoll charging :interval "1s" `cat /sys/class/power_supply/BAT1/status`)
 (deflisten cava `nu ~/.config/eww/scripts/cava.nu`)
+(defvar blue_light_filter_on false)

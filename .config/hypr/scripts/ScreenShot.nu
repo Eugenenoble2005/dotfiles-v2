@@ -5,6 +5,7 @@ let file = $"Screenshot_$($time)_$(random chars)"
 
 def shotnow [] {
   cd $dir ; grim - | save --raw $file
+  notify-send $"ScreenShot saved to ($file)";
 }
 
 def shotarea [] {
@@ -12,6 +13,7 @@ def shotarea [] {
   let tmpfile = (mktemp);
   slurp | grim -g $in | save --raw --append $tmpfile;
   mv $tmpfile $file;
+  notify-send $"ScreenShot saved to ($file)";
 }
 def main [...args] {
   match $args.0 {
