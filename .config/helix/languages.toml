@@ -1,7 +1,7 @@
 
 [language-server]
 yuckls = {command="yuckls"}
-ols = {command = "/home/noble/.local/share/nvim/mason/bin/ols"}
+ols = {command = "/home/noble/Documents/ols/ols"}
 avalonials = {command="avalonia-ls"}
 csharp_ls= {command="/home/noble/.local/share/nvim/mason/bin/csharp-ls"}
 omnisharp={"command"="omnisharp" , timeout=200000}

@@ -1,0 +1,19 @@
+(defwindow artistlyrics_laptop
+  :monitor 0
+  :geometry (geometry :anchor "center left")
+  :stacking "bg"
+  (artistlyrics)
+)
+(defwindow artistlyrics_extern
+  :monitor 1
+  :geometry (geometry :anchor "center left")
+  :stacking "bg"
+  (artistlyrics)
+)
+
+(defwidget artistlyrics[]
+  (box 
+     (label :text lyric :wrap true :width 600)
+  )
+)
+(defpoll lyric :interval "10m" :initial "Loading..." "ruby ~/Documents/artist-lyrics-v2/main.rb --artist \"Kendrick Lamar\"")

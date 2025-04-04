@@ -1,1 +1,7 @@
-/usr/share/themes/Layan-Dark/gtk-4.0/gtk.css
+@import "colors-gtk.css";
+
+* {
+	font-family: Iosevka;
+	font-weight: bold;
+	font-style: italic;
+}

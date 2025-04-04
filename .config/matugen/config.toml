@@ -40,3 +40,8 @@ output_path="~/.config/gtk-4.0/colors-gtk.css"
 [templates.mako]
 input_path="./templates/colors-mako"
 output_path="~/.config/mako/config"
+
+
+[templates.helix]
+input_path="./templates/colors-helix.toml"
+output_path="~/.config/helix/themes/colors-helix.toml"

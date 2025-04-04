@@ -1,9 +1,21 @@
-(defwindow topbar
+(defwindow topbar_laptop
   :monitor 0
-  :geometry (geometry :width "95%" :height "10" :anchor "top center")
+  :geometry (geometry :width "98%" :height "10" :anchor "top center")
   :stacking "bg"
   :exclusive true
-  (box
+  (topbar)
+)
+(defwindow topbar_extern
+  :monitor 1
+  :geometry (geometry :width "98%" :height "10" :anchor "top center")
+  :stacking "bg"
+  :exclusive true
+  (topbar)
+)
+
+
+(defwidget topbar[]  
+(box
     (box :class "boxleft" :space-evenly false :spacing 20
       (label :text "󰣇" :class "icon" )
       (label :text "${activetitle} " :truncate true :limit-width 20 :class { activetitle == "󰋜" ? "icon" : "normal"})
@@ -44,8 +56,8 @@
     )
   )
 )
-(defvar activetitle "")
-(defvar activeworkspace "1")
+(deflisten activetitle "nu ~/.config/eww/scripts/hyprland.nu title")
+(deflisten activeworkspace "nu ~/.config/eww/scripts/hyprland.nu workspace")
 (defpoll time :interval "1s" `date +%H:%M:%S`)
 
 (defpoll battery :interval "1s" `cat /sys/class/power_supply/BAT1/capacity`)

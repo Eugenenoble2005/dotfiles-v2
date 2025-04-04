@@ -1,6 +1,7 @@
 @import "colors-gtk.css";
 
 * {
-	font-family: Cascadia Code;
+	font-family: Iosevka;
+	font-weight: bold;
 	font-style: italic;
 }

@@ -30,3 +30,4 @@ def main [ ...args ] {
     "dec" => {change_brightness "decrease" $args.1}
   }
 }
+

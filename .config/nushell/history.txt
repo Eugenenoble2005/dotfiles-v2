@@ -3747,3 +3747,1155 @@ timeit make
 help timeit
 timeit { make }
 z .dotfiles/
+git add .
+git commit -m "fix some stuff"
+git push
+z eww
+ls
+z eww
+z scripts/
+ls
+playerctl status
+playerctl 
+playerctl metadata 
+yay cursor-theme
+playerctl metadata spotify xesam:title
+playerctl metadata xesam:title
+playerctl metadata
+pacman -Qnq
+pacman -Qmq
+pacman -Qnq | grep -v 
+pacman -Qmq 
+pacman -Qmq | grep -v (pacman -Qnq)
+ls /usr/share/icons/
+ls /usr/share/icons/ | grep g
+help filter
+help search
+ls /usr/share/icons/ | grep night
+ls /usr/share/icons/ 
+ls /usr/share/icons/ | grep -i night
+z hypr
+config 
+hypr
+z hyprpaper
+hx
+ls
+ls build/
+bsh
+bash
+ls
+cmake
+cmake -D
+cmake --help
+cmake --help-commands
+cmake --help-commands-list
+cmake --help
+cmake --help | grep compileco
+cmake --help | grep compile_com
+cmake --help | grep compole
+cmake --help | grep compile
+cmake --help | less
+cmake --help-command-list
+cmake --help-command-list | explore
+cmake --help-command-list | lines
+cmake --help-command-list | lines | explore
+cmake --help-command-list | less
+cmake --help-command-list | lines | explore
+cmake --help
+cmake --help-module-list
+cmake --help-module-list | lines | explore
+man cmake
+man 5 cmake
+ls
+z build/
+ls
+z CMakeFiles/
+ls
+z ..
+ls
+z ..
+hx
+z doc
+z swaybg/
+ls
+cloc .
+ls
+git reset --hard
+cloc .
+hx
+z ..
+z swww/
+uptime
+hx
+eww reload
+Hyprland
+exit
+rofi
+eww
+eww open topbar
+killall river
+river
+makoctl reload
+z hypr
+ls
+yain helix-git
+timeit { yain helix-git }
+pkgs | grep linux
+pkgs | grep systray
+eww inspector
+pkgs | grep linux
+y
+yare linux-zen-headers
+df -h
+z swaybg/
+z swaybg
+df =h
+df -h
+ls
+ls | explore
+z dow
+ls
+mkdir ~/Videos/Super Crooks
+ls
+ls ~/Videos/ | sort-by modified | last
+rm -rf ~/Videos/Super
+mkdir "~/Videos/Super Crooks"
+ls ~/Videos/ | sort-by modified | last
+ls
+ls | sort-by modified | last
+z ~
+z dow
+z ~/
+ls
+z dow
+ls
+mkdir ~/Videos/"Super Crooks"
+ls ~/Videos/ | sort-by modified | last
+unzip drive-download-20250331T070307Z-001.zip `~/Videos/"Super Crooks"/` ; unzip drive-download-20250331T070307Z-002.zip `~/Videos/"Super Crooks"/` 
+unzip
+vi
+yay vi
+vi
+z $env.wap
+ls
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z matugen/
+gx
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z swengine
+z swengine/
+z doc
+ls
+z sway/
+hs
+eww reload
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+eww reload
+z eww
+eww reload
+z /usr/share/pacman/
+ls
+z keyrings/
+ls
+z /usr/bin/pacman
+pacman
+pacman -h
+apt
+lspci
+lspci | grep Network
+ping google.com
+z hyprland
+ping google.com
+hx
+ls
+odin run .
+z doc
+z hyprland/
+ping google.com
+z hyprsunset
+z proj
+ls
+z odin-hyprland-ctmcontrol/
+pkgs | grep hyprcursor
+z proj
+ls
+rm hyprpaper/
+rm hyprpaper/ -rg
+rm hyprpaper/ -rf
+git clone https://www.github.com/hyprwm/hyprcursor.git
+z hyprcursor/
+cloc .
+hyprcursor
+yay iwctl
+ping google.com
+z doc
+brave --gtk-version=4
+pkgs | grep node
+pacre node-js
+yeet nodejs
+yay nvim
+yay nvm
+nvm -help
+man nvim
+man nvm
+nvm
+z proj
+git clone https://github.com/satial-interfaces/CalendarControl
+z CalendarControl/
+ls
+hx
+ls
+z SampleApp/
+ls
+dotnet run
+hx SampleApp.csproj
+dotnet run
+z ..
+;s
+ls
+hx
+z SampleApp/
+reboot
+z eww
+eww reload
+z proj
+ls
+z odin-hyprland-ctmcontrol/
+brave --gtk-version=4
+z proj
+ls
+z CalendarControl/
+ls
+dotnet run
+z SampleApp/
+dotnet run
+z hypr
+z proj
+ls
+rm * -rf
+ls
+mkdir CalendarView
+z CalendarView/
+ls
+dotnet new classlib -o AvaloniaCalendarView
+ls
+z AvaloniaCalendarView/
+ls
+hx Class1.cs
+z ..
+ls
+pwsh
+z prok
+z proj
+ls
+z CalendarView/
+ls
+dotnet new list
+dotnet new install Avalonia.Templates
+ping google.com
+for true
+loop
+help loop
+ping google.com
+loop { ping google.com }
+z CalendarView/
+z ..
+ls
+dotnet new install Avalonia.Templates
+ls
+dotnet new avalonia.mvvm -o TestApplication
+helix
+ls
+dotnet new gitignore
+ls
+hx
+ls
+z AvaloniaCalendarView/
+dotnet new gitignore
+z ..
+sl
+z TestApplication/
+ls
+dotnet new gitignore
+hx
+z ..
+hx
+ls
+hx .gitignore
+rm AvaloniaCalendarView/.gitignore
+rm TestApplication/.gitignore
+hx
+z ..
+git clone https://github.com/mattlewis92/angular-calendar
+z angular-calendar/
+cloc .
+ls
+hx
+z ..
+sl
+ls
+rm -rf angular-calendar
+ls
+z CalendarView/
+ls
+z CalendarView/
+z .
+z ..
+ls
+z TestApplication/
+z eww
+ls
+z testapplication
+ls
+yazi
+z ..
+z AvaloniaCalendarView/
+ls
+rm Class1.cs
+ls
+touch CalendarView.cs
+ls
+mkdir Monthview
+kitten themes
+ls
+touch Monthview/CalendarMonthView.cs
+dotnet add package avalonia
+kitten themes
+z AvaloniaCalendarView/
+z AvaloniaCalendarView
+z ..
+dotnet run ../TestApplication/TestApplication.csproj
+dotnet run
+dotnet run --project
+z ..
+z TestApplication/
+dotnet run 
+avalonia-solution-parser .
+dotnet run 
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+ls
+touch ../AvaloniaCalendarView/Monthview/CalendarMonthView.axaml
+rm ../AvaloniaCalendarView/Monthview/CalendarMonthView.axaml
+dotnet run 
+tinyupnp ~/Videos/
+z eww
+hx
+hyprctl enable
+hyprpm enable hyprbars
+hyprpm update
+hyprpm disable hyprbars
+z kitty
+ls
+z doc
+ls
+z yuckls/
+z /usr/share/helix
+z /usr/lib/helix/
+ls
+z runtime/
+ls
+z themes/
+ls
+cp yellowed.toml ~/.config/helix
+z helix
+ls
+help ls
+ls -a
+commands
+help commands | explore
+hx yellowed.toml
+ls
+mv yellowed.toml colors-helix.toml
+ls
+mkdir themes
+ls
+mv colors-helix.toml themes
+ls
+z helix
+hx
+z sway/
+z doc
+z sway/
+hx
+ls
+cp themes/colors-helix.toml ~/.dotfiles/.config/matugen/templates/
+z matugen
+z $env.wap
+bash
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+hx
+z helix
+ls
+z hyprland
+z hypr
+hx
+z helix
+ls
+z calendar
+hx
+z helix
+hx
+z matugen
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+hx
+z doc
+z Odin/
+hx
+nvim
+z helix
+hx
+z matugen
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+hx
+z avalonia
+z .dotfiles/
+ls
+z doc
+ls
+z yuckls/
+ls
+z Pictures/
+ls
+z wallpapers/
+ls
+z $env.wap
+ls
+z doc
+z AvaloniaLSP/
+fastfetch
+nitch
+kitten themes
+z kitty
+z matugen
+hs
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z $env.wap
+z Pictures/
+z wallpapers/
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+eww reload
+fastfetch
+z kitty
+ls
+ghostty +show-colors
+ghostty +colors
+ghostty +help
+ghostty +list-colors
+ghosty +themes
+ghosty +help
+ghostty +help
+nitch
+fastfetch
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+fastfetch
+nitch 
+htop
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+ls
+fastfetch
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+htop
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+fastfetch
+neofetch
+hrop
+fastfetch
+owofetch
+pfetch
+yay
+pacupg
+yay pfetch
+pfetch
+fastfetch
+btop
+htop
+gotop
+z proj
+ls
+git clone https://github.com/eugenenoble2005/odin-c-bindgen
+z odin-c-bindgen/
+hx
+git pull
+z ..
+ls
+rm -rf odin-c-bindgen/
+remove
+ls
+z $env.wap
+ls
+z proj
+ls
+git clone https://github.com/eugenenoble2005/odin-c-bindgen
+z odin-c-bindgen/
+ls
+z doc
+z wlroots/
+ls
+fastfetch
+nitchl
+nitch
+killall Discord
+z .dotfiles/
+z .config/
+ls
+rm -rf gtk-4.0/*
+cp gtk-3.0/* gtk-4.0/ -r
+killall nushell/
+killall nautilus
+z odin-c-bindgen/
+z doc
+z proj
+ls
+z odin-c-bindgen/
+ls
+cloc .
+z runtime
+z themes/
+hx
+z doc
+z ols/
+git pull
+gco main
+gco master
+git pull
+hx
+cloc .
+hx
+ls
+hx
+ls
+z src/
+ls
+z server/
+ls
+nvim
+ols
+z ols
+z old
+z ols
+micro
+hx
+yay micro
+z ols
+ls
+git pull
+hx
+ls
+bash ci.sh
+timeit { ./ci.sh }
+ls
+hx
+z helix
+hx
+z proj
+ls
+z odin-c-bindgen/
+hx
+hx main.odin
+z eww
+z proj
+hx
+z CalendarView/
+z ..
+z TestApplication/
+dotnet run 
+yay cursor-theme
+ls /usr/share/icons/ | grep -i ligmo
+ls /usr/share/icons/ 
+ls /usr/share/icons/ | grep -i lingmo
+z helix
+z hypr
+dotnet run 
+z calendar
+dotnet run 
+z calendar
+z TestApplication/
+dotnet run 
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+dotnet build
+dotnet run
+z calendar
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+dotnet run
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+dotnet build
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+dotnet run
+z ava
+dotnet run
+z calendar
+z testapplication
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+hyprctl clients
+z hypr
+hyprctl clients
+dotnet run
+z ..
+ls
+git init
+ls
+git remote add origin https://github.com/Eugenenoble2005/AvaloniaCalendarView.git
+git branch -M main
+git push -u origin main
+git push
+git push --set-upstream origin main
+git add .
+git commit -m "initial commit"
+git push
+git push --set-upstream origin main
+cloc .
+dotnet run
+z TestApplication/
+dotnet run
+z TestApplication/
+z TestApplication
+dotnet run
+help commands
+help commands | explore
+network
+http
+dotnet run
+htop
+man kitty
+man 5 kitty
+man 1 kitty
+man 2 kitty
+man 3 kitty
+man 4 kitty
+kitty --single-instance
+kitty --single-instance
+dotnet run
+z doc
+z Avalonia/
+hx
+z hyprland
+z river
+z doc
+z river/
+ls
+cloc .
+hx
+z ..
+ls
+z odin-wayland/
+ls
+hx
+z ..
+ls
+pwsh
+whereis exit
+z kitty
+z calendar
+zellij
+xterm
+term
+z calendar
+z doc
+z PowerShell/
+ls
+lsx
+ls -a  | explore
+lsx
+help commands
+config nu
+lsx
+ls
+lsx
+ls
+pkgs | grep fira
+cloc .
+fc-list
+fc-list | less
+fc-list | fzf
+fc-list | lines 
+fc-list | lines | xplore
+fc-list | lines | explore
+fc-list | grep fira |  lines | explore
+fc-list | grep fira | lines | explore
+fc-list | grep fira
+pkgs | grep fira
+pkgs | grep -i fira
+fc-list | grep -i fira
+fc-list | grep -i cascadia
+fc-list | grep -i fira | lines | explore
+z kitty
+fastfetch
+z kitty
+fc-list | grep -i iosevka | lines | explore
+z kitty
+ls
+ping google.com
+ls
+open
+z doc
+z artist-lyrics-v2/
+ls
+open cache.txt
+open cache.txt | line
+open cache.txt | lines
+random
+random int 10..20
+ls
+open cache.txt 
+ls
+z cale
+z testapplication
+z artist-lyrics-v2/
+z artist-lyrics-v2
+ls
+ruby main.rb --artist "Kendrick Lamar"
+hx main.rb
+ls
+dotnet run
+z gtk
+hx gtk.css
+z gtk
+hx gtk.css
+ls
+hx gtk.css
+z .dotfiles/
+ls
+z .config
+ls
+z .config
+z gtk-4.0
+ls
+z config
+z gtk-4.0/
+ls
+hx gtk.css
+killall nautilus
+rm -rf ~/.config/gtk-4.0/*
+cp ~/.config/gtk-3.0/* .config/gtk-4.0/ -r
+killall nautilus
+z gtk-4.0/
+z gtk-4.0
+z .dotfiles/
+ls
+z .config/
+ls
+z eww
+ls
+z windows/
+ls
+rm dashboard.yuck 
+ls
+hx bar.yuck
+rm bar.yuck
+ls
+hx topbar.yuck
+ls
+touch artist-lyrics.yuck
+z ..
+z ../
+ls
+eww open artist-lyrics
+eww open artistlyrics
+ls ~/.config/eww
+eww logs
+eww reload
+killall eww
+eww open topbar
+eww reload
+eww open artistlyrics
+eww reload
+killall eww
+eww open artistlyrics
+eww close artistlyrics
+eww open artistlyrics
+eww reload
+killall eww
+eww open artistlyrics
+eww reload
+eww logs
+kilalll nu
+kilall nushell
+killall nushell/
+killall nushell
+killall nu
+H
+eww open artistlyrics
+z eww
+eww close artistlyrics
+z ew
+z eww
+hs
+hx
+z gtk
+ls
+z kitty
+ls
+Hyprland
+exit
+htop
+z gtk
+z kitty
+swww restore
+z kitty
+Hyprland
+z gtk
+z gtk-4
+swww restore
+eww open artistlyrics
+z eww
+eww logs
+z eww
+ls
+touch .gitignore
+ls
+hx .gitignore
+open cache.txt 
+open cache.txt  | linex
+open cache.txt | linex
+open cache.txt | lines
+open cache.txt | lines | length 
+open cache.txt | lines | length | get 0
+open cache.txt | lines | length | get 12
+open cache.txt | lines | length | 15
+open cache.txt | lines | get | 15
+open cache.txt | lines | get 15
+open cache.txt | lines | length 
+open cache.txt | lines | length | open cache.txt
+(open cache.txt | lines | length ) | open cache.txt
+(open cache.txt | lines | length ) | open cache.txt | lines | get $in
+open cache.txt | lines | get 10)
+open cache.txt | lines | get 10
+open cache.txt | lines | get random 0..(10)
+open cache.txt | lines | get random 0 .. (10)
+open cache.txt | lines | get (random 0 .. (10 ))
+open cache.txt | lines | get random 0 .. 10
+random
+open cache.txt | lines | get (random 0 .. 10)
+random
+open cache.txt | lines | get (random int 0 .. 10)
+open cache.txt | lines | get (random int 0..10)
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length))
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length-1))
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length - 1))
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length))
+let lines = (open cache.txt | lines);
+let lines = (open cache.txt | lines); | $lines | get (random int 0..($lines | length))
+let lines = (open cache.txt | lines); | $lines | get (random int 0..($lines | length) -1)
+let lines = (open cache.txt | lines); | $lines | get (random int 0..($lines | length) - 1)
+let lines = (open cache.txt | lines); | $lines | get (random int 0..(($lines | length) - 1))
+z nu
+z kitty
+z gtk-4
+z kitty
+z gtk
+Hyprland
+z gtk
+ls
+hx
+z gtk-4
+eww open artistlyrics
+z eww
+z gtk-4
+fc-list | grep -i iosevka | lines | explore
+hx gtk.css
+z gtk
+Hyprland
+swww restore
+z eww
+z hypr
+z gtk
+ls
+hx gtk.css
+z gtk-4
+swww restore
+z gtk
+hx gtk.css
+z gtk
+Hyprland
+z gtk
+hx
+z gtk
+z matugen
+makoctl reload
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+makoctl reload
+z eww
+z hypr
+hyprctl monitors
+z eww
+Hyprland
+noble
+hyprctl monitors
+z hypr
+Hyprland
+z hypr
+hx
+swww restore
+Hyprland
+swww restore
+z hypr
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | swww image $in
+ls | where type == file | sort-by  modified | last | get name | swww $in
+ls | where type == file | sort-by  modified | last | get name | swww img $in
+Hyprland
+swww restore
+z hypr
+z .cache/
+ls
+z swww
+ls
+cp eDP-1 HDMI-A-1
+z eww
+eww open topbar_laptop
+z hypr
+nu echo "gdd"
+echo
+eww open artistlyrics_laptop
+z hypr
+Hyprland
+z hypr
+z hyprland
+hx
+z hyprland
+jx
+z hyprland
+z hypr
+eww reload
+hx
+z eww
+z hyor
+z hypr
+Hyprland
+hyprctl
+hyprctl monitors
+z hypr
+z hyprland
+z hypr
+Hyprland
+z eww
+hx
+Hyprland
+z eww
+swww restore
+z hypr
+ls
+z eww
+z scripts/
+ls
+nu hyprland.nu 
+nu hyprland.nu workspace
+n
+nu hyprland.nu workspace
+ls
+nu hyprland.nu workspace
+eww reload
+nu hyprland.nu title
+nu hyprland.nu workspace
+eww reload
+Hyprland
+swww restore
+z eww
+z helix
+z hypr
+ls
+ls | explore
+z calendar
+ls
+z TestApplication/
+ls
+z ..
+z testapplication
+ls
+dotnet run
+pkgs | grep -i iosevka
+pkgs 
+z eww
+z ew
+eww open artistlyrics_laptop
+z eww
+ls
+eww reload
+hx
+z eww
+eww reload
+ff
+fastfetch
+owofetch
+nitch
+http
+http get 
+http get  --help
+http get https://www.google.com
+html
+ls
+ls | to html
+ls | to md 
+ls | to toml 
+ls | to yaml 
+query
+query web
+http get https://www.rustlang.org
+curl https://www.google.com
+curl https://www.rustlang.org
+curl https://www.rust-lang.org
+http get https://www.rustlang.org
+plugin add nu_plugin_query
+cargo install --locked nu_plugin_query
+timeit { cargo install --locked nu_plugin_query  }
+plugin add nu_plugin_query
+plugin add ~/.cargo/bin/nu_plugin_query
+query
+> http get https://www.nushell.sh | query web --query 'h2, h2 + p' | each {str join} | chunks 2 | each {rotate --ccw tagline description} | flatten
+http get https://www.nushell.sh | query web --query 'h2, h2 + p' | each {str join} | chunks 2 | each {rotate --ccw tagline description} | flatten
+yay query
+yay nu_plugin_query
+yay nu_query
+query web --query
+query xml
+z artist-lyrics-v2
+ls
+cloc .
+ping google.com
+z hyor
+z hypr
+ls
+hyprctl monitors
+Hyprland
+z hypr
+hyprctl monitors
+z hypr
+swww restore
+z artist-lyrics-v2
+ls
+z ..
+ls
+z proj
+mkdir artist-lyrics-v3
+z artist-lyrics-v3/
+ls
+z artist-lyrics
+ls
+touch main.nu
+ls
+z artist-lyrics-v3
+ls
+nu main.nu --artist "Kendurck"
+nu main.nu --flags
+nu main.nu 
+nu main.nu --artist "Kendurck"
+nu main.nu --artist 
+nu main.nu --artist "gdg"
+nu main.nu --artist "gdg" gd
+open gdgd
+nu main.nu --artist "gdg" 
+nu main.nu --artist 
+nu main.nu 
+nu main.nu --artist 
+nu main.nu
+help commands
+open
+open | complete 
+open gdg 
+open gdg | complete
+z nushell
+z .config/nushell/
+ls
+hx history.txt
+ls
+ls themes
+open env.nu
+touch .gitignore
+ls
+hx .gitignore
+http get 
+http get "https://api.genius.com/search?q=drake"
+http get
+http get --help
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"]
+nu main.nu --artist  "Kendrick Lamar"
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"]
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get meta
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get response
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get response | get hits | get 0
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get response | get hits | get 0 | get result | get primary_artist | get id
+nu main.nu --artist  "Kendrick Lamar"
+nu main.nu --artist  "drake"
+nu main.nu --artist  "beyonce"
+nu main.nu --artist  "kendrick lamar"
+query xml
+query xml "fsf"
+> http get https://www.nushell.sh | query web --query 'h2, h2 + p' | each {str join} | chunks 2 | each {rotate --ccw tagline description} | flatten
+help flatten
+[1 2]
+[1,2]
+nu main.nu --artist  "kendrick lamar"
+help str join
+list
+dotnet run
+nu main.nu --artist  "kendrick lamar"
+help random
+nu main.nu --artist  "kendrick lamar"
+eww open artistlyrics_laptop
+nu main.nu --artist  "kendrick lamar"
+nu main.nu --artist  "Pink Floyd"
+help save
+ls
+open cache.txt
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+open cache.txt | lines
+ls
+rm cache.txt
+ls
+nu main.nu --artist  "Pink Floyd"
+open cache.txt | lines
+open cache.txt
+help save
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+rm cache.txt
+ls
+nu main.nu --artist  "Pink Floyd"
+ls
+open cache.txt
+ls
+rm cache.txt
+ls
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+open cache.txt | lines
+sl
+ls
+rm cache.txt
+ls
+git init
+ls
+git remote add origin https://github.com/Eugenenoble2005/artist-lyrics-v3.git
+git branch -M main
+git add .
+git commit -m "initial commit"
+git push --set-upstream origin main
+sl
+ls
+z .dotfiles/
+ls

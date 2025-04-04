@@ -20,17 +20,23 @@
 source ~/.zoxide.nu
 source ~/.oh-my-posh.nu
 
-$env.config.show_banner = false
+$env.config.show_banner = true
 $env.config.buffer_editor = "helix"
 alias hx = helix
 $env.PATH ++= ["~/.spicetify","~/.local/bin","~/.local/share/odin"]
 $env.wap = $"($env.HOME)/Pictures/wallpapers"
 $env.POSH_THEME = (echo "/home/noble/.cache/oh-my-posh/themes/powerline.omp.json")
+
 alias ls = ls -a
 alias xplore = explore 
-alias yare = yay -R
-alias yain  = yay -S 
+alias yeet = yay -R
+alias yain = yay -S 
 alias gco = git checkout
 alias pkgs = pacman -Q
 alias pacupg = sudo pacman -Syu
-alias pacre = sudo pacman -Rcs
+
+def lsx [] {
+  ls -a | explore
+}
+
+let lines = (open ~/.config/eww/cache.txt | lines); | $lines | get (random int 0..(($lines | length) - 1))
