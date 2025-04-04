@@ -1,3 +1,4915 @@
-git rm -rf history.txt
+mv ~/.config/nushell .
 ls
-z .dot
+z nushell/
+ls
+hx config.nu
+z .
+z ..
+ls
+z ..
+ls
+stow .
+stow --adopt .
+git add .
+git commit -m "fix nushell"
+git push
+z nushell/
+ls
+z doc
+z
+z arch-hyprland/
+ls
+ni
+z cache.txt
+z arch-hyprland/
+z nushell/
+z eww
+ls
+open cache.txt
+open cache.txt | line
+help random
+random int 10..20
+nmtui
+z eww
+open cache.txt | line
+z doc
+ls
+z nu
+ls
+z fsf
+z swengine
+help open
+z
+ls
+kilall hyprsunset
+killall hyprsunset
+hello
+z proj
+ls
+mkdir nutut
+z nutut/
+ls
+z nutut/
+ls
+z proj
+ls
+z nutut/
+z ...
+z go/
+z go
+z nutut
+ls
+./main.nu
+nu main.nu
+ls
+nu main.nu
+ls $env.wap
+config nu
+ls $env.wap
+nu main.nu
+z avalonia
+z kitty
+z avalonia
+ls
+z testapplication
+dotnet run
+z avalonia
+odin
+dotnet
+odin
+dotnet
+dotnet run
+dotnet run > ar_test
+ls
+help write
+help save 
+dotnet run | save ar_test.txt
+ls
+rm ar_test.txt
+dotnet run
+z /usr/share/fonts
+ls
+z gsfonts/
+ls
+yay gsfonts
+pacre gsfonts
+ls *roman
+ls *Roman
+ls
+ls | describe
+ls | explain
+ls fonts
+ls
+mutool
+yay acrobat
+ping google.com
+dotnet run
+helix
+z 
+z $env.wap
+ls
+z config
+z helix
+ls
+z avalonia
+helix
+z kitty
+hx kitty.conf
+z kitty
+z avalonia
+z avaloniapdfr
+ls
+ls -l
+z avaloniapdfr
+ls
+dotnet run
+z doc
+ls
+ls | explain
+ls | describe
+ls | explore
+ls | xplore
+config nu
+ls | xplore
+ls
+z $wap
+z $env.wap
+z doc
+git clone https://github.com/mozilla/pdf.js --depth 1
+z pdf.js/
+cloc .
+hx
+ls
+ls | xplore
+ls --raw
+z src/
+ls
+z display/
+ls
+hx
+z ..
+ls
+z avalonia
+dotnet run
+z avalonia
+killall hyprsunset
+top
+dotnet run
+yay
+yay gsfonts
+yay ghostscript
+config nu
+yare ghostscript
+ls
+z dow
+ls
+gs PDFspecs.pdf
+gs mee514-assignment.pdf
+gs -h
+gs -h | xplore
+gs -h | fzf
+ls *pdf
+ls *arabic
+ls *Arabic
+ls _Arabic
+ls *pdf
+ls *MEE
+ls *Arabic
+ls *Arabic*
+ls *arabic*
+ls
+ls *.pdf
+ls *Arabic*
+ls *Arabic
+ls *Arabic*
+gs Beginners_Guide_To_Arabic.pdf
+ls *Arabic* | where type == "file"
+ls *Arabic* | where type == "file" | first | gs $in
+ls *Arabic* | where type == "file" | first 
+ls *Arabic* | where type == "file" | first | get name | gs $in
+dotnet run
+pkgs
+ls
+ls | xplore
+z z eww
+z eww
+ls
+z scripts/
+ls
+./cava.sh
+eww reload
+killall eww
+eww open dashboard
+z .cache
+z oh-my-posh/
+ls
+z themes/
+ls
+z themes/
+z testapplication
+ls
+ls | xplore
+ls
+ls *a*
+ls *a* | each { |val| print $val }
+print gdg
+ls *a* | each { |val| echo $val }
+ls *a* | each { |val| echo $val.name }
+z testapplication
+odin
+z odin
+dotnet run
+cls
+help
+help --find clear
+clear
+dotnet run
+cleat
+clear
+dotnet run
+true
+true | each |fact| {}
+true | each { |fact| }
+1..0
+1..1000000000000000
+1..1000000000000000 | each { ping google.com }
+ping google.com
+dotnet run
+tutor
+tutor begin
+tutor tables
+ls | select name
+ls | select name,modified
+ls | select name modified
+ls | select 1
+ls | select 1 | get name modified
+ls | select 1 | get name 
+tutor tables
+tutor cells
+Hyprland
+$env.DESKTOP_SESSION
+$env | explain
+$env | xplore
+$env | describe
+ps | describe
+exit 
+yay zathura
+yay zathura-mupdf
+yay zathura-pdf
+z doc
+git clone https://github.com/pwmt/zathura
+git clone https://github.com/pwmt/zathura --depth 1
+z zathura/
+cloc .
+git fetch --unshallow
+git log
+jx
+hx
+ls
+meson builddir
+z builddir/
+meson build
+meson
+ninja
+cp compile_commands.json ../
+z ..
+ls
+hx compile_commands.json
+open compile_commands.json
+open compile_commands.json 
+open compile_commands.json  | explore
+z zathura/
+z ..
+ls
+z doc
+git clone https://github.com/pwmt/zathura-pdf-mupdf
+z zathura-pdf-mupdf/
+hx
+clocl .
+cloc .
+hx
+ls
+meson builddir
+ls | get name
+ls
+z builddir/
+clear
+meson
+yay mupdf-third
+yay muddf
+yay mupdf
+ls
+meson
+yay third
+yay mupdf
+ls
+meson
+z ..
+ls
+yain mupdf-git
+ls
+z builddir/
+ls
+z ..
+ls
+z builddir/
+ls
+meson
+ninja
+meson
+z ..
+ls
+hx meson.build
+rm -rf builddir/
+meson builddir
+z builddir/
+ls
+ninja
+cp compile_commands.json ../
+z ..
+z doc
+ls
+ls *.pdf
+ls *pdf
+ls
+z dow
+ls *pdf
+ls *pdf | first | get name | zathura $in
+ls *pdf | 2 | get name | zathura $in
+ls *pdf | second | get name | zathura $in
+ls *pdf | count 2 | get name | zathura $in
+ls *pdf | select  2 | get name | zathura $in
+ls
+zathura `MEE 513 MATERIAL.pdf`
+zathura mee514-assignment.pdf
+zathura PDFspecs.pdf
+z avalonia
+ls
+git log
+ls
+git add .
+git commit -m "trying another approach"
+git push
+ls
+git log
+config bu
+config nu
+gco 23b513e64bb5ec0913873ddfed8a5c22c97552ff
+ls
+hx
+gco main
+z avalonia.log
+z avalonia
+helix
+killall eww
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+top
+ps
+journalctl
+journalctl --since "5 minutes ago" -p err
+z avalonia
+z $env.wap
+z $wap
+z zathura
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+ls
+dotnet add package Avalonia.Controls.PanAndZoom
+clear
+ls
+dotnet build
+avalonia-solution-parser .
+dotnet run
+git branch use-pixman
+git reset --hard
+z ..
+git reset --hard
+git branch
+gco use-pixman
+z zathura
+z edit
+z
+zoxide edit
+z zathura
+hex
+hx
+ls
+z avalonia
+z zathura
+helix
+git log
+gco 2754798c73cb520f8aab1c4e32cc1e8dfb086a02
+git stash
+git commit -m "trying another approach"
+gco 2754798c73cb520f8aab1c4e32cc1e8dfb086a02
+cloc .
+hx
+gco main
+gco develop
+ls
+hx
+git stash list
+git stash apply
+git stash apply stash@{0}
+git log
+z ..
+z hypr
+ls
+hx
+ls
+z avalonia
+helix
+yain caraspace-git
+yain caraspace-bin
+yay caraspace
+yay carapace
+hx
+z zathura
+z doc
+z dow
+zathura PDFspecs.pdf
+helix
+z ..
+z avalonia
+ls
+z AvaloniaPdfRenderer/
+ls
+z kitty
+hx kitty.conf
+z avalonia
+z AvaloniaPdfRenderer/
+ls
+z kitty
+hx kitty.conf
+kitten themes
+z helix
+hx
+z ..
+ls
+nitch
+z kitty
+ls
+z avalonia
+hx current-theme.conf
+z ..
+z avalonia
+helix
+z avalonia
+ls
+z ..
+z kitty
+ls
+hx kitty.conf
+hx wallust/kitty.conf
+z matugen
+ls
+z matugen
+helix
+ls
+z kitty
+ls
+helix
+kitten themes
+z avalonia
+dotnet run
+z doc
+z AvaloniaLSP/
+hx
+ls
+z AvaloniaVS/
+ls
+z AvaloniaVS.Shared/
+ls
+dotnet run
+z avalonia
+kilall hyprsunset
+killall hyprsunset
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z zathura
+z doc
+z zathura-pdf-mupdf/
+dotnet build
+dotnet run
+z avalonia
+dotnet run
+z doc
+zathura PDFspecs.pdf
+z dow
+zathura PDFspecs.pdf
+ls *.pdf
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+ls
+ls | explore
+ls
+zsh
+exit
+z avalonia
+z doc
+hx
+z avalonia
+helix
+z ..
+z kitty
+z avalonia
+yay htract
+httrack
+htrack
+yay httrack
+z avalonia
+dotnet run
+z dow
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+z dow
+ls | where modified > 1d
+ls | where modified > 365d
+ls | where modified > 365 d
+ls | where modified > "365d"
+ls | where modified
+ls
+ls | describe
+describe
+ls
+ls | where modified > 1d
+ls | where modified > date(2d)
+ls | where modified > (date 2d)
+ls | where modified > (date now)
+ls | where modified > (date now) - 2wk
+ls | where modified > (date now) - 2d
+ls | where modified > 2wk
+ls | where modified > 2day
+ls | where modified > 2dy
+ls | where modified > 2yr
+date now
+ls | where modified > (date now) - 2wk
+ls | where modified > (date now) - 1wk
+ls | where modified > (date now) - 9wk
+ls | where modified > (date now) - 0wk
+ls | where modified > (date now) - 1wk
+ls | where modified <  (date now) - 1wk
+ls | where modified <  1wk
+ls | where accessed
+ls | where modified > 120d
+ls | where modified >= (date now) - 2hr
+ls | where modified >= (date now) - 10hr
+ls | where modified >= (date now) - 30hr
+ls | where modified >= (date now) - 100hr
+ls | where modified >= (date now) - 90days
+ls | where modified >= (date now) - 90day
+ls | where modified >= (date now) - 1day
+ls | where modified > 1day
+z avaloniaa
+z avalonia
+ls
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z ..
+z AvaloniaPdfRenderer/
+ls
+rm Font.cs HtmlRenderLegacy.cs PdfCanvas.cs
+ls
+helix
+ls
+hx
+cloc .
+dotnet run
+z ..
+dotnet run
+z eww
+ls
+z scripts/
+ls
+hx workspaces.rb
+ls
+echo $env.HYPRLAND_INSTANCE_SIGNATURE
+socat
+socat -U - UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT:$env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT: $env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT:$env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock 
+^socat -U - UNIX-CONNECT:$env.XDG_RUNTIME_DIR/hypr/$env.HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock 
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock 
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | lines
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each |ev| { echo f}
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each { |ev | echo $ev }
+ls
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each { |ev| $ev | save --append "testfile.txt"  }
+ls
+hx testfile.txt
+ls
+rm -rf testfile.txt
+ls
+z eww
+ls
+z scripts/
+ls
+./workspaces.nu
+nu workspaces.nu
+help commands
+help commands | explore
+nu workspaces.nu
+dotnet run
+nu workspaces.nu
+help commands | explore
+echo hello | loop
+help loop
+loop true
+help loop
+loop { true { echo g}}
+help commands | explore
+help loop
+help block
+help loop
+loop {if true {break}; echo pant}
+z scripts/
+z eww
+z scripts/
+loop {if true {break}; }; echo "gdg"
+help loop
+loop {if true {break}; }; "gdg"
+loop {if 1>2 {break}; }; "gdg"
+z scripts/
+z eww
+z scripts/
+zoxide edit
+z scripts/
+z ew
+z scripts/
+loop { echo "gdg"; sleep 1sec}
+while(true) { echo "gdgdg" }
+z scripts/
+z ew
+z scripts/
+while(true) { $(ping google.com)  }
+while (true) { ping google.com }
+nu workspaces.nu
+z hypr
+z Scripts/
+ls
+z ..
+ls
+z ..
+z
+z hypr
+ls
+z config hypr
+ls
+hx workspaces.nu
+z dow
+ranger
+ls
+ls *.ppt
+ls | where modified >= (date now) - 1day
+ls *.pptx
+zathura `LESSON 1_Introduction to Material Selection-1.pptx`
+z eww
+ls
+z scripts/
+ls
+hx is-spotify.rb
+ls
+z scripts/
+z nu
+z eww
+z scripts/
+ls
+nu is-spotify.nu
+hx is-spotify.nu
+z ..
+ls
+hx
+z ..
+z 
+z ew
+z ..
+z eww
+yay zoxide
+yay zocide
+config nu
+z nushell
+ls
+zoxide init nushell | save -f ~/.zoxide.nu
+z
+hx .zoxide.nu
+open .zoxide.nu
+ls *zoxide.*
+z eww
+playerctl metadata
+playerctl metadata | split 
+playerctl metadata | split row
+playerctl metadata | split row " " 
+sudo pacman -Syu
+sudo pacman -Rcs haskell
+pkgs
+hx .zshrc
+config nu
+pkgs
+pkgs | grep haskell
+pkgs | list
+pkgs | lists
+pkgs | lines
+pkgs | lines | explore
+pkgs | lines | describe
+pkgs | lines 
+pkgs | lines | explore
+pkgs | lines | where 0 
+pkgs | lines | where 0 == "zsh 5.9-5"
+pkgs | lines | where 0 == zsh 5.9-5
+pkgs | lines | where 0 == "zsh 5.9-5"
+pkgs | lines | where 0 != "gd"
+pkgs | lines | where 0 == "gdg"
+pkgs | lines | where 0 == "zsh"
+pkgs | lines | where 0 == "*zsh*"
+pkgs | lines | where 0 == *zsh*
+pkgs | grep haskell | lines
+pkgs | grep haskell | lines 
+pkgs | grep haskell | lines | each { |pkg| let p = pkg | split row " " | first ; print p } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first ; print p } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first ; print $p } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first ; sudo pacman -Rcs ($p) } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+sudo pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+sudo pacman -Q | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -Rcs $in ;  } 
+pkgs | grep haskell | lines | each { |pkg| let p = $pkg | split row " " | first | sudo pacman -R $in ;  } 
+while ($pkgs | grep haskell | lines | length) > 0 {<\n>    let pkg = ($pkgs | grep haskell | lines | first)<\n>    let p = ($pkg | split row " " | first)<\n>    sudo pacman -Rcs $p<\n>}<\n>
+while (pkgs | grep haskell | lines | length) > 0 {<\n>    let pkg = (pkgs | grep haskell | lines | first)<\n>    let p = ($pkg | split row " " | first)<\n>    sudo pacman -Rcs $p<\n>}<\n>
+pkgs | grep haskell
+sudo pacman -Syu
+z doc
+z ..
+z doc
+z Avalonia/
+ls
+z src/
+ls
+z Avalonia.Controls/
+ls
+z DateTimePickers/
+ls
+hx DatePicker.cs
+z ..
+iwctl
+bash
+ls
+^ls
+ls
+whereis ls
+/usr/bin/ls
+hx
+z doc
+z Odin/
+z scripts/
+z scrip
+z scripts
+ls
+./is-spotify.nu
+chmod +x ./is-spotify.nu
+./is-spotify.nu
+nu is-spotify.nu
+l
+ls
+ls | where size > 1B
+ls | where size > 1b
+ls | where size > 10b
+ls | where size > 12mb
+ls | where size < 100mb
+z vide
+ls
+ls | where size < 100mb
+ls | where size >  100mb
+ls
+z `Black Mirror/`
+ls
+z S05/
+ls
+z avalonia
+z avalonia
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z avalonia
+ls
+ls | explore | get name
+z avalonia
+dotnet run
+cleat
+clear
+helix
+z kitty
+z avalonia
+uptime
+uptime | describe
+help commands
+yazi
+range
+ranger
+ping google.com
+nmcli
+nmtui
+yain yazi
+ls
+pwd
+pwd | explain
+z eww
+ls
+ls | explore | get name
+ls | where modified >= (date now) - 1day
+z vid
+pacre mpv
+sudo pacman -Rcs yazi
+sudo pacman -Rcs mpv
+z vid
+uptime
+useradd -h
+usermod -h
+useradd -h
+z hypr
+ls
+z config hypr
+ls
+hx
+ls
+z .dotfiles
+ls
+z .config/
+ls
+z doc
+helix
+z avalonia
+z kitty
+z avalonia
+dotnet run
+z avalonia
+dotnet run
+sudo pacman -Rcs mpv
+dotnet run
+z avalonia
+dotnet run
+z avalonia
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+ld
+dotnet run
+z /mnt/
+ls
+z wwn-0x50004cf20f13c4c6-part5/
+ls
+ks
+ls
+z Videos/
+ls
+ls | where type == file
+z dow
+ls
+ls | where type == file
+ls | where type == file | where name == *.mp4
+ls | where type == file | where name == *.zip
+ls | where type == file | where name == *.zip*
+ls *mp4
+ls
+ls | fzf
+ls
+ls | explore
+z .config/
+ls
+ls | where type != file
+ls | where type != file and type != dir
+ls | where type != file and type != dir | lines
+ls | where type != file and type != dir | line
+ls | where type != file and type != dir | lines
+ls | where type != file and type != dir | each { |$file| print $file } 
+l
+yay
+yay powershell
+z doc
+ls
+git clone https://github.com/PowerShell/PowerShell.git --depth 
+git clone https://github.com/PowerShell/PowerShell.git --depth 1
+yain powershell --editmenu
+z PowerShell/
+z power
+ls
+cloc .
+yain powershell-bin
+fastfetch
+z avalonia
+ls
+dotnet run
+ls
+git add .
+z ..
+s
+ls
+z AvaloniaPdfRenderer/
+ls
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+ls
+ls *.txt
+ls *.txt | each {|$f| rm $f }
+rm
+ls *.txt | each {|$f| rm $f }
+ls
+ls *.txt | each {|$f| rm $f }
+ls *.txt | get name |  each {|$f| rm $f }
+ls
+ls *txt
+ls
+z ..
+ls
+git add .
+git commit -m "lazy loading"
+git push
+git push --set-upstream origin use-pixman
+clear
+ls *txt
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z dow
+zathura `LESSON 1_Introduction to Material Selection-1.pptx`
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+z dow
+zathura `Transporation Systems (1).pptx`
+dotnet run
+ls
+ls *txt
+ls | descibe
+ls | describe
+z dow
+ls
+z dow
+ls
+ls *.doc
+ls *.docx
+xdg-open `MEE 598 Assignment 2024-2025 No 2.docx`
+z avalonia
+z avalonia
+avalonia-solution-parser .
+z avalonia
+dotnet run
+z doc
+z zathura-pdf-mupdf/
+ls
+z ..
+z AvaloniaPdfRenderer
+ls
+touch PdfCanvas.cs
+dotnet run
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z zathura
+z avalonia
+dotnet run
+z dow
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+z doc
+z MuPDF.NET/
+dotnet run
+z dow
+dotnet run
+pkgs | grep sway
+cloc ../
+cloc .
+dotnet run
+z config
+z avalonia
+ls
+dotnet run
+killall sway
+sway
+exit
+z zathura
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+clear
+dotnet run
+ls *arabic*
+ls *pdf
+zathura Beginners_Guide_To_Arabic.pdf
+zathura PDFspecs.pdf
+evince PDFspecs.pdf
+dotnet run
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z ..
+sl
+ls
+git add .
+git commit -m "link mapping"
+git push
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z doc
+ls
+z dow
+ls
+yazi
+ping google.com
+sudo pacman -Syu
+sudo pacman -Rcs cava
+sudo pacman -S cava
+sudo pacman -Syu
+clear
+ls
+dotnet run
+hx
+dotnet run
+xdg-open `MEE 598 Assignment 2024-2025 No 2.docx`
+z dow
+ls
+ls *pdf
+z ..
+ls
+git add .
+git commit -m "some progress into text mapping. Should probably merge into main now"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z videos
+z kitty
+ls
+z matugen
+ls
+hx \
+hx
+ping google.com
+z kitty
+z matugen
+hx
+hx kitty.conf
+z $env.wap
+ls | where type == file | sort_by modified | first
+ls | where type == file | sort modified | first
+help sort
+ls | where type == file | sort modified | first
+ls | where type == file | sort_by
+ls | where type == file | sort by modified
+ls | where type == file | sort modified
+help sort
+help commands
+help commands | explore
+z $env.wap
+ls | where type == file | sort-by  modified | first
+ls | where type == file | sort-by  modified | last
+ls | where type == file | sort-by  modified | last | get name
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z kitty
+ls
+cava
+yain cava
+pacre libcava
+sudo pacman -Rcs libcava
+sudo pacman -S cava
+cava
+killall eww
+eww logs
+z eww
+ls
+z scripts/
+ls
+./cava.sh
+ls
+z ..
+hx
+z ..
+z ...
+z eww
+z scripts/
+z ..
+cd ..
+ls
+ls | explore
+z hypr
+ls
+z hypr
+ls
+hx .initial_startup_done
+ls
+rm -rf Fonts/ foreground.png hypr hypridle.conf hyprlock.conf hyprlock.png nohup.out pyprland.toml v2.3.1 vivek.png
+ls
+z Scripts/
+ls
+z ..
+ls
+z ..
+ls
+z UserConfigs/
+ls
+z ..
+ls
+z Scripts/
+ls
+hx songdetail.sh
+ls
+z ..
+ls
+hx media_monitor_config.conf
+ls
+z scripts/
+ls
+hx AirplaneMode.sh
+z avalonia
+killall hyprsunset
+helix
+z matugen
+ls
+hx
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z kitty
+z swengine
+z matugen
+ls
+hx
+ls
+hx
+z matugen
+z kitty
+l
+z helix
+z avalonia
+ls
+z AvaloniaPdfRenderer.TestApplication/
+z dow
+evince PDFspecs.pdf
+ls *.pdf
+evince Beginners_Guide_To_Arabic.pdf
+dotnet run
+z doc
+z Avalonia/
+evince Beginners_Guide_To_Arabic.pdf
+ping google.com
+z ..
+z AvaloniaPdfRenderer/
+ls
+hx Extensions.cs
+touch Extensions.cs
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+yain powershell-bin
+psh
+posh
+powershell
+pwsh
+dotnet run
+zathura Beginners_Guide_To_Arabic.pdf
+dotnet run
+z doc
+z Avalonia/
+zathura Beginners_Guide_To_Arabic.pdf
+dotnet run
+killall hyprsunset
+dotnet run
+clear
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+z ..
+ls
+git add .
+git commit -m "some progress into text selection"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+cloc .
+cloc ../
+dotnet run
+z doc
+z holyc-lang/
+cloc .
+z ..
+ls
+z langserver/
+cloc .
+z ..
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+zathura Beginners_Guide_To_Arabic.pdf
+dotnet run
+cleat
+clear
+dotnet run
+dotnet build
+ping google.com
+z doc
+z yuckls/
+dotnet run
+d
+dotnet run
+z vid
+ls
+ls | where type == file
+z `invicibke 3/`
+ls
+mv Anora.2024.720p.WEBDL.Hindi.English.ESubs.MoviesMod.cash.mkv ../
+ls
+z ..
+s
+ls
+ls | where type == file
+dotnet run
+clear
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+z ..
+ls
+git add .
+git commit -m "rewriting selection lmao"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+dd
+dotnet run
+clear
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+z testapplication
+dotnet run
+ping google.com
+dotnet run
+z doc
+ls
+dotnet run
+z ..
+ls
+git add .
+git commit -m "ok"
+git push
+z doc
+z Avalonia/
+z avaloniapd
+dotnet run
+z testapplication
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+z testapplication
+dotnet run
+z ..
+ls
+git add .
+git commit -m "some more progress into the new text selection approach"
+git push
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+ping google.com
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+z zathura
+dotnet run
+z ..
+ls
+git add .
+git commit -m "fleshed out text selection algoritihm. Might rewrite"
+git push
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z testapplication
+dotnet run
+zathura mee514-assignment.pdf
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+z ..
+sl
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z ..
+git add .
+git commit -m "ss"
+git push
+cloc .
+dotnet run
+clear
+zathura PDFspecs.pdf
+dotnet run
+clear
+ping google.com
+nmcli
+ping google.com
+dotnet run
+clear
+dotnet run
+z testapplication
+ls
+dotnet run
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+d
+z avalonia
+z ..
+dotnet run
+ping google.com
+z dow
+ls
+evince PDFspecs.pdf
+evince `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+clear
+dotnet run
+zathura PDFspecs.pdf
+dotnet run
+clear
+dotnet run
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+clear
+zathura Beginners_Guide_To_Arabic.pdf
+mupdf
+mupdf Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+dotnet run
+zathura Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
+zathura `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf`
+dotnet run
+z zathura
+z doc
+z zathura-pdf-mupdf/
+zathura PDFspecs.pdf
+z doc
+z MuPDF.NET/
+z avalonia
+dotnet run
+z avalonia
+ls
+z doc
+ls
+z dow
+ls
+dotnet run
+d
+dotnet run
+zathura invoicesample.pdf
+dotnet run
+z ..
+ls
+git add .
+git commit -m "wtf"
+git push
+dotnet run
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+clear
+dotnet run
+yain thunar
+dotnet run
+clear
+dotnet run
+clear
+killall eww
+swww
+swww restore
+uptime
+Hyprland
+H
+swww restore
+z $wap
+z wall
+ls | where type == file | sort-by  modified | first
+ls | where type == file | sort-by  modified | last
+ls | where type == file | sort-by  modified 
+ls | where type == file | sort-by  modified | explire
+reboot
+swww restore
+killall eww
+z .config/
+ls
+rm -rf pavucontrol.ini
+ls
+pulseaudio --start
+systemctl --user start pulseaudio
+systemctl --user start pulseaudiogg
+systemctl --user start pulseaudio
+sudo systemctl --user start pulseaudio
+sudo pacman  -Rcs pulseaudio
+reboot
+waybar
+killall eww
+rofi
+rm -rf .cache/swww/
+cava
+pkgs | grep pulse
+pkgs | grep piperwire
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+sudo pacman -Rcs pulseaudio
+pkgs 
+pkgs | grep pulseaudio
+z hypr
+sudo pacman -Rcs pulseaudio-alsa
+sudo pacman -S pipewire
+sudo pacman -S pipewire-pulse
+reboot
+htop
+ping google.com
+systemctl --user start pipewire
+sudo pacman -S pamixer
+z hypr
+ls
+yain pipewire-pulse
+z config hypr
+reboot
+killall eww
+z .dotfiles
+ls
+z .config/
+ls
+ls | explore
+ls
+rm -rf Thunar/ ags/ alacritty/ cava/ fastfetch/ ghostty/ nvim-backup/ nwg-look/ pulse/ wallust/ waybar/ wlogout/ xfce4/ xsettingsd/ 
+ls
+z dconf/
+ls
+hx user
+z ..
+sl
+ls
+rm -rf dconf/
+ls
+z swappy/
+ls
+hx config
+z ..
+sl
+ls
+z ..
+ls
+rm -rf .p10k.zsh
+ls
+z .zshrc
+rm -rf .zshrc
+ls
+z .local/
+ls
+z share/
+ls
+z ..
+ls
+git add .
+git commit -m "shed stuff"
+git push
+z arch-hyprland/
+killall eww
+sudo pacman -Syyu
+sudo pacman -Syu
+z 
+rm -rf .zen/
+z avalonia
+z testapplication
+dotnet run
+clear
+z dow
+dotnet run
+z .config/
+ls
+z nwg-look
+ls
+rm -rf nwg-look nvim-backup
+ls
+z .config/
+ls
+z nwg-look/
+ls
+z ..
+ls
+z dotfiles
+ls
+z .config/
+ls
+z gtk-4.0/
+ls
+z ..
+ls
+stow .
+z ..
+ls
+stow .
+ls
+ls | where type == file and where modified > date(now)
+ls | where  modified > date(now)
+ls | where  modified > date
+ls | where  modified > date(today)
+ls | where  modified > date(nowy)
+ls | where  modified > date(now)
+ls | where  date(modified) > now
+help date
+ls | where modified >= date now
+ls | where modified >= (date now)
+ls | where modified >= (date now) - 1day
+ls | where modified >= (date now) - 10s
+ls | where modified >= (date now) - 5m
+ls | where modified >= (date now) - 5min
+ls | where modified >= (date now) - 5min | each {|l| rm -rf $l }
+ls | where modified >= (date now) - 5min | get name |  each {|l| rm -rf $l }
+ls
+z .config/
+ls
+z .config/
+ls
+z ..
+ls
+ls | where type == symlink
+rm -rf Thunar ags alacritty dconf fastfetch ghostty pulse_backup wallust waybar wlogout xfce4 xsettingsd 
+ls
+z rofi
+ls
+z ..
+z .config/
+ls
+z ..
+z rofi
+z ..
+z .config/
+ls
+z .config/
+z
+z .config/
+ls
+z kitty
+z ..
+z .config/
+ls
+z dotfiles
+ls
+z .config/
+ls
+hx --health | qml
+hx --health | grep qml
+yay qmlls
+dotnet run
+yay
+yain spotify
+btoo
+btop
+gotop
+htop
+yain spotify
+spicetify backup apply
+helix
+kak
+z avalonia
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+netcoredb
+dotnet run
+z zathura
+z mupdf
+z zathura-pdf-mupdf/
+z zathura-p
+zathura `MEE 533-MCE519 - PPC.pdf`
+dotnet run
+cleat
+clear
+dotnet run
+spicetify backup apply
+spicetify backup
+d
+dotnet run
+cleat
+clear
+dotnet run
+cleat
+clear
+dotnet run
+clear
+dotnet run
+hx
+ls
+git pull
+ls
+dotnet restore
+z ..
+z AvaloniaPdfRenderer/
+dotnet restore
+ls
+rm -rf bin/ obj/
+ls
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+rm -rf bin/ obj/
+dotnet run
+z dow
+ls
+cp `AvaloniaPdfRenderer_AvaloniaPdfRenderer_Render.cs at main · Eugenenoble2005_AvaloniaPdfRenderer.pdf` ~/Music/AVALONIAPDF.pdf
+dotnet run
+cleat
+clear
+dotnet run
+ld
+dotnet run
+cleat
+clear
+dotnet run
+cleat
+clear
+dotnet run
+clear
+dotnet run
+hyprsunert
+z .dotfiles
+ls
+z .config/
+ls
+ls | explore
+z hypr
+ls
+hx hyprland.conf
+z .config/hypr
+ls
+hyprctl reload
+z .config/hypr
+ls
+rm -rf initial-boot.sh
+ls
+z configs/
+ls
+rm Settings.conf
+ls
+hyprctl reload
+hx Keybinds.conf
+hyprctl reload
+pkgs | grep nm
+pkgs | grep nm-applet
+hyprctl reload
+l
+ls
+z ..
+sl
+ls
+z ..
+cd ..
+ls
+hyprctl reload
+ls
+touch keybinds.conf
+ls
+rm -rf keybinds.conf
+touch keybinds
+ls
+hyprctl reload
+ls
+hyprctl reload
+ls
+mv keybinds keybinds.conf
+hyprctl reload
+ls
+vim keybinds.conf
+ls
+z .dotfiles/
+sl
+z .config/
+ls
+z hypr/
+ls
+vim keybinds.conf
+exit
+hyprctl reload
+ls
+mv keybinds.conf keybinds
+hyprctl reload
+mv keybinds keybinds.conf
+hyprctl reload
+ls
+touch window-rules.conf
+hyprctl reload
+ls
+touch config.conf
+hyprctl reload
+ls
+z configs/
+ls
+z ..
+ls
+cd  ,,
+cd ..
+ls configs/
+rm -rf configs/
+sl
+ls
+ls UserConfigs/
+rm -rf UserConfigs/
+ls
+hyprctl reload
+ls
+rm -rf .initial_startup_done
+ls
+ls Scripts/
+rm -rf Scripts/
+ls
+z wallust/
+ls
+hx wallust-hyprland.conf
+ls
+z ..
+ls
+z ..
+cd ..
+ls
+ls UserScripts/
+ls
+ls UserScripts/ | explore
+ls
+rm -rf UserScripts/
+ls
+hyprctl reload
+ls scripts/
+rm -rf scripts/AirplaneMode.sh
+hyprctl reload
+ls scripts/
+ls scripts/ | explore
+touch scripts/Brightness.nu
+brightnessctl
+	brightnessctl -m | cut -d, -f4 | sed 's/%//'<\n>
+brightnessctl
+help
+help commands | explore
+brightnessctl | split
+brightnessctl | split ","
+brightnessctl | split ,
+brightnessctl | split column ,
+brightnessctl | split column ","
+brightnessctl 
+brightnessctl -m | split column ',' | get column4 | str replace '%' ''
+brightnessctl -m | split column ',' 
+brightnessctl -m | split row ,
+brightnessctl -m 
+brightnessctl -m
+brightnessctl -m | split column ,
+brightnessctl -m | split column , | get column4
+brightnessctl -m | split column , | get column4 | split row %
+brightnessctl -m | split column , | get column4 | split row % | get row0
+brightnessctl -m | split column , | get column4 | split row % | get 0
+	brightnessctl -m | cut -d, -f4 | sed 's/%//'<\n>
+brightnessctl -m | split column , | get column4 | split row % | get 0
+nu scripts/Brightness.nu
+nu scripts/Brightness.nu --inc
+nu scripts/Brightness.nu inc
+nu scripts/Brightness.nu --inc
+nu scripts/Brightness.nu --inc 53
+nu scripts/Brightness.nu 
+nu scripts/Brightness.nu inc 223
+nu scripts/Brightness.nu ingc 223
+nu scripts/Brightness.nu dec  223
+nu scripts/Brightness.nu dec 223
+nu scripts/Brightness.nu dinc 100
+nu scripts/Brightness.nu inc 10
+nu scripts/Brightness.nu inc 100
+nu scripts/Brightness.nu inc 50
+nu scripts/Brightness.nu inc 80
+nu scripts/Brightness.nu inc 10
+nu scripts/Brightness.nu inc 15
+nu scripts/Brightness.nu inc 23
+brightnessctl set 80
+nu scripts/Brightness.nu inc 23
+nu scripts/Brightness.nu inc 100
+nu scripts/Brightness.nu inc 1000
+nu scripts/Brightness.nu inc 1
+nu scripts/Brightness.nu inc 20
+nu scripts/Brightness.nu dec 5
+ls
+rm scripts/Brightness.sh scripts/BrightnessKbd.sh
+ls scripts/
+z scripts/
+rm -rf ChangeBlur.sh ChangeLayout.sh ClipManager.sh DarkLight.sh GameMode.sh KeyHints.sh KillActiveProcess.sh LockScreen.sh Polkit-NixOS.sh Polkit.sh  PortalHyprland.sh Refresh.sh RefreshNoWaybar.sh RofiEmoji.sh RofiSearch.sh SwitchKeyboardLayout.sh TouchPad.sh UptimeNixOS.sh WallustSwww.sh WaybarCava.sh WaybarLayout.sh WaybarStyles.sh Wlogout.sh
+sl
+ls
+hyprctl reload
+ls
+touch MediaCtrl.nu
+hyprctl reload
+nu MediaCtrl.nu pause
+hyprctl reload
+ls
+rm MediaCtrl.sh
+ls
+rm Sounds.sh
+ls
+touch Volume.nu
+pamixer --get-volume
+pamixer --get-volume | split row
+pamixer --get-volume | split row \r\n
+pamixer --get-volume 
+pamixer --get-volume | split column  \r\n
+pamixer --get-volume | split column  
+nu Volume.nu
+pamixer --get-volume | split column  
+pamixer --get-volume 
+pamixer --get-volume | split column  
+pamixer --get-volume | split column  .
+pamixer --get-volume | split row .
+pamixer --get-volume | split row . | get 0
+pamixer --get-volume | split row \r\n
+pamixer --get-volume | split row \r\n | get 1
+pamixer --get-volume | split row \r\n | get 0
+pamixer
+pamixer --get-volume
+psh
+pwsh
+pamixer --get-volume
+pamixer --get-volume | lines
+pamixer --get-volume | lines | get 0
+pamixer --get-volume | lines | get 1
+nu Volume.nu inc
+hyprctl reload
+nu Volume.nu dec
+ls
+rm -rf Volume.sh
+ls
+touch ScreenShot.nu
+date
+date now
+grim
+z gtk
+ls
+z ..
+z gtk-4.0
+ls
+hx gtk.css
+RANDOM
+random
+random chars
+cd $env.wap and 
+ls
+grim -
+z $env.wap
+z ..
+ls
+z Screenshots/
+ls
+rm -rf *
+ls
+grim - | sals
+nu ScreenShot.nu now
+eog `Screenshot_$Tue, 25 Mar 2025 23:21:47 +0100 (now)_$hN8qhW5JUyGoSVPIzZXs9w2So`
+slurp
+mktemp
+ls
+rm -rf tmp.waVZe7y2aG
+whereis mktemp
+pacre mktemp
+sudo pacman -Rcs mktemp
+whereis mktemp
+man mktemp
+yay mktemp
+ls
+grim -g "$(slurp)"
+slurp | grim -g $in
+ls
+nu ScreenShot.nu area
+ls
+z scripts/
+z hypr
+z scripts/
+ls
+rm -rf `Screenshot_$Tue, 25 Mar 2025 23:29:47 +0100 (now)_$bbsjaNzOgrP1Dvqs8DtPrJoGS`
+ls
+mktemp
+ls
+rm -rf tmp.xfTahE7EtH
+ls
+nu ScreenShot.nu area
+help save
+ld
+ls
+rm -rf tmp.J0597s9Bx5 tmpfile
+ls
+nu ScreenShot.nu area
+ls
+z $env.wap
+sl
+z ..
+z Screenshots/
+ls
+rm `Screenshot_$Tue, 25 Mar 2025 23:21:47 +0100 (now)_$hN8qhW5JUyGoSVPIzZXs9w2So`
+ls
+rm `Screenshot_$Tue, 25 Mar 2025 23:21:47 +0100 (now)_$hN8qhW5JUyGoSVPIzZXs9w2So`
+rm `Screenshot_$Tue, 25 Mar 2025 23:32:26 +0100 (now)_$zBa8lDnZU8L87Br3a7YLdsSdp`
+ls
+rm tmpfile
+sl
+ls
+nu ScreenShot.nu area
+ls
+ls
+vim tmpfile
+rm tmpfile
+ls
+nu ScreenShot.nu area
+ls
+eog `Screenshot_$Tue, 25 Mar 2025 23:33:31 +0100 (now)_$JasZeqG93t4Hyyrlh4bLQoIJF`
+eog `Screenshot_$Tue, 25 Mar 2025 23:35:11 +0100 (now)_$PG6vQiwV14pF1a5iiO6TZEnJH`
+sl
+ls
+rm -rf `Screenshot_$Tue, 25 Mar 2025 23:33:31 +0100 (now)_$JasZeqG93t4Hyyrlh4bLQoIJF` `Screenshot_$Tue, 25 Mar 2025 23:35:11 +0100 (now)_$PG6vQiwV14pF1a5iiO6TZEnJH`
+ls
+ls
+rm -rf *
+;s
+ls
+;s
+ls
+eog Screenshot_25-Mar_23-37-25_31677.png
+rm -rf ScreenShot.sh
+sl
+ls
+z ..
+ls
+z ..
+cd ..
+ls
+rm hypr.png
+ls
+z .dotfiles/
+ls
+z ..
+ls
+git add .
+git commit -m "shed stuff"
+git push
+ls
+z ..
+ls
+z kitty
+reboot
+killall eww
+z hypr
+ls
+hx keybinds.conf
+sudo pacman -Rcs nautilus
+sudo pacman -R nautilus
+sudo pacman -Rcs nautilus
+pkgs | grep hyprsunset
+pkgs | grep hypr
+hyprctl hyprsunset
+hyprctl hyprsunset temperature 2500
+yay hyprland
++
+z mupdf
+yain dolhpin
+z avalonia
+ls
+z avalonia
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z proj
+ls
+dotnet new console -o MupdfnetSegfault
+z MupdfnetSegfault/
+ls
+dotnet add package Mupdf.net
+z dow
+ls
+z mus
+ls
+yay quickshell
+cp AVALONIAPDF.pdf ~/Projects/MupdfnetSegfault/
+z seg
+ls
+dotnet build
+z avalonia
+z avalonia
+dotnet run
+z seg
+ls
+z ..
+Z SEG
+z seg
+dotnet run
+ls
+ls bin/Debug/net9.0/
+dotnet run
+ls bin/Debug/net9.0/
+ls
+dotnet run
+ls bin/Debug/net9.0/
+z avalonia
+ls
+z AvaloniaPdfRenderer/
+dotnet run
+z AvaloniaPdfRenderer/
+dotnet run
+clear
+upower
+upower -dump
+upower -d
+dotnet run
+z AvaloniaPdfRenderer/
+z seg
+ls
+z seg
+dotnet run
+z mus
+z net
+z avalonia
+dotnet run
+z seg
+dotnet run
+z hypr
+config nu
+fish
+z hypr
+ls
+z $env.wap
+z .cache
+z hypr
+z cache
+ls
+z powershell/
+ls
+z ..
+z oh-my-posh/
+z themes/
+z hypr
+z avalonia
+dotnet run
+z dow
+ls
+z doc
+ls
+git clone https://github.com/arklumpus/MuPDFCore --depth 1
+z MuPDFCore/
+ls
+z Demo/
+ls
+z ..
+ls
+z PDFViewerDemo/
+ls
+z PDFViewerDemo/
+dotnet run
+hx PDFViewerDemo.csproj
+dotnet run
+z ..
+ls
+hx
+ls
+z MuPDFCore.MuPDFRenderer/
+ls
+z MuPDFCore.MuPDFRenderer/
+z MuPDFCore
+ls
+hx
+ls
+z MuPDFCore/
+ls
+hx
+helix
+ls
+z MuPDFCore/
+z doc
+ls
+z
+z .local/
+ls
+z share/
+ls
+z zoxide/
+ls
+mv db.zo ~/Music/
+ls
+z hypr
+z scripts
+z
+z Music/
+z ..
+z mus
+z ..
+ls
+z doc
+z Documents/
+ls
+git clone https://git.outfoxxed.me/quickshell/quickshell --depth 1
+ls
+z xmonad/
+ls
+helx
+z doc
+z quickshell/
+ls
+cloc .
+z quickshell/
+z quickshell
+ls
+z quickshell/
+z quickshell
+hx --health | grep qml
+yay qmlls
+yay qml
+nvim
+yay qt6-languageserver
+qmlls
+hx --health | grep qml
+yay qt
+z 
+z .config/
+ls
+mkdir quickshell
+z quickshell/
+ls
+touch shell.qml
+quickshell
+hx shell.qml
+z quickshell
+ls
+ls 
+z src/
+ls
+z ..
+git clone https://git.outfoxxed.me/quickshell/quickshell-examples
+z quickshell-examples/
+ls
+z activate_linux/
+ls
+cp * ~/.config/quickshell/ -r
+z config quickshell
+quickshell
+qmlls
+yay qt6-declarative
+bash
+yay qt6-tools
+find /usr -name qmlls 2>/dev/null<\n>
+sudo rg /usr
+sudo rg /usr --files 
+sudo rg /usr --files d
+sudo rg /usr --files qmlls
+rg --files | grep "gdg"
+/usr/lib/qt6/bin/qmlls
+z .config/
+ls
+z helix
+ls
+z helix
+z config
+z helix
+z helix/
+z ..
+z helix
+ls
+sudo rg /usr --files | grep "qmlls"
+hx --health | grep qml
+z config quickshell
+hx shell.qml
+z doc quickshell examples
+sl
+ls
+z focus_following_panel/
+ls
+cp * ~/.config/quickshell/ -r
+z config quickshell
+sl
+ls
+quickshell
+z Projects/
+sl
+git clone https://github.com/Eugenenoble2005/quickshell-web
+z quickshell-web/
+ls
+z helix
+hx
+ls
+hx package.json
+npm run dev
+bash
+ls
+astro
+sudo npm install -g astro
+npm run dev
+astro
+s
+ls
+npm run dev
+sudo npm run dev
+sl
+ls
+git submodule update --init
+npm run dev
+npm install
+npm run dev
+git add .
+git commit -m "add helix config to getting started"
+ls
+git reset --hard
+git log
+gco f4bc2a1df0e310fdf16d9b52f74b62455d875497
+npm run dev
+ls
+gco main
+z config quickshell
+quickshell
+z quickshell
+ls
+z quickshell
+ls
+z avalonia
+z proj
+z AvaloniaPdfRenderer/
+sl
+z AvaloniaPdfRenderer/
+z AvaloniaPdfRenderer
+z AvaloniaPdfRenderer.TestApplication/
+ping google.com
+dotnet run
+z ..
+ls
+z AvaloniaPdfRenderer/
+ls
+dotnet add package Mupdf.net --version 3.2.7-rc.1
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+ls
+lw
+ls
+dotnet run
+rm -rf bin/ obj/
+z ..
+z AvaloniaPdfRenderer/
+rm -rf bin/ obj/
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+dotnet run
+z proj
+ls
+z MupdfnetSegfault/
+hx
+dotnet run
+clear
+dotnet run
+clear
+z ..
+ls
+z AvaloniaPdfRenderer/
+ls
+dotnet add package Mupdf.net --version 3.2.7-rc.3
+z ..
+z AvaloniaPdfRenderer.TestApplication/
+ls
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+dotnet run
+clear
+z dow
+z Downloads/
+dotnet run
+clear
+dotnet run
+z avalonia
+dotnet run
+zathura mee514-assignment.pdf
+ls *.pdf | explore
+dotnet run
+clear
+z doc quicks
+cloc .
+onefetch
+z seg
+dotnet run
+ping google.com
+z config hypr
+z hypr
+z hypr/
+z .config
+ls
+z hypr
+ls
+z hyprland
+z hypr/
+ls
+z config
+z matugen
+z matugen/
+ls
+z hypr
+z matugen
+ls
+hx
+z kitty
+z .config
+z kitty
+z kitty.
+z kitty/
+ls
+hx kitty.conf
+z $env.wap
+ls
+ls | where type == file | sort-by  modified | last
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z matugen
+cava
+ls
+z matugen
+z .dotfiles
+ls
+z .config/
+ls
+z avalonia
+helix
+kitten themes
+z avalonia
+pwsh
+ls
+z kitty/
+z kitty
+config nu
+pacupg
+killall pacman
+sudo pacman -Syu
+sudo killall pacman
+pacupg
+sudo pacman -Syu
+sudo pacman -Syyy
+ping google.com
+sudo pacman -Syu --debug
+sudo pacman -Syyy
+pacman
+sudo systemctl restart networkmanager
+sudo systemctl restart NetworkManager
+ping google.com
+while true
+ping google.com
+sudo pacman -Syyy
+sudo pacman -S archlinux-keyring
+sudo rm -rf /var/lib/pacman/db.lck
+z hypr
+ls
+z quickshell-examples/
+ls
+helix
+z ..
+ls
+hx
+ls
+cp mixer/* ~/.config/quickshell/ -r
+quickshell
+cp lockscreen/* ~/.config/quickshell/ -r
+quickshell
+z lockscreen/
+cloc .
+hx
+z config quic
+ls
+rm -rf *
+ls
+ls | explore
+ping google.com
+ls
+z eww
+z .config/
+kitten themes
+z eww
+z .config/
+z eww
+z eww/
+ls
+hx
+z eww
+ls
+upower -d
+ls
+hx eww.yuck
+ls
+hx 
+sl
+ls
+rm -rf windows/topbar.yuck
+ls
+ls widgets/
+s
+ls
+ls windows/
+ls widgets/
+rm -rf widgets/
+sl
+ls
+ls assets/
+rm -rf assets/
+sl
+ls
+rm cache.txt
+ls
+hx init.sh
+sl
+ls
+rm -rf init.sh
+ls
+ls scripts/
+hx
+ls
+hx eww.yuck
+ls
+touch windows/topbar.yuck
+dotnet run
+eww open topbar
+eww reload
+pkgs | grep nerd
+echo \udb82\udcc7
+echo -e "\udb82\udcc7"
+zsh
+echo "\ue7d9"
+echo -e "\ue7d9"
+print "\ue7d9"
+print "\\ue7d9"
+^echo -e "\ue7d9"
+\echo
+^echo
+echo
+z hypr
+eww reload
+z matugen
+ls
+z hypr
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z matugen
+hx 
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z matugen
+ls
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+hx
+ls
+z templates/
+ls
+cava
+rm -rf colors-alacritty.toml colors-cava colors-ghostty colors-swaync.css colors-waybar.css colors-zen.css
+sl
+ls
+z ..
+ls
+yain nautilus
+pacre 
+sudo pacman -Rcs nautilus
+hx
+z .config/
+z config
+z gtk-4.0/
+ls
+hx gtk.css
+ls
+hx colors-gtk.css
+mv gtk.css bgtk.css
+sl
+ls
+ls assets
+yain nautilus
+ls
+ls
+z .config/
+z gtk-3.0
+z gtk-3.0/
+ls
+rm bgtk.css
+ls
+z hypr
+hx
+z matugen
+hs
+hx --health | grep css
+killall nautilus
+zathura `Basic german.pdf`
+z $env.wap
+ls
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall nautilus
+eww reload
+z ew
+ls
+z scripts/
+ls
+rm is-spotify.rb
+rm workspaces.rb
+sl
+ls
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock  | each { |ev| $ev | save --append "testfile.txt"  }
+ls
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock 
+hyprctl dispatch window
+hyprctl activewindow
+hyprctl activewindow | lines
+hyprctl activewindow | lines | get 10
+hyprctl activewindow | lines | get 10 | split row ":"
+hyprctl activewindow | lines | get 10 | split row ":" | get 1
+ls
+touch activetitle.nu
+sl
+ls
+nu activetitle.nu
+ls
+bat 
+open activetitle.nu
+nu activetitle.nu
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock 
+nu activetitle.nu
+nu workspaces.nu
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock 
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock | lines | each {|ev| handle $ev}<\n>
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock | lines | each {|ev| handle $ev}<\n><\n>def handle [event:string] {<\n>  #write the title to stdout when there is an event<\n>  # hyprctl activewindow | lines | get 10 | split row ":" | get 1<\n><\n>}<\n>
+nu activetitle.nu
+ping google.com
+nmlci
+nmtui
+ping google.com
+nmtui
+ping google.com
+socat -U - UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock | while read -r line; do handle "$line"; done
+socat -U - UNIX-CONNECT:$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock 
+socat -U - UNIX-CONNECT:($env.XDG_RUNTIME_DIR)/hypr/($env.HYPRLAND_INSTANCE_SIGNATURE)/.socket2.sock | lines
+nu activetitle.nu
+z hypr
+hx
+z eww
+nu activetitle.nu
+z scripts/
+ls
+nu activetitle.nu
+eww reload
+eww logs
+ls
+nu activetitle.nu
+hyprctl activewindow | lines | length 
+hyprctl activewindow | lines
+nu activetitle.nu
+eww reload
+nu activetitle.nu
+ls
+mv activetitle.nu hyprland.nu
+;s
+ls
+nu hyprland.nu
+z hypr
+ls
+z ..
+ls
+z ..
+z ../
+ls
+z scripts/
+z ..
+z ...
+z scripts/
+ls
+z eww
+ls
+z scripts/
+ls
+sl
+ls
+touch init.nu
+ls
+Hyprland
+z hyprland
+z hypr
+hx hyprland.conf
+z eww
+z scripts/
+ls
+hx init.nu
+z hypr
+ls
+nu ~/.config/eww/scripts/init.nu
+z eww
+ls
+z scripts/
+ls
+hx init.nu
+nu ~/.config/eww/scripts/init.nu
+hx init.nu
+nu ~/.config/eww/scripts/init.nu
+eww
+eww &
+eww open topbar
+Hyprland
+swww restore
+z eww
+z scripts/
+ls
+nu hyprland.nu
+hyprctl reload
+z hypr
+ls
+kilalll nu
+killall
+z eww
+ls
+eww reload
+eww logs
+z doc
+ls
+ls | explore
+ls | sort-by
+ls | sort-by modified 
+ls | sort-by modified | reverse
+nmtui
+ping google.com
+nmcli
+kitten themes
+z eww
+kitten themes
+z eww
+z matugen
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+eww logs
+z eww
+z scripts/
+ls
+z ..
+z ../
+z scripts/
+ls
+yay zoxide
+ls
+eww logs
+ls
+open hyprland.nu
+bat hyprland.nu
+cat hyprland.nu
+ls
+touch battery.nu
+ls
+upower -d
+cat /sys/power/
+cat /sys/power/state
+cat /sys/devices/power/power/
+cat /sys/class/power_supply/
+cat /sys/class/power_supply/BAT1
+cat /sys/class/power_supply/BAT1/current_now
+cat /sys/class/power_supply/BAT1/capacity_level
+cat /sys/class/power_supply/BAT1/charge_now
+cat /sys/class/power_supply/BAT1/power/
+cat /sys/class/power_supply/BAT1/capacity
+upower -d
+cat /sys/class/power_supply/BAT1/capacity
+hx /sys/class/power_supply/BAT1/capacity
+yay ffmpeg
+eww logs
+yain eww-git
+time yain eww-git
+time 
+time
+bash
+^time
+eww logs
+eww reload
+eww logs
+btop
+htop
+cat /sys/class/power_supply/BAT1/charge_full
+eww logs
+eww reload
+cat /sys/class/power_supply/BAT1/status/
+cat /sys/class/power_supply/BAT1/status
+ls
+cat /sys/class/power_supply/BAT1/status
+cat /sys/class/power_supply/BAT1/status | lines
+cat hyprland.nu
+cat hyprland.nu | linex
+cat hyprland.nu | lines
+cat hyprland.nu | lines | explore
+cat hyprland.nu | lines | get 14
+yain eww-git
+poweroff
+z eww
+cat /sys/class/power_supply/BAT1/status 
+eww reload
+help watch
+watch
+z eww
+z scripts/
+ls
+nu battery.nu battery
+cat /sys/class/power_supply/BAT1/status 
+nu battery.nu charge
+cat /sys/class/power_supply/BAT1/status 
+cat /sys/class/power_supply/BAT1/
+cat /sys/class/power_supply/BAT1
+z scripts/
+z scripts
+ls
+z scripts
+nu battery.nu charge
+z /sys/class/power_supply/
+ls
+cat BAT1
+z BAT1
+ls
+z BAT1
+z BAT1/
+sl
+ls
+nu battery.nu charge
+z scripts
+nu battery.nu charge
+man watch
+watch
+whereis watch
+watch
+ls
+cat /sys/class/power_supply/BAT1
+cat /sys/class/power_supply/BAT1/power/
+cat /sys/class/power_supply/BAT1/status
+watch /sys/class/power_supply/BAT1/status
+watch "/sys/class/power_supply/BAT1/status"
+watch /sys/class/power_supply/BAT1/status
+watch /sys/class/power_supply/BAT1/status {}
+watch Projects/
+sl
+ls
+z .dotfiles/
+ls
+z .config/
+ls
+z ..
+z $env.wap
+ls
+watch . {}
+z ..
+watch wallpapers/ {}
+watch wallpapers {}
+z ..
+watch Pictures/ {}
+watch Pictures {}
+watch sys {}
+sudo watch Projects/ {}
+watch Projects/ {}
+watch /sys/class/power_supply/BAT1/status {}
+watch /sys/class/power_supply/BAT1/st {}
+z /sys/class/power_supply/
+sl
+ls
+z ..
+z power_supply/
+ls
+cat BAT1
+z BAT1
+ls
+cat status
+watch Projects/ {}
+watch /sys/class/power_supply/BAT1/st {}
+watch Documents/evince/
+watch Documents/evince/ {}
+watch /boot/ {}
+watch /boot {}
+watch boot {}
+watch /boot {}
+watch /sys/class/
+ls
+ls /
+watch /tmp {}
+watch /sys/class/power_supply/BAT1/status {}
+watch /sys/class/power_supply/BAT1/current_now {}
+cat /sys/class/power_supply/BAT1/current_now
+cat /sys/class/power_supply/BAT1/charge_now
+watch /sys/class/power_supply/BAT1/charge_now {|| print "dgd"}
+cat /sys/class/power_supply/BAT1/charge_now
+upower -d
+eww reload
+z eww
+z ew
+ping google.com
+z ew
+watch /sys/class/power_supply/BAT1/charge_now {|op,path| print "dgd"}
+eww reload
+eww reload\
+eww reload
+ping google.com
+watch /dev/ {}
+watch hypr {}
+z eww
+z scripts/
+ls
+bash cava.sh
+cava
+z config
+ls
+z cava
+rm cava
+cav
+cava
+z eww
+z scripts/
+bash cava.sh
+10 | each { print "Gdg" }
+0..10 | each {print "fsf"}
+ls
+touch cava.nu
+"fdgdg" | length
+help length
+"gdg" | str
+"gdgd" | str length
+help str
+0..10 | each  { |i| print $i }
+help str
+nu cava.nu
+seq
+help seq
+seq 1 10
+nu cava.nu
+z doc
+rm -rf swengine/
+z proj
+git clone https://github.com/Eugenenoble2005/swengine.git
+z swappy/
+z swengine/
+ls
+hx
+ls
+z swengine.desktop/
+ls
+z ..
+ls
+z swengine.tests/
+ls
+z Scrapers/
+ls
+touch MyLiveWallpapersTest.cs
+z ..
+hx
+ls
+z swengine.tests/
+dotnet test
+z hypr
+z hypr
+cava
+;
+let p  = "dgdg";
+echo $p
+$p = "Fgdgdgdg"
+nu cava.nu
+0..10
+let bar_length = 10
+0..$bar_length-1
+0..$bar_length
+0..$bar_length-1
+0..($bar_length-1)
+0..$($bar_length-1)
+0..$bar_length - 1
+0..$bar_length- 1
+0..$bar_length  1
+0..($bar_length - 1)
+nu cava.nu
+cava | nu cava.nu $in
+save
+nu cava.nu
+help save
+nu cava.nu
+pkill
+nu cava.nu
+cava
+nu cava.nu
+pkill
+nu cava.nu
+z scripts/
+z scripts
+s
+bash cava.sh
+nu cava.nu
+bash cava.sh
+eww reload
+ls
+rm cava.sh
+z .config/
+ls
+z 
+z .dotfiles/
+ls
+git add .
+git commit -m "fix eww stuff"
+git push
+z gtk
+ls
+hx bookmarks
+ls
+hx colors-gtk.css
+hx settings.inil
+ls
+rm settings.ini settings.inil
+ls
+z .config/
+ls
+z config
+ls
+rm nwg-look/
+rm -rf nwg-look/
+rm gedit/
+rm -rf gedit/ gnome-session/
+hx .gtkrc-2.0
+rm .gtkrc-2.0
+Hyprland
+z gtk
+ls
+neofetch
+ff
+fastfetch
+zsh
+yay zoxide
+zoxide init
+zoxide init nushell
+yay
+yay blueman
+z music
+ls
+rm AVALONIAPDF.pdf `LESSON 1_Introduction to Material Selection-1.pptx` `LESSON 5 - BILL OF ENGINEERING MEASUREMENT AND EVALUATION.pptx` `Lesson Four_ Standards and Specifications.pptx` `Lesson Three_ Material Selection Methods.pptx` `Lesson Two_ Materials Grouping-1.pptx`
+ls
+z music
+ls
+notify-send "hello world"
+bash notification.sh
+dbus-monitor
+hx notification.sh
+ls
+notify-send "hello world"
+z dow
+ls
+z doc
+ls
+git clone https://www.github.com/jakoolit/dotfiles.git
+notify-send "hello world"
+dbus-monitor "interface='org.freedesktop.Notifications'"
+ls
+z music
+ls
+notify-send "hello world"
+git clone https://www.github.com/jakoolit/dotfiles.git --depth 1
+nu notification.nu
+notify-send "hello world"
+nu notification.nu
+z dotfiles/
+z config/
+ls
+z ..
+ls
+z ..
+ls
+rm -rf dotfiles/
+git clone https://www.github.com/jakoolit/hyprland-dots.git --depth 1
+z hyprland-dots/
+ls
+z config/
+ls
+z hypr/
+ls
+z animations/
+ls
+z ..
+ls
+z Monitor_Profiles/
+ls
+z ..
+ls
+z workspaces.conf
+hx workspaces.conf
+ls
+z Monitor_Profiles/
+ls
+z ..
+ls
+z UserScripts/
+ls
+z ..
+ls
+z scripts/
+ls
+gx
+	notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:$current -u low -i $icon "Screen" "Brightness:$current%"<\n>
+	notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:$current -u low  "Screen" "Brightness:10%"<\n>
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "gdg"
+z music
+ls
+notify-send "gdg"
+dbus-monitor "interface='org.freedesktop.Notifications'"
+nu notification.nu
+notify-send "gdg"
+gdbus-monitor
+yay gdbus-monitor
+yay gdbus
+notify-send "gdg"
+method call time=1743179437.352580 sender=:1.1066 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify | str starts-with "method call"
+"method call time=1743179437.352580 sender=:1.1066 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify" | str starts-with "method call"
+"method call time=1743179437.352580 sender=:1.1066 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify" | str starts-with "method calgl"
+"gdgdg" | append "gd gdg" | to text
+z hypr
+ls
+z eww
+z hypr
+help reduce
+nu notification.nu
+nu notification.nu
+notify-send "gdg"
+nu notification.nu
+notify-send "gdg"
+"method call time=1743185785.039178 sender=:1.1109 -> destination=:1.896 serial=9 path=/org/freedesktop/Notifications; interface=org.freedesktop.Notifications; member=Notify<\n>   string "notify-send"<\n>   uint32 0<\n>   string ""<\n>   string "gdg"<\n>   string ""<\n>   array [<\n>   ]<\n>   array [<\n>      dict entry(<\n>         string "urgency"<\n>         variant             byte 1<\n>      )<\n>      dict entry(<\n>         string "sender-pid"<\n>         variant             int64 247489<\n>      )<\n>   ]<\n>   int32 -1<\n>^C" | lines
+notify-send "gdg"
+nu notification.nu
+notify-send "gdg"
+plugin
+plugin list
+cargo install --locked nu_plugin_dbus<\n>plugin add ~/.cargo/bin/nu_plugin_dbus<\n>plugin use dbus # or restart nu
+cargo install --locked nu_plugin_dbus;<\n>plugin add ~/.cargo/bin/nu_plugin_dbus;<\n>plugin use dbus; # or restart nu
+z doc
+z hyprland-dots/
+ls
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+cargo install --locked nu_plugin_dbus<\n>
+plugin add ~/.cargo/bin/nu_plugin_dbusq
+plugin add ~/.cargo/bin/nu_plugin_dbu
+plugin add ~/.cargo/bin/nu_plugin_dbus
+help generate
+help generate | less
+ls
+kitten themes
+ls
+fastfetch
+z $env.wap
+ls
+z matugen
+ls
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+hyprpm add https://github.com/outfoxxed/hy3
+z doc
+z hyprland/
+hx
+gco main
+hyprpm update
+hyprpm add https://github.com/outfoxxed/hy3
+hyprpm enable hy3
+z hypr
+ls
+hyprctl reload
+reboot
+z hypr
+hyprpm enable hy3
+z music
+ls
+rm notification.sh
+ls
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "dgd"
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "gdg"
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+notify-send "gdgd"
+hyprnotify "gd"
+hyprctl notify "gdddg"
+hyprctl notify "gdddg" "dgdg"
+hyprctl notify -1 10000 "rgb(ff1ea3)" "Hello everyone!"
+yay mako
+man mako
+mako
+killall swaync
+notify-send "gdgd"
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+mako
+history
+history | explore
+z .config/
+ls
+z dot
+ls
+z .config/
+ls
+rm -rf swaync/
+ls
+mkdir mako
+ls
+z .dotfiles/
+stow .
+z .config/
+ls
+z .config/
+z config
+ls
+z mako
+z mako/
+ls
+z hyprland
+z hypr
+yay
+notify-send -e -h string:x-canonical-private-synchronous:brightness_notif -h int:value:10 -u low  "Screen" "Brightness:10%"
+z hypr
+z doc
+z hyprland-dots/
+z config/
+z hypr/
+ls
+z hypr/
+z .config/
+ls
+z mako
+ls
+hx cnfig
+hx config
+ls
+mako
+killall mako
+mako
+killall mako
+mako
+hx config
+z matugen
+ls
+z templates/
+ls
+hx colors-mako
+ls
+z ..
+ls
+z ../
+ls
+hx config.toml
+z .dotfiles/
+ls
+z .config/
+ls
+rm -rf mako/
+ls
+z .config/
+ls
+z mako
+rm -rf mako/
+killall mako
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+killall mako
+z .config/
+ls
+z config
+ls
+z mako
+ls
+rm -rf mako
+ls
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z mako/
+ls
+killall mako
+z hypr/
+z config hypr
+ls
+z doc
+z hyprland-dots/
+z hypr
+z scripts/
+ls
+nu MediaCtrl.nu next
+playerctl status
+z .dotfiles/
+ls
+git add .
+git commit -m "switch to mako"
+git push
+rm -rf $env.wap/
+z $env.wap
+rm -rf *
+ls
+killall mako
+sudo pacman -SYu
+config nu
+pacupg
+z eww
+eww logs
+eww reload
+z hypr
+z eww
+ls
+yay cascadia
+z matugen
+ls
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in
+z avalonia
+ls
+dotnet run
+z matugen
+ls
+yain dolhpin
+yain dolhpin; sudo pacman -Rcs thunar
+yain dolphin
+yare dolphin
+z hypr
+yay
+yain freedownloadmanager
+reboot
+z hypr
+hyprctl reload
+z hypr
+ls
+yay linux-wifi-hotspot
+systemctl enable create_ap --now
+yain create_ap
+create_ap
+create_ap wlan0 tun1 Ghad
+sudo create_ap wlan0 tun1 Ghad
+sudo create_ap wl01 tun1 Ghad
+create_ap wl01 tun1 Ghad
+ip link
+sudo create_ap wl01 tun0 Ghad
+sudo create_ap wlo1 tun0 Ghad
+sudo create_ap wlo1 tun0 GHand
+sudo create_ap -n wlo1 tun0 GHand
+iw list | grep "Supported interface modes" -A 10
+iwconfig
+lspci | grep Network
+lspci
+yay rtl88
+z hypr
+hx
+lspci
+lspci | grep Network
+yay rtl8821ce-dkms
+reboot
+ping google.com
+lspci | grep Network
+ip 
+ip link
+sudo create_ap -n wlo1 tun0 GHand
+yay rtl8821ce-dkms
+ping google.com
+ip link
+ip a
+ip link
+sudo create_ap -n wlo1 tun0 GHand
+ping google.com
+yain linux-wifi-hotspot
+pacre
+config nu
+ls
+pacre linux-wifi-hotspot-git
+pacre linux-wifi-hotspot-bin-debug
+yain linux-wifi-hotspot
+yain linux-wifi-hotspot-bin
+z eww
+nmtui
+sudo systemctl restart NetworkManager
+nmtui
+nmcli dev wifi
+nmcli dev wifi list
+killall create_ap
+sudo killall create_Ap
+sudo killall create_ap
+cava
+fastfetch
+owofetch
+htop
+z kitty
+ls
+htop
+kitten themes
+hyprctl hyprsunset temperature 2500
+hyprsunset
+z hypr
+ls
+hyprctl reload
+hyprctl hyprsunset temperature 2500
+hyprctl
+hyprctl hyprsunset
+hyprctl hyprsunset identify
+hyprctl hyprsunset identity
+z doc
+ls
+z hyprsunset/
+ls
+git pull
+hyprctl hyprsunset gamma
+hyprctl hyprsunset matrix
+hyprctl hyprsunset gamma 50
+hyprctl hyprsunset gamma 100
+hyprctl hyprsunset gamma 1000
+hyprctl hyprsunset gamma 10
+hyprctl hyprsunset gamma 100
+hyprctl hyprsunset temperature 
+hyprctl hyprsunset temperature 2000
+hyprctl hyprsunset temperature 2500
+hyprsunset
+hyprsunset identity
+hyprctl hyprsunset identity
+hyprctl reload
+hyprctl hyprsunset identity
+z hypr
+hyprctl hyprsunset identity
+hyprctl reload
+hyprctl hyprsunset identity
+hyprctl reload
+hyprctl reload sunset
+hyprctl hyprsunset identity
+Hyprland
+swww restore
+hyprctl hyprsunset identity
+hyprctl hyprsunset temperature 
+z eww
+z hypr
+z eww
+ls
+z scripts/
+ls
+hyprctl hyprsunset identity
+touch hyprsunset.nu
+ls
+nu hyprsunset.nu get
+nu hyprsunset.nu set blue-light
+nu hyprsunset.nu set identity
+nu hyprsunset.nu set
+hyprctl hyprsunset temperature 
+hyprctl hyprsunset identity
+hyprctl hyprsunset temperature 9000
+hyprctl hyprsunset temperature 
+z hyprsunset/
+z hyprsunset
+ls
+hx
+z eww
+z doc
+ls
+z doc
+z hyprland
+yain blender
+cfdisk
+sudo cfdisk
+resize2fs -h
+yay d
+yay dlang
+yay google-chrome
+pacre google-chrome
+z hyp
+z hyprland
+z hypr
+hx
+hyprctl reload
+Hyprland
+swww restore
+man mako
+makoctl
+z matugen
+ls
+z $env.wap
+ls
+matugen image `fantasy art, skeleton, Skeleton Horses, giant, video game art | 3840x2160 Wallpaper - wallhaven.cc.jpg` --show-colors
+makoctl reload
+z $env.wap
+ls
+fastfetch
+ls
+z music
+ls
+wf-recorder --file=myrecording.mp4
+ls
+vlc myrecording.mp4
+z .config/gtk-3.0
+ls
+z .themes
+ls
+mkdir matugen
+ls
+cp ~/.config/gtk-3.0 matugen/ -r
+cp
+cp ~/.config/gtk-3.0 matugen/ 
+cp ~/.config/gtk-3.0 matugen/ --recursive 
+ls
+z matugen/
+ls
+z config
+ls
+cp gtk-3.0 ~/.themes/matugen/
+cp gtk-3.0 ~/.themes/matugen/ -r
+zsh
+ls
+z gtk-3.0
+ls
+z ..
+z .themes
+ls
+z matugen/
+ls
+z gtk-3.0
+ls
+z themes
+ls
+z matugen/
+ks
+ls
+z gtk-3.0
+z matugen
+ls
+z themes
+z matugen/
+ls
+z gtk-3.0/
+ls
+z gtk-3.0/
+bash
+ls
+rm gtk-3.0
+cp ~/.dotfiles/.config/gtk-3.0/ . -r
+ls
+z ..
+sl
+ls
+hx gtk.css
+z ..
+ls
+z Thunar/
+z ..
+z themes
+z Dracula/
+ls
+z gtk-3.20/
+ls
+z matugen/
+ls
+z gtk-3.0/
+ls
+brave
+brave --gtk-version=4
+brvae
+brave
+brave --qt-version=6
+z gtk-4
+ls
+hx settings.ini
+ls
+rm settings.ini
+ls
+hx gtk-dark.css
+ls
+hx gtk.css
+ls
+hx colors-gtk.css
+open ~/.config/gtk-3.0/gtk.css
+cp ~/.dotfiles/.config/gtk-3.0/gtk.css .
+ls
+rm * -rf
+ls
+cp ~/.config/gtk-3.0/* .
+ls
+brave --qt-version=6
+brave
+killall nautilus
+z .dotfiles/
+z .config/
+ls
+cat gtk-4.0/
+ls
+z gtk-4.0/
+ls
+hx colors-gtk.css
+ls
+hx settings.ini
+ls
+ls  ../gtk-3.0/
+z ..
+ls
+z gtk-3.0/
+ls
+hx gtk.css
+ls
+z ..
+sl
+ls
+z gtk-4.0/
+ls
+rm * -rf
+cp ~/.config/gtk-3.0/* .
+ls
+yare zen-browser-bin
+yay layan
+killall nautilus
+brave --gtk-version=4
+z .dotfiles/
+ls
+z .config/
+ls
+z gtk-4.0/
+ls
+hx gtk.css
+ls
+hx
+z gtk-4
+ls
+z gtk-4
+ls
+z .gtkrc-2.0
+z gtk-3
+ls
+hx colors-gtk.css
+cp ~/.config/gtk-3.0/* .config/gtk-4.0/ -r
+rm -rf ~/.config/gtk-4.0/*
+cp ~/.config/gtk-3.0/* .config/gtk-4.0/ -r
+yay graphite
+yay antgtk
+yay ant
+yay ant-gtk
+yay -gtk
+yay \-gtk
+yay gtk-theme
+killall nautilus
+yain zoxide-git
+yay ant-gtk
+yay windows-gtk
+yay 10-gtk
+yain thunar
+hyprctl clients
+baobab
+lsblk
+df
+df -h
+df
+df -h
+z Pictures/
+ls
+z Screenshots/
+ls
+rm *
+z hypr
+ls
+slurp
+z hypr
+ls
+z scripts/
+ls
+nu ScreenShot.nu area
+hyprctl reload
+slurp
+z screenshots
+ls
+rm *
+lsw
+nu ScreenShot.nu gdg
+nu ScreenShot.nu area
+df -h
+z screenshots
+ls
+yazi
+rm *
+;s
+ls
+yzi
+yazi
+ls
+rm *
+ls
+z hypr
+ls
+date now `#.bash_history#`
+dote
+date
+help data
+date now humanize
+date humanize
+data noe
+date
+date now | data humanize $in
+date now | date humanize $in
+ssg
+ssh
+whereis ssh
+man ssh
+ping google.com
+hyprctl clients
+z hypr
+ls
+ls | explore
+yay linux-zen
+time pwsh
+time
+pwsh
+ls
+ping google.com
+yay linux-zen
+pkgs | grep linux
+yare linux
+sudo pacman -Rcs linux
+sudo rm -rf /boot/ 
+yain linux-zen
+reboot
+pkgs | grep linux
+inxi
+df -h
+ping google.com
+create_ap wl01 tun1 Ghad
+sudo create_ap -n wlo1 tun0 GHand
+lablk
+df -h
+z eww
+z scripts/
+ls
+z doc
+ls
+z artist-lyrics-v2
+z ..
+z scripts/
+z eww script
+ls
+z ..
+config
+config user-colors
+config use-colors
+killall fdm
+z proj
+ls
+z AvaloniaPdfRenderer/
+git add .
+git commit -m "swihfhf"
+git push
+z ..
+ls
+rm -rf *
+git clone https://www.github.com/eugenenoble2005/odin-hyprland-ctmcontrol --depth 1
+z odin-hyprland-ctmcontrol/
+kitten themes
+z odin-hyprland-ctmcontrol/
+z odin-hyprland-ctmcontrol
+z eww
+z hyprland-dots
+z hyprland
+ls
+z hypr
+z hyprland
+brave --gtk-version=4
+pkgs | grep linux
+watch sys {}
+pswh
+pwsh
+yay linux-zen
+z hyprpaper
+z doc
+z proj
+ls
+git clone https://www.github.com/hyprwm/hyprpaper.git 
+z hyprpaper/
+z eww
+ls
+z hyprpaper/
+z hyprpaper
+cloc .
+hx
+ls
+mkdir build
+ls
+z build/
+cmake ..
+make
+time
+^time
+^ls
+ls
+bash time
+(bash time)
+time
+timeit
+timeit make
+help timeit
+timeit { make }
+z .dotfiles/
+git add .
+git commit -m "fix some stuff"
+git push
+z eww
+ls
+z eww
+z scripts/
+ls
+playerctl status
+playerctl 
+playerctl metadata 
+yay cursor-theme
+playerctl metadata spotify xesam:title
+playerctl metadata xesam:title
+playerctl metadata
+pacman -Qnq
+pacman -Qmq
+pacman -Qnq | grep -v 
+pacman -Qmq 
+pacman -Qmq | grep -v (pacman -Qnq)
+ls /usr/share/icons/
+ls /usr/share/icons/ | grep g
+help filter
+help search
+ls /usr/share/icons/ | grep night
+ls /usr/share/icons/ 
+ls /usr/share/icons/ | grep -i night
+z hypr
+config 
+hypr
+z hyprpaper
+hx
+ls
+ls build/
+bsh
+bash
+ls
+cmake
+cmake -D
+cmake --help
+cmake --help-commands
+cmake --help-commands-list
+cmake --help
+cmake --help | grep compileco
+cmake --help | grep compile_com
+cmake --help | grep compole
+cmake --help | grep compile
+cmake --help | less
+cmake --help-command-list
+cmake --help-command-list | explore
+cmake --help-command-list | lines
+cmake --help-command-list | lines | explore
+cmake --help-command-list | less
+cmake --help-command-list | lines | explore
+cmake --help
+cmake --help-module-list
+cmake --help-module-list | lines | explore
+man cmake
+man 5 cmake
+ls
+z build/
+ls
+z CMakeFiles/
+ls
+z ..
+ls
+z ..
+hx
+z doc
+z swaybg/
+ls
+cloc .
+ls
+git reset --hard
+cloc .
+hx
+z ..
+z swww/
+uptime
+hx
+eww reload
+Hyprland
+exit
+rofi
+eww
+eww open topbar
+killall river
+river
+makoctl reload
+z hypr
+ls
+yain helix-git
+timeit { yain helix-git }
+pkgs | grep linux
+pkgs | grep systray
+eww inspector
+pkgs | grep linux
+y
+yare linux-zen-headers
+df -h
+z swaybg/
+z swaybg
+df =h
+df -h
+ls
+ls | explore
+z dow
+ls
+mkdir ~/Videos/Super Crooks
+ls
+ls ~/Videos/ | sort-by modified | last
+rm -rf ~/Videos/Super
+mkdir "~/Videos/Super Crooks"
+ls ~/Videos/ | sort-by modified | last
+ls
+ls | sort-by modified | last
+z ~
+z dow
+z ~/
+ls
+z dow
+ls
+mkdir ~/Videos/"Super Crooks"
+ls ~/Videos/ | sort-by modified | last
+unzip drive-download-20250331T070307Z-001.zip `~/Videos/"Super Crooks"/` ; unzip drive-download-20250331T070307Z-002.zip `~/Videos/"Super Crooks"/` 
+unzip
+vi
+yay vi
+vi
+z $env.wap
+ls
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z matugen/
+gx
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z swengine
+z swengine/
+z doc
+ls
+z sway/
+hs
+eww reload
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+eww reload
+z eww
+eww reload
+z /usr/share/pacman/
+ls
+z keyrings/
+ls
+z /usr/bin/pacman
+pacman
+pacman -h
+apt
+lspci
+lspci | grep Network
+ping google.com
+z hyprland
+ping google.com
+hx
+ls
+odin run .
+z doc
+z hyprland/
+ping google.com
+z hyprsunset
+z proj
+ls
+z odin-hyprland-ctmcontrol/
+pkgs | grep hyprcursor
+z proj
+ls
+rm hyprpaper/
+rm hyprpaper/ -rg
+rm hyprpaper/ -rf
+git clone https://www.github.com/hyprwm/hyprcursor.git
+z hyprcursor/
+cloc .
+hyprcursor
+yay iwctl
+ping google.com
+z doc
+brave --gtk-version=4
+pkgs | grep node
+pacre node-js
+yeet nodejs
+yay nvim
+yay nvm
+nvm -help
+man nvim
+man nvm
+nvm
+z proj
+git clone https://github.com/satial-interfaces/CalendarControl
+z CalendarControl/
+ls
+hx
+ls
+z SampleApp/
+ls
+dotnet run
+hx SampleApp.csproj
+dotnet run
+z ..
+;s
+ls
+hx
+z SampleApp/
+reboot
+z eww
+eww reload
+z proj
+ls
+z odin-hyprland-ctmcontrol/
+brave --gtk-version=4
+z proj
+ls
+z CalendarControl/
+ls
+dotnet run
+z SampleApp/
+dotnet run
+z hypr
+z proj
+ls
+rm * -rf
+ls
+mkdir CalendarView
+z CalendarView/
+ls
+dotnet new classlib -o AvaloniaCalendarView
+ls
+z AvaloniaCalendarView/
+ls
+hx Class1.cs
+z ..
+ls
+pwsh
+z prok
+z proj
+ls
+z CalendarView/
+ls
+dotnet new list
+dotnet new install Avalonia.Templates
+ping google.com
+for true
+loop
+help loop
+ping google.com
+loop { ping google.com }
+z CalendarView/
+z ..
+ls
+dotnet new install Avalonia.Templates
+ls
+dotnet new avalonia.mvvm -o TestApplication
+helix
+ls
+dotnet new gitignore
+ls
+hx
+ls
+z AvaloniaCalendarView/
+dotnet new gitignore
+z ..
+sl
+z TestApplication/
+ls
+dotnet new gitignore
+hx
+z ..
+hx
+ls
+hx .gitignore
+rm AvaloniaCalendarView/.gitignore
+rm TestApplication/.gitignore
+hx
+z ..
+git clone https://github.com/mattlewis92/angular-calendar
+z angular-calendar/
+cloc .
+ls
+hx
+z ..
+sl
+ls
+rm -rf angular-calendar
+ls
+z CalendarView/
+ls
+z CalendarView/
+z .
+z ..
+ls
+z TestApplication/
+z eww
+ls
+z testapplication
+ls
+yazi
+z ..
+z AvaloniaCalendarView/
+ls
+rm Class1.cs
+ls
+touch CalendarView.cs
+ls
+mkdir Monthview
+kitten themes
+ls
+touch Monthview/CalendarMonthView.cs
+dotnet add package avalonia
+kitten themes
+z AvaloniaCalendarView/
+z AvaloniaCalendarView
+z ..
+dotnet run ../TestApplication/TestApplication.csproj
+dotnet run
+dotnet run --project
+z ..
+z TestApplication/
+dotnet run 
+avalonia-solution-parser .
+dotnet run 
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+ls
+touch ../AvaloniaCalendarView/Monthview/CalendarMonthView.axaml
+rm ../AvaloniaCalendarView/Monthview/CalendarMonthView.axaml
+dotnet run 
+tinyupnp ~/Videos/
+z eww
+hx
+hyprctl enable
+hyprpm enable hyprbars
+hyprpm update
+hyprpm disable hyprbars
+z kitty
+ls
+z doc
+ls
+z yuckls/
+z /usr/share/helix
+z /usr/lib/helix/
+ls
+z runtime/
+ls
+z themes/
+ls
+cp yellowed.toml ~/.config/helix
+z helix
+ls
+help ls
+ls -a
+commands
+help commands | explore
+hx yellowed.toml
+ls
+mv yellowed.toml colors-helix.toml
+ls
+mkdir themes
+ls
+mv colors-helix.toml themes
+ls
+z helix
+hx
+z sway/
+z doc
+z sway/
+hx
+ls
+cp themes/colors-helix.toml ~/.dotfiles/.config/matugen/templates/
+z matugen
+z $env.wap
+bash
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+hx
+z helix
+ls
+z hyprland
+z hypr
+hx
+z helix
+ls
+z calendar
+hx
+z helix
+hx
+z matugen
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+hx
+z doc
+z Odin/
+hx
+nvim
+z helix
+hx
+z matugen
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+hx
+z avalonia
+z .dotfiles/
+ls
+z doc
+ls
+z yuckls/
+ls
+z Pictures/
+ls
+z wallpapers/
+ls
+z $env.wap
+ls
+z doc
+z AvaloniaLSP/
+fastfetch
+nitch
+kitten themes
+z kitty
+z matugen
+hs
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+z $env.wap
+z Pictures/
+z wallpapers/
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+eww reload
+fastfetch
+z kitty
+ls
+ghostty +show-colors
+ghostty +colors
+ghostty +help
+ghostty +list-colors
+ghosty +themes
+ghosty +help
+ghostty +help
+nitch
+fastfetch
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+fastfetch
+nitch 
+htop
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+ls
+fastfetch
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+htop
+z $env.wap
+matugen image `Windows 11, black background, dark background, operating system, red, abstract, material minimal, CGI, 3D Abstract | 3840x2160 Wallpaper - wallhaven.cc.png` --show-colors
+fastfetch
+neofetch
+hrop
+fastfetch
+owofetch
+pfetch
+yay
+pacupg
+yay pfetch
+pfetch
+fastfetch
+btop
+htop
+gotop
+z proj
+ls
+git clone https://github.com/eugenenoble2005/odin-c-bindgen
+z odin-c-bindgen/
+hx
+git pull
+z ..
+ls
+rm -rf odin-c-bindgen/
+remove
+ls
+z $env.wap
+ls
+z proj
+ls
+git clone https://github.com/eugenenoble2005/odin-c-bindgen
+z odin-c-bindgen/
+ls
+z doc
+z wlroots/
+ls
+fastfetch
+nitchl
+nitch
+killall Discord
+z .dotfiles/
+z .config/
+ls
+rm -rf gtk-4.0/*
+cp gtk-3.0/* gtk-4.0/ -r
+killall nushell/
+killall nautilus
+z odin-c-bindgen/
+z doc
+z proj
+ls
+z odin-c-bindgen/
+ls
+cloc .
+z runtime
+z themes/
+hx
+z doc
+z ols/
+git pull
+gco main
+gco master
+git pull
+hx
+cloc .
+hx
+ls
+hx
+ls
+z src/
+ls
+z server/
+ls
+nvim
+ols
+z ols
+z old
+z ols
+micro
+hx
+yay micro
+z ols
+ls
+git pull
+hx
+ls
+bash ci.sh
+timeit { ./ci.sh }
+ls
+hx
+z helix
+hx
+z proj
+ls
+z odin-c-bindgen/
+hx
+hx main.odin
+z eww
+z proj
+hx
+z CalendarView/
+z ..
+z TestApplication/
+dotnet run 
+yay cursor-theme
+ls /usr/share/icons/ | grep -i ligmo
+ls /usr/share/icons/ 
+ls /usr/share/icons/ | grep -i lingmo
+z helix
+z hypr
+dotnet run 
+z calendar
+dotnet run 
+z calendar
+z TestApplication/
+dotnet run 
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+dotnet build
+dotnet run
+z calendar
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+dotnet run
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+dotnet build
+avalonia-preview --file Views/MainWindow.axaml --target terminal
+dotnet run
+z ava
+dotnet run
+z calendar
+z testapplication
+dotnet run
+z doc
+z Avalonia/
+dotnet run
+hyprctl clients
+z hypr
+hyprctl clients
+dotnet run
+z ..
+ls
+git init
+ls
+git remote add origin https://github.com/Eugenenoble2005/AvaloniaCalendarView.git
+git branch -M main
+git push -u origin main
+git push
+git push --set-upstream origin main
+git add .
+git commit -m "initial commit"
+git push
+git push --set-upstream origin main
+cloc .
+dotnet run
+z TestApplication/
+dotnet run
+z TestApplication/
+z TestApplication
+dotnet run
+help commands
+help commands | explore
+network
+http
+dotnet run
+htop
+man kitty
+man 5 kitty
+man 1 kitty
+man 2 kitty
+man 3 kitty
+man 4 kitty
+kitty --single-instance
+kitty --single-instance
+dotnet run
+z doc
+z Avalonia/
+hx
+z hyprland
+z river
+z doc
+z river/
+ls
+cloc .
+hx
+z ..
+ls
+z odin-wayland/
+ls
+hx
+z ..
+ls
+pwsh
+whereis exit
+z kitty
+z calendar
+zellij
+xterm
+term
+z calendar
+z doc
+z PowerShell/
+ls
+lsx
+ls -a  | explore
+lsx
+help commands
+config nu
+lsx
+ls
+lsx
+ls
+pkgs | grep fira
+cloc .
+fc-list
+fc-list | less
+fc-list | fzf
+fc-list | lines 
+fc-list | lines | xplore
+fc-list | lines | explore
+fc-list | grep fira |  lines | explore
+fc-list | grep fira | lines | explore
+fc-list | grep fira
+pkgs | grep fira
+pkgs | grep -i fira
+fc-list | grep -i fira
+fc-list | grep -i cascadia
+fc-list | grep -i fira | lines | explore
+z kitty
+fastfetch
+z kitty
+fc-list | grep -i iosevka | lines | explore
+z kitty
+ls
+ping google.com
+ls
+open
+z doc
+z artist-lyrics-v2/
+ls
+open cache.txt
+open cache.txt | line
+open cache.txt | lines
+random
+random int 10..20
+ls
+open cache.txt 
+ls
+z cale
+z testapplication
+z artist-lyrics-v2/
+z artist-lyrics-v2
+ls
+ruby main.rb --artist "Kendrick Lamar"
+hx main.rb
+ls
+dotnet run
+z gtk
+hx gtk.css
+z gtk
+hx gtk.css
+ls
+hx gtk.css
+z .dotfiles/
+ls
+z .config
+ls
+z .config
+z gtk-4.0
+ls
+z config
+z gtk-4.0/
+ls
+hx gtk.css
+killall nautilus
+rm -rf ~/.config/gtk-4.0/*
+cp ~/.config/gtk-3.0/* .config/gtk-4.0/ -r
+killall nautilus
+z gtk-4.0/
+z gtk-4.0
+z .dotfiles/
+ls
+z .config/
+ls
+z eww
+ls
+z windows/
+ls
+rm dashboard.yuck 
+ls
+hx bar.yuck
+rm bar.yuck
+ls
+hx topbar.yuck
+ls
+touch artist-lyrics.yuck
+z ..
+z ../
+ls
+eww open artist-lyrics
+eww open artistlyrics
+ls ~/.config/eww
+eww logs
+eww reload
+killall eww
+eww open topbar
+eww reload
+eww open artistlyrics
+eww reload
+killall eww
+eww open artistlyrics
+eww close artistlyrics
+eww open artistlyrics
+eww reload
+killall eww
+eww open artistlyrics
+eww reload
+eww logs
+kilalll nu
+kilall nushell
+killall nushell/
+killall nushell
+killall nu
+H
+eww open artistlyrics
+z eww
+eww close artistlyrics
+z ew
+z eww
+hs
+hx
+z gtk
+ls
+z kitty
+ls
+Hyprland
+exit
+htop
+z gtk
+z kitty
+swww restore
+z kitty
+Hyprland
+z gtk
+z gtk-4
+swww restore
+eww open artistlyrics
+z eww
+eww logs
+z eww
+ls
+touch .gitignore
+ls
+hx .gitignore
+open cache.txt 
+open cache.txt  | linex
+open cache.txt | linex
+open cache.txt | lines
+open cache.txt | lines | length 
+open cache.txt | lines | length | get 0
+open cache.txt | lines | length | get 12
+open cache.txt | lines | length | 15
+open cache.txt | lines | get | 15
+open cache.txt | lines | get 15
+open cache.txt | lines | length 
+open cache.txt | lines | length | open cache.txt
+(open cache.txt | lines | length ) | open cache.txt
+(open cache.txt | lines | length ) | open cache.txt | lines | get $in
+open cache.txt | lines | get 10)
+open cache.txt | lines | get 10
+open cache.txt | lines | get random 0..(10)
+open cache.txt | lines | get random 0 .. (10)
+open cache.txt | lines | get (random 0 .. (10 ))
+open cache.txt | lines | get random 0 .. 10
+random
+open cache.txt | lines | get (random 0 .. 10)
+random
+open cache.txt | lines | get (random int 0 .. 10)
+open cache.txt | lines | get (random int 0..10)
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length))
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length-1))
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length - 1))
+open cache.txt | lines | get (random int 0..(open cache.txt | lines | length))
+let lines = (open cache.txt | lines);
+let lines = (open cache.txt | lines); | $lines | get (random int 0..($lines | length))
+let lines = (open cache.txt | lines); | $lines | get (random int 0..($lines | length) -1)
+let lines = (open cache.txt | lines); | $lines | get (random int 0..($lines | length) - 1)
+let lines = (open cache.txt | lines); | $lines | get (random int 0..(($lines | length) - 1))
+z nu
+z kitty
+z gtk-4
+z kitty
+z gtk
+Hyprland
+z gtk
+ls
+hx
+z gtk-4
+eww open artistlyrics
+z eww
+z gtk-4
+fc-list | grep -i iosevka | lines | explore
+hx gtk.css
+z gtk
+Hyprland
+swww restore
+z eww
+z hypr
+z gtk
+ls
+hx gtk.css
+z gtk-4
+swww restore
+z gtk
+hx gtk.css
+z gtk
+Hyprland
+z gtk
+hx
+z gtk
+z matugen
+makoctl reload
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | matugen image $in --show-colors
+makoctl reload
+z eww
+z hypr
+hyprctl monitors
+z eww
+Hyprland
+noble
+hyprctl monitors
+z hypr
+Hyprland
+z hypr
+hx
+swww restore
+Hyprland
+swww restore
+z hypr
+z $env.wap
+ls | where type == file | sort-by  modified | last | get name | swww image $in
+ls | where type == file | sort-by  modified | last | get name | swww $in
+ls | where type == file | sort-by  modified | last | get name | swww img $in
+Hyprland
+swww restore
+z hypr
+z .cache/
+ls
+z swww
+ls
+cp eDP-1 HDMI-A-1
+z eww
+eww open topbar_laptop
+z hypr
+nu echo "gdd"
+echo
+eww open artistlyrics_laptop
+z hypr
+Hyprland
+z hypr
+z hyprland
+hx
+z hyprland
+jx
+z hyprland
+z hypr
+eww reload
+hx
+z eww
+z hyor
+z hypr
+Hyprland
+hyprctl
+hyprctl monitors
+z hypr
+z hyprland
+z hypr
+Hyprland
+z eww
+hx
+Hyprland
+z eww
+swww restore
+z hypr
+ls
+z eww
+z scripts/
+ls
+nu hyprland.nu 
+nu hyprland.nu workspace
+n
+nu hyprland.nu workspace
+ls
+nu hyprland.nu workspace
+eww reload
+nu hyprland.nu title
+nu hyprland.nu workspace
+eww reload
+Hyprland
+swww restore
+z eww
+z helix
+z hypr
+ls
+ls | explore
+z calendar
+ls
+z TestApplication/
+ls
+z ..
+z testapplication
+ls
+dotnet run
+pkgs | grep -i iosevka
+pkgs 
+z eww
+z ew
+eww open artistlyrics_laptop
+z eww
+ls
+eww reload
+hx
+z eww
+eww reload
+ff
+fastfetch
+owofetch
+nitch
+http
+http get 
+http get  --help
+http get https://www.google.com
+html
+ls
+ls | to html
+ls | to md 
+ls | to toml 
+ls | to yaml 
+query
+query web
+http get https://www.rustlang.org
+curl https://www.google.com
+curl https://www.rustlang.org
+curl https://www.rust-lang.org
+http get https://www.rustlang.org
+plugin add nu_plugin_query
+cargo install --locked nu_plugin_query
+timeit { cargo install --locked nu_plugin_query  }
+plugin add nu_plugin_query
+plugin add ~/.cargo/bin/nu_plugin_query
+query
+> http get https://www.nushell.sh | query web --query 'h2, h2 + p' | each {str join} | chunks 2 | each {rotate --ccw tagline description} | flatten
+http get https://www.nushell.sh | query web --query 'h2, h2 + p' | each {str join} | chunks 2 | each {rotate --ccw tagline description} | flatten
+yay query
+yay nu_plugin_query
+yay nu_query
+query web --query
+query xml
+z artist-lyrics-v2
+ls
+cloc .
+ping google.com
+z hyor
+z hypr
+ls
+hyprctl monitors
+Hyprland
+z hypr
+hyprctl monitors
+z hypr
+swww restore
+z artist-lyrics-v2
+ls
+z ..
+ls
+z proj
+mkdir artist-lyrics-v3
+z artist-lyrics-v3/
+ls
+z artist-lyrics
+ls
+touch main.nu
+ls
+z artist-lyrics-v3
+ls
+nu main.nu --artist "Kendurck"
+nu main.nu --flags
+nu main.nu 
+nu main.nu --artist "Kendurck"
+nu main.nu --artist 
+nu main.nu --artist "gdg"
+nu main.nu --artist "gdg" gd
+open gdgd
+nu main.nu --artist "gdg" 
+nu main.nu --artist 
+nu main.nu 
+nu main.nu --artist 
+nu main.nu
+help commands
+open
+open | complete 
+open gdg 
+open gdg | complete
+z nushell
+z .config/nushell/
+ls
+hx history.txt
+ls
+ls themes
+open env.nu
+touch .gitignore
+ls
+hx .gitignore
+http get 
+http get "https://api.genius.com/search?q=drake"
+http get
+http get --help
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"]
+nu main.nu --artist  "Kendrick Lamar"
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"]
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get meta
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get response
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get response | get hits | get 0
+http get "https://api.genius.com/search?q=drake" --headers [Authorization "Bearer UZCliz6M4dRgZKc7pyvLwFycFyhIfhmQHPWSeeTfnDfCOcw-UDmL8SMkkKfbXkM4"] | get response | get hits | get 0 | get result | get primary_artist | get id
+nu main.nu --artist  "Kendrick Lamar"
+nu main.nu --artist  "drake"
+nu main.nu --artist  "beyonce"
+nu main.nu --artist  "kendrick lamar"
+query xml
+query xml "fsf"
+> http get https://www.nushell.sh | query web --query 'h2, h2 + p' | each {str join} | chunks 2 | each {rotate --ccw tagline description} | flatten
+help flatten
+[1 2]
+[1,2]
+nu main.nu --artist  "kendrick lamar"
+help str join
+list
+dotnet run
+nu main.nu --artist  "kendrick lamar"
+help random
+nu main.nu --artist  "kendrick lamar"
+eww open artistlyrics_laptop
+nu main.nu --artist  "kendrick lamar"
+nu main.nu --artist  "Pink Floyd"
+help save
+ls
+open cache.txt
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+open cache.txt | lines
+ls
+rm cache.txt
+ls
+nu main.nu --artist  "Pink Floyd"
+open cache.txt | lines
+open cache.txt
+help save
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+rm cache.txt
+ls
+nu main.nu --artist  "Pink Floyd"
+ls
+open cache.txt
+ls
+rm cache.txt
+ls
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+nu main.nu --artist  "Pink Floyd"
+open cache.txt
+open cache.txt | lines
+sl
+ls
+rm cache.txt
+ls
+git init
+ls
+git remote add origin https://github.com/Eugenenoble2005/artist-lyrics-v3.git
+git branch -M main
+git add .
+git commit -m "initial commit"
+git push --set-upstream origin main
+sl
+ls
+z .dotfiles/
+ls
+git add .
+git commit -m "should make this private"
+z nushell
+ls
+z .dotfiles/
+z nushell/
+ls
+git rm history.txt
+ls
+cp ~/history.txt .
+ls
+hx history.txt
+z .dotfiles/
+ls
