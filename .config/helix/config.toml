@@ -8,19 +8,18 @@ normal="block"
 select="underline"
 
 [editor]
-# color-modes=true
-# mouse=false
+color-modes=true
 # line-number="relative"
-gutters = ["diagnostics", "spacer", "diff"]
+# gutters = ["diagnostics", "spacer", "diff"]
 
 [editor.statusline]
 separator="|"
 mode.normal="N"
 mode.insert="I"
 mode.select="V"
-left = ["mode", "diagnostics", "position","file-name"]
+right = [ "diagnostics", "position","file-name"]
 center=[]
-right=[]
+left=[]
 # right=[]
 # center=[]
 

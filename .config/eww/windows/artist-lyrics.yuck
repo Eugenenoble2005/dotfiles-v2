@@ -1,12 +1,12 @@
 (defwindow artistlyrics_laptop
   :monitor 0
-  :geometry (geometry :anchor "center left")
+  :geometry (geometry :anchor "bottom left")
   :stacking "bg"
   (artistlyrics)
 )
 (defwindow artistlyrics_extern
   :monitor 1
-  :geometry (geometry :anchor "center left")
+  :geometry (geometry :anchor "bottom left")
   :stacking "bg"
   (artistlyrics)
 )

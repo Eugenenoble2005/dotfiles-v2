@@ -241,4 +241,12 @@ element-text {
 
 //@theme "/home/noble/.local/share/rofi/themes/style_7.rasi"
 
-@theme "/home/noble/.local/share/rofi/themes/style_3.rasi"
+//@theme "/home/noble/.local/share/rofi/themes/style_3.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/style_7.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/dracula1.rasi"
+
+//@theme "/home/noble/.local/share/rofi/themes/style_9.rasi"
+
+@theme "/home/noble/.local/share/rofi/themes/style_8.rasi"

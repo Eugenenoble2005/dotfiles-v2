@@ -1,42 +1,37 @@
-# config.nu
-#
-# Installed by:
-# version = "0.102.0"
-#
-# This file is used to override default Nushell settings, define
-# (or import) custom commands, or run any other startup tasks.
-# See https://www.nushell.sh/book/configuration.html
-#
-# This file is loaded after env.nu and before login.nu
-#
-# You can open this file in your default editor using:
-# config nu
-#
-# See `help config nu` for more options
-#
-# You can remove these comments if you want or leave
-# them for future reference.
 
 source ~/.zoxide.nu
 source ~/.oh-my-posh.nu
 
-$env.config.show_banner = true
+$env.config.show_banner = false
 $env.config.buffer_editor = "helix"
 alias hx = helix
-$env.PATH ++= ["~/.spicetify","~/.local/bin","~/.local/share/odin"]
+$env.PATH ++= ["~/.spicetify","~/.local/bin"]
 $env.wap = $"($env.HOME)/Pictures/wallpapers"
-$env.POSH_THEME = (echo "/home/noble/.cache/oh-my-posh/themes/powerline.omp.json")
-
+$env.POSH_THEME =  "/home/noble/.cache/oh-my-posh/themes/powerline.omp.json"
+$env.config.color_config.row_index = "red"
+$env.config.color_config.closure = "red"
+$env.config.color_config.header = "red"
+$env.config.color_config.shape_signature = "red"
+$env.config.color_config.shape_externalarg = "red"
+$env.config.color_config.shape_closure = "red"
+$env.config.color_config.shape_match_pattern = "red"
+$env.config.color_config.shape_string = "red"
+$env.config.color_config.shape_custom = "red"
 alias ls = ls -a
 alias xplore = explore 
 alias yeet = yay -R
 alias yain = yay -S 
 alias gco = git checkout
-alias pkgs = pacman -Q
 alias pacupg = sudo pacman -Syu
+alias rm = rm -rf
 
 def lsx [] {
   ls -a | explore
 }
 
-let lines = (open ~/.config/eww/cache.txt | lines); | $lines | get (random int 0..(($lines | length) - 1))
+def pkgs [] {
+  pacman -Q | detect columns --no-headers | rename --column {column0:Packages, column1:Version}
+}
+def hyprctl_clients [] {
+  hyprctl clients -j | from json | select class size at title | update size {|r| $"($r.size.0),($r.size.1)"} | update at {|r| $"($r.at.0),($r.at.1)"}
+}

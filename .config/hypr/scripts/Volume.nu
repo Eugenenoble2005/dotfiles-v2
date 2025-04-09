@@ -3,7 +3,7 @@ def get_volume [] {
 }
 
 def inc_volume [] {
-  pamixer -i 5 --allow-boost --set-limit 150;
+  pamixer -i 5 --allow-boost --set-limit 100;
   notify 
 }
 

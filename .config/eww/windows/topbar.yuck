@@ -18,13 +18,12 @@
 (box
     (box :class "boxleft" :space-evenly false :spacing 20
       (label :text "󰣇" :class "icon" )
-      (label :text "${activetitle} " :truncate true :limit-width 20 :class { activetitle == "󰋜" ? "icon" : "normal"})
+      (label :text "${activetitle} " :truncate true :limit-width 50 :class { activetitle == "󰋜" ? "icon" : "normal"})
       (label :text "" :class "icon" :class "icon hyprlogo")
       (label :text "|${activeworkspace}" :class "workspace")
     )
     (box :space-evenly false :halign "end" :spacing 10 :class "boxright"
       (label :text cava :class "cava")
-      (label :text time )
       (button :class "${blue_light_filter_on == 'true' ? 'hyprsunset_button_active' : 'hyprsunset_button'}" :onclick "nu ~/.config/eww/scripts/hyprsunset.nu set"
        (label :text "" :class "icon")
       )
@@ -53,12 +52,13 @@
       )
       )
       (systray :spacing 10)
+      (label :text time )
     )
   )
 )
 (deflisten activetitle "nu ~/.config/eww/scripts/hyprland.nu title")
 (deflisten activeworkspace "nu ~/.config/eww/scripts/hyprland.nu workspace")
-(defpoll time :interval "1s" `date +%H:%M:%S`)
+(defpoll time :interval "1s" `date '+%A, %d %B %Y %H:%M'`)
 
 (defpoll battery :interval "1s" `cat /sys/class/power_supply/BAT1/capacity`)
 (defpoll charging :interval "1s" `cat /sys/class/power_supply/BAT1/status`)

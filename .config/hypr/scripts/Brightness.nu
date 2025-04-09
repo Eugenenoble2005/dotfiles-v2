@@ -11,8 +11,8 @@ def change_brightness [func : string, step : int] {
       $new_brightness = $current_brightness - ($step | into int)
     }
 
-    if $new_brightness < 5 {
-      $new_brightness = 5;
+    if $new_brightness < 1 {
+      $new_brightness = 1;
     } else if $new_brightness > 100 {
       $new_brightness = 100;
     }

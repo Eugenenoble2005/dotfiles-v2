@@ -4,3 +4,4 @@ progress-color={{ colors.source_color.default.hex }}
 font=Iosevka Bold Italic
 border-color={{ colors.source_color.default.hex }}
 anchor=bottom-right
+layer=top
