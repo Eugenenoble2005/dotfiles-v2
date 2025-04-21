@@ -49,7 +49,7 @@
 "diff.delta"                      = { fg = "blue" }
 "diff.delta.moved"                = { fg = "gray" }
 
-"ui.background"                   = { bg = "dark_gray", fg = "text" }
+"ui.background"                   = { bg = "background", fg = "text" }
 "ui.background.separator"         = { fg = "text" }
 "ui.cursor"                       = { bg = "yellow", fg = "black" }
 "ui.cursor.normal"                = { bg = "yellow", fg = "black" }
@@ -72,7 +72,7 @@
 "ui.statusline.normal"            = { bg = "light_gray" }
 "ui.statusline.insert"            = { bg = "green" }
 "ui.statusline.select"            = { bg = "purple" }
-"ui.statusline.separator"         = { fg = "dark_gray" }
+"ui.statusline.separator"         = { fg = "background" }
 "ui.popup"                        = { bg = "menu", fg = "text" }
 "ui.popup.info"                   = { bg = "menu", fg = "text" }
 "ui.window"                       = { fg = "text" }
@@ -90,7 +90,7 @@
 "ui.virtual.wrap"                 = { fg = "light_gray" }
 "ui.menu"                         = { fg = "text", bg = "gray" }
 "ui.menu.selected"                = { fg = "text", bg = "light_gray", modifiers = ["bold"] }
-"ui.menu.scroll"                  = { fg = "light_gray", bg = "dark_gray" }
+"ui.menu.scroll"                  = { fg = "light_gray", bg = "background" }
 "ui.selection"                    = { bg = "selection" }
 "ui.selection.primary"            = { bg = "selection" }
 "ui.highlight"                    = { bg = "light_gray" }
@@ -115,12 +115,12 @@
 # interface
 yellow      = "{{colors.source_color.default.hex}}"
 gray        = "{{colors.surface.default.hex}}"
-dark_gray   = "#000000"
+background  = "#000000" 
 light_gray  = "{{colors.source_color.default.hex}}"
 purple      = "{{colors.source_color.default.hex}}"
 blue        = "{{colors.source_color.default.hex}}"
 menu        = "{{colors.surface.default.hex}}"
-selection   = "{{colors.surface.default.hex}}"
+selection   = "{{colors.tertiary.default.hex}}"
 
 # syntax
 text        = "{{colors.on_surface.default.hex}}"

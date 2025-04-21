@@ -33,6 +33,7 @@ def notify [] {
     let title = (playerctl metadata title)
     let artist = (playerctl metadata artist)
 
-    notify-send -e -u low "Now Playing:" $"($title) - ($artist)"
+    # Don;t need this anymore, spotify handles it now
+    # notify-send -e -u low "Now Playing:" $"($title) - ($artist)"
   }
 }

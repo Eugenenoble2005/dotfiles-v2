@@ -49,7 +49,7 @@
 "diff.delta"                      = { fg = "blue" }
 "diff.delta.moved"                = { fg = "gray" }
 
-"ui.background"                   = { bg = "dark_gray", fg = "text" }
+"ui.background"                   = { bg = "background", fg = "text" }
 "ui.background.separator"         = { fg = "text" }
 "ui.cursor"                       = { bg = "yellow", fg = "black" }
 "ui.cursor.normal"                = { bg = "yellow", fg = "black" }
@@ -72,7 +72,7 @@
 "ui.statusline.normal"            = { bg = "light_gray" }
 "ui.statusline.insert"            = { bg = "green" }
 "ui.statusline.select"            = { bg = "purple" }
-"ui.statusline.separator"         = { fg = "dark_gray" }
+"ui.statusline.separator"         = { fg = "background" }
 "ui.popup"                        = { bg = "menu", fg = "text" }
 "ui.popup.info"                   = { bg = "menu", fg = "text" }
 "ui.window"                       = { fg = "text" }
@@ -90,7 +90,7 @@
 "ui.virtual.wrap"                 = { fg = "light_gray" }
 "ui.menu"                         = { fg = "text", bg = "gray" }
 "ui.menu.selected"                = { fg = "text", bg = "light_gray", modifiers = ["bold"] }
-"ui.menu.scroll"                  = { fg = "light_gray", bg = "dark_gray" }
+"ui.menu.scroll"                  = { fg = "light_gray", bg = "background" }
 "ui.selection"                    = { bg = "selection" }
 "ui.selection.primary"            = { bg = "selection" }
 "ui.highlight"                    = { bg = "light_gray" }
@@ -113,22 +113,22 @@
 
 [palette]
 # interface
-yellow      = "#02e36e"
-gray        = "#101510"
-dark_gray   = "#000000"
-light_gray  = "#02e36e"
-purple      = "#02e36e"
-blue        = "#02e36e"
-menu        = "#101510"
-selection   = "#101510"
+yellow      = "#f1e3d3"
+gray        = "#18130b"
+background  = "#000000" 
+light_gray  = "#f1e3d3"
+purple      = "#f1e3d3"
+blue        = "#f1e3d3"
+menu        = "#18130b"
+selection   = "#b6cea3"
 
 # syntax
-text        = "#dfe4dc"
-comment     = "#9ad4a1"
-string      = "#02e36e"
-constants   = "#9ad4a1"
-keywords    = "#02e36e"
+text        = "#ece1d4"
+comment     = "#f1be6d"
+string      = "#f1e3d3"
+constants   = "#f1be6d"
+keywords    = "#f1e3d3"
 warning     = "#FEBA17"
 error       = "#ffb4ab"
-info        = "#02e36e"
-hint        = "#dfe4dc"
+info        = "#f1e3d3"
+hint        = "#ece1d4"

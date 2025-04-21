@@ -1,7 +1,6 @@
-let time = date now
 let dir = $"($env.HOME)/Pictures/Screenshots"
 
-let file = $"Screenshot_$($time)_$(random chars)"
+let file = $"Screenshot_(date now)_(random chars).png"
 
 def shotnow [] {
   cd $dir ; grim - | save --raw $file
@@ -10,9 +9,8 @@ def shotnow [] {
 
 def shotarea [] {
   cd $dir;
-  let tmpfile = (mktemp);
-  slurp | grim -g $in | save --raw --append $tmpfile;
-  mv $tmpfile $file;
+  let sl = (slurp);
+  grim -g $"($sl)" - | save --raw $file;
   notify-send $"ScreenShot saved to ($file)";
 }
 def main [...args] {

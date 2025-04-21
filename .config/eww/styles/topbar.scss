@@ -11,7 +11,7 @@
 
 .topbar_laptop,
 .topbar_extern {
-  background: linear-gradient(to bottom, black 70%, $source 100%);
+  background: linear-gradient(to bottom, $background 70%, $source 100%);
   animation: colorChange 3s infinite;
 
   .boxleft {
