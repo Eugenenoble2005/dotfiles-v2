@@ -1,6 +1,7 @@
 
 source ~/.zoxide.nu
 source ~/.oh-my-posh.nu
+source ~/.config/nushell/gen-vivaldi-theme.nu
 
 $env.config.show_banner = false
 $env.config.buffer_editor = "helix"
@@ -38,4 +39,13 @@ def hyprctl_clients [] {
 
 def set_accent [ color : string] {
   matugen color hex $"($color)" --show-colors
+}
+
+def conf [file:string] {
+  match $file {
+    "hypr" => { cd ~/.config/hypr ; hx hyprland.conf },
+    "eww" => {cd ~/.config/eww ; hx eww.yuck },
+    "matugen" => {cd ~/.config/matugen ; hx config.toml},
+    "kitty" => {cd ~/.config/kitty ; hx kitty.conf }
+  }
 }

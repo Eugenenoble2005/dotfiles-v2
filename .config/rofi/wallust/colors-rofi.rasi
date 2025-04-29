@@ -1,33 +1,33 @@
 * {
 active-background: black;
 main-bg:            black;
-main-bg-transparent: rgba(24, 19, 11, 0.9);
-main-fg:            #ece1d4;
-select-bg:          #ffdeae;
-select-fg:          #362f27;
-active-foreground: #ece1d4;
+main-bg-transparent: rgba(26, 17, 16, 0.9);
+main-fg:            #f1dfdc;
+select-bg:          #ffdad4;
+select-fg:          #392e2c;
+active-foreground: #f1dfdc;
 normal-background: black;
-normal-foreground: #ece1d4;
+normal-foreground: #f1dfdc;
 urgent-background: #ffb4ab;
-urgent-foreground: #ece1d4;
+urgent-foreground: #f1dfdc;
 
 alternate-active-background: black;
-alternate-active-foreground: #ece1d4;
-alternate-normal-background: #55442a;
-alternate-normal-foreground: #ece1d4;
+alternate-active-foreground: #f1dfdc;
+alternate-normal-background: #5d3f3b;
+alternate-normal-foreground: #f1dfdc;
 alternate-urgent-background: #93000a;
-alternate-urgent-foreground: #ece1d4;
+alternate-urgent-foreground: #f1dfdc;
 
-selected-active-background: #ffdeae;
-selected-active-foreground: #ece1d4;
-selected-normal-background: #3d2e16;
-selected-normal-foreground: #ece1d4;
+selected-active-background: #ffdad4;
+selected-active-foreground: #f1dfdc;
+selected-normal-background: #442925;
+selected-normal-foreground: #f1dfdc;
 selected-urgent-background: #ffb4ab;
-selected-urgent-foreground: #ece1d4;
+selected-urgent-foreground: #f1dfdc;
 
 background-color: black;
 background: rgba(0,0,0,0.7);
-foreground: #b6cea3;
-border-color: #ffdeae;
+foreground: #dec48c;
+border-color: #ffdad4;
 }
 

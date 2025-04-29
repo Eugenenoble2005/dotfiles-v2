@@ -16,7 +16,20 @@ def get_active_workspace [event] {
   let ev = $event | split row ">>" | first
   match $ev {
     "workspace" => {
-      $event | split row ">>" | last | print $in  
+     let workspace =  $event | split row ">>" | last | into string   
+      let in_words = match $workspace {
+        "1" => "One",
+        "2" => "Two",
+        "3" => "Three",
+        "4" => "Four",
+        "5" => "Five",
+        "6" => "Six",
+        "7" => "Seven",
+        "8" => "Eight",
+        "9" => "Nine",
+        "10" => "Ten"
+      }
+      print $in_words
     } 
   }
 }

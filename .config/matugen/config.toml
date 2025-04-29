@@ -45,3 +45,4 @@ output_path="~/.config/mako/config"
 [templates.helix]
 input_path="./templates/colors-helix.toml"
 output_path="~/.config/helix/themes/colors-helix.toml"
+
