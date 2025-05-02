@@ -1,4 +1,14 @@
 
+[language-server.angular]
+command = "ngserver"
+args = [
+  "--stdio",
+  "--tsProbeLocations",
+  "/home/noble/.local/lib/node_modules",
+  "--ngProbeLocations",
+  "/home/noble/.local/lib/node_modules",
+]
+
 [language-server]
 yuckls = {command="yuckls"}
 ols = {command = "/home/noble/Documents/ols/ols"}
@@ -58,3 +68,8 @@ shebangs = ["nu"]
 comment-token = "#"
 indent = { tab-width = 2, unit = "  " }
 language-servers = [ "nu-lsp" ]
+
+[[language]]
+name ="html"
+roots = ["angular.json"]
+language-servers = ["angular","vscode-html-language-server"]

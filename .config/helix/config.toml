@@ -10,7 +10,7 @@ select="underline"
 [editor]
 color-modes=true
 # line-number="relative"
-# gutters = ["diagnostics", "spacer", "diff"]
+gutters = ["diagnostics", "spacer", "diff"]
 
 [editor.statusline]
 separator="|"

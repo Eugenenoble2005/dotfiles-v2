@@ -12,10 +12,10 @@ def gen-vivaldi-theme [ ] {
        "alpha": 0.85,
        "backgroundImage": "background.($bg | path parse | get extension)",
        "backgroundPosition": "stretch",
-       "blur": 6,
+       "blur": 0,
        "colorAccentBg": "($source)",
-       "colorBg": "($mat | get light | get on_background)",
-       "colorFg": "($mat | get dark | get on_surface )",
+       "colorBg": "($mat | get dark | get background )",
+       "colorFg": "($mat | get dark | get on_background)",
        "colorHighlightBg": "#9e99ff",
        "colorWindowBg": "#f7f7f7",
        "contrast": 0,
@@ -37,7 +37,8 @@ def gen-vivaldi-theme [ ] {
     $themeconfig | save ~/staging-area/settings.json --force;
     cp $bg $"/home/noble/staging-area/background.($ext)";    
     cd ~/staging-area
-    ^zip theme.zip background.jpg background.png settings.json;
-    rm ~/staging-area/* 
+    let filename = $"background.($ext)"
+    ^zip theme.zip $filename settings.json;
+    rm $filename settings.json  
     echo "Complete"
 }

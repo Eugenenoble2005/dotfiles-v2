@@ -3,7 +3,7 @@
 * Generated with Matugen
 */
 
-@define-color background black;
+@define-color background {{ colors.background.default.hex }};
 @define-color accent {{colors.source_color.default.hex}};
 @define-color accent_color @accent;
 @define-color accent_fg_color {{colors.on_primary_fixed.default.hex}};
