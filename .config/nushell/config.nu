@@ -8,6 +8,7 @@ $env.config.buffer_editor = "helix"
 $env.npm_config_prefix = $"($env.HOME)/.local"
 alias hx = helix
 $env.PATH ++= ["~/.spicetify","~/.local/bin","/var/lib/snapd/snap/bin","/var/lib/snapd/desktop", "/home/noble/.dotnet/tools"]
+$env.config.table.mode = "markdown"
 $env.wap = $"($env.HOME)/Pictures/wallpapers"
 $env.POSH_THEME =  "/home/noble/.cache/oh-my-posh/themes/powerline.omp.json"
 $env.config.color_config.row_index = "red"
