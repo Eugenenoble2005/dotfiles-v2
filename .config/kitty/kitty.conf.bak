@@ -1,7 +1,7 @@
 font_family   Iosevka Bold Italic
 font_size 		14.0
 cursor_trail 1
-background_opacity 0.8
+background_opacity 0.5
 
 confirm_os_window_close 0
 
@@ -22,7 +22,7 @@ enable_audio_bell no
 window_padding_width 15
 
 # BEGIN_KITTY_THEME
-# Vibrant Ink
+# 3024 Night
 include current-theme.conf
 # END_KITTY_THEME
 #

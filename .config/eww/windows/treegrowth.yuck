@@ -1,0 +1,27 @@
+(defwindow treegrowth
+  :monitor 0
+  :geometry (geometry :anchor "bottom left")
+  :stacking "bg"
+  (image :path "treegrowth.gif" :height 400 :width 100  :class "tree")
+)
+
+(defwindow germanbranch
+  :monitor 0
+  :geometry (geometry :anchor "top left" :x -120)
+  :stacking "bg"
+  (image :path "german-branch-transparent.gif" :height 200 :width 200)
+)
+
+(defwindow hangingmoss
+  :monitor 0
+  :geometry (geometry :anchor "top right" :y "-13" :x "140")
+  :stacking "bg"
+  (image :path "hanging-moss.png" :image-width 130)
+)
+
+(defwindow butterflies
+  :monitor 0
+  :geometry (geometry :anchor "top right" :x "220")
+  :stacking "bg"
+  (image :path "butterflies.gif" :image-width 250)
+)

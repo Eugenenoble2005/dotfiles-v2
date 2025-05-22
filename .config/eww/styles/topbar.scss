@@ -11,9 +11,12 @@
 
 .topbar_laptop,
 .topbar_extern {
-  background: linear-gradient(to bottom, $background 70%, $primary 100%);
+  /* background: linear-gradient(to bottom, $background 70%, $primary 100%); */
   /* animation: colorChange 3s infinite; */
-
+  background:$background_transparent;
+  background-repeat: repeat;
+  border-bottom-right-radius: 15;
+  border-bottom-left-radius: 15;
   .boxleft {
     margin-left: 20px;
 
@@ -78,3 +81,8 @@
     font-size: 20px;
   }
 }
+
+.treegrowth, .germanbranch, .hangingmoss, .butterflies {
+  background: transparent;
+}
+

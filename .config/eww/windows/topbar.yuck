@@ -1,20 +1,19 @@
 (defwindow topbar_laptop
   :monitor 0
-  :geometry (geometry :width "100%" :height "10" :anchor "top center")
+  :geometry (geometry :width "80%" :height "10" :anchor "top center")
   :namespace "topbar"
   :stacking "bg"
   :exclusive true
   (topbar)
 )
-(defwindow topbar_extern
-  :monitor 1
-  :geometry (geometry :width "98%" :height "10" :anchor "top center")
-  :stacking "bg"
-  :namespace "topbar"
-  :exclusive true
-  (topbar)
-)
-
+; (defwindow topbar_extern
+;   :monitor 1
+;   :geometry (geometry :width "98%" :height "10" :anchor "top center")
+;   :stacking "bg"
+;   :namespace "topbar"
+;   :exclusive true
+;   (topbar)
+; )
 
 (defwidget topbar[]  
 (box
