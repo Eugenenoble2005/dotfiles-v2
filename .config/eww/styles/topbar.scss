@@ -4,19 +4,18 @@
 
 @keyframes colorChange {
   10% {
-    background: linear-gradient(to bottom, $background 90%, $source 100%);
+    background: linear-gradient(to bottom, $background 10%, $source 100%);
     /* Back to Red */
   }
 }
 
 .topbar_laptop,
 .topbar_extern {
-  /* background: linear-gradient(to bottom, $background 70%, $primary 100%); */
-  /* animation: colorChange 3s infinite; */
-  background:$background_transparent;
-  background-repeat: repeat;
+  background: linear-gradient(to bottom, $background 70%, $primary 100%);
+  animation: colorChange 1s infinite;
   border-bottom-right-radius: 15;
   border-bottom-left-radius: 15;
+
   .boxleft {
     margin-left: 20px;
 
@@ -82,7 +81,12 @@
   }
 }
 
-.treegrowth, .germanbranch, .hangingmoss, .butterflies {
+.treegrowth,
+.germanbranch,
+.hangingmoss,
+.butterflies,
+.movinggrass,
+.guard {
+
   background: transparent;
 }
-

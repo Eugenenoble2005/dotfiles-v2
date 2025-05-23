@@ -7,7 +7,7 @@ $env.config.show_banner = false
 $env.config.buffer_editor = "helix"
 $env.npm_config_prefix = $"($env.HOME)/.local"
 alias hx = helix
-$env.PATH ++= ["~/.spicetify","~/.local/bin","/var/lib/snapd/snap/bin","/var/lib/snapd/desktop", "/home/noble/.dotnet/tools"]
+$env.PATH ++= ["~/.spicetify","~/.local/bin","/var/lib/snapd/snap/bin","/var/lib/snapd/desktop", "/home/noble/.dotnet/tools" , "/home/noble/.local/share/pipx/venvs"]
 # $env.config.table.mode = "ascii_rounded"
 $env.wap = $"($env.HOME)/Pictures/wallpapers"
 $env.POSH_THEME =  "/home/noble/.cache/oh-my-posh/themes/powerline.omp.json"
@@ -27,6 +27,7 @@ alias yain = yay -S
 alias gco = git checkout
 alias pacupg = sudo pacman -Syu
 alias rm = rm -rf
+alias ff = fastfetch
 
 def lsx [] {
   ls -a | explore
