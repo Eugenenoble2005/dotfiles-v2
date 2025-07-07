@@ -1,7 +1,7 @@
-font_family   Iosevka Bold Italic
-font_size 		14.0
-cursor_trail 1
-background_opacity 0.5
+font_family   Cascadia Code Light
+font_size 		12
+# cursor_trail 1
+# background_opacity 0.99
 
 confirm_os_window_close 0
 
@@ -19,10 +19,10 @@ wheel_scroll_min_lines 1
 
 enable_audio_bell no
 
-window_padding_width 15
+window_padding_width 5
 
 # BEGIN_KITTY_THEME
-# 3024 Night
+# Tomorrow Night Blue
 include current-theme.conf
 # END_KITTY_THEME
 #

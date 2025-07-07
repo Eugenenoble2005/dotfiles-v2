@@ -8,18 +8,19 @@ normal="block"
 select="underline"
 
 [editor]
-color-modes=true
+color-modes=false
 # line-number="relative"
 gutters = ["diagnostics", "spacer", "diff"]
+shell=["nu", "--stdin","-c"]
 
 [editor.statusline]
 separator="|"
-mode.normal="N"
-mode.insert="I"
-mode.select="V"
-right = [ "diagnostics", "position","file-name"]
-center=[]
-left=[]
+mode.normal="NORMAL"
+mode.insert="INSERT"
+mode.select="VISUAL"
+# right = [ "diagnostics", "position","file-name"]
+# center=[]
+# left=[]
 # right=[]
 # center=[]
 

@@ -8,11 +8,14 @@ args = [
   "--ngProbeLocations",
   "/home/noble/.local/lib/node_modules",
 ]
+[language-server.zls]
+config.enable_argument_placeholders=false
+
 
 [language-server]
 yuckls = {command="yuckls"}
 ols = {command = "/home/noble/Documents/ols/ols"}
-avalonials = {command="avalonia-ls"}
+avalonials = {command="dotnet",args=["/home/noble/Projects/avalonia-ls/src/AvaloniaLSP/AvaloniaLanguageServer/bin/Debug/net9.0/AvaloniaLanguageServer.dll"]}
 csharp_ls= {command="/home/noble/.local/share/nvim/mason/bin/csharp-ls"}
 omnisharp={"command"="omnisharp" , timeout=200000}
 qmlls={"command"="/usr/lib/qt6/bin/qmlls", timeout=20000}
@@ -73,3 +76,16 @@ language-servers = [ "nu-lsp" ]
 name ="html"
 roots = ["angular.json"]
 language-servers = ["angular","vscode-html-language-server"]
+
+
+[[language]]
+name = "zig"
+scope = "source.zig"
+injection-regex = "zig"
+file-types = ["zig", "zon"]
+roots = ["build.zig"]
+auto-format = false
+comment-tokens = ["//", "///", "//!"]
+language-servers = [ "zls" ]
+indent = { tab-width = 4, unit = "    " }
+formatter = { command = "zig" , args = ["fmt", "--stdin"] }

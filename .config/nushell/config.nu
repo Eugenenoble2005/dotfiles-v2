@@ -5,8 +5,11 @@ source ~/.config/nushell/gen-vivaldi-theme.nu
 
 $env.config.show_banner = false
 $env.config.buffer_editor = "helix"
+$env.PKG_CONFIG_PATH = "/usr/lib/pkgconfig/"
 $env.npm_config_prefix = $"($env.HOME)/.local"
+$env.config.edit_mode = "vi"
 alias hx = helix
+alias btm = btm --basic --process_memory_as_value
 $env.PATH ++= ["~/.spicetify","~/.local/bin","/var/lib/snapd/snap/bin","/var/lib/snapd/desktop", "/home/noble/.dotnet/tools" , "/home/noble/.local/share/pipx/venvs"]
 # $env.config.table.mode = "ascii_rounded"
 $env.wap = $"($env.HOME)/Pictures/wallpapers"
@@ -20,6 +23,7 @@ $env.config.color_config.shape_closure = "red"
 $env.config.color_config.shape_match_pattern = "red"
 $env.config.color_config.shape_string = "red"
 $env.config.color_config.shape_custom = "red"
+
 alias ls = ls -a
 alias xplore = explore 
 alias yeet = yay -R
@@ -28,6 +32,7 @@ alias gco = git checkout
 alias pacupg = sudo pacman -Syu
 alias rm = rm -rf
 alias ff = fastfetch
+# alias zig = /home/noble/.local/share/zig/zig
 
 def lsx [] {
   ls -a | explore

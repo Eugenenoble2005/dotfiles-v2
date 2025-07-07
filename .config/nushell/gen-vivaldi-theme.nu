@@ -6,8 +6,8 @@ def gen-vivaldi-theme [ ] {
     mkdir ~/staging-area
   let themeconfig = $'
     {
-       "accentFromPage": true,
-       "accentOnWindow": true,
+       "accentFromPage": false,
+       "accentOnWindow": false,
        "accentSaturationLimit": 0.55,
        "alpha": 0.75,
        "backgroundImage": "background.($bg | path parse | get extension)",

@@ -24,7 +24,7 @@
       (label :text "|${activeworkspace}" :class "workspace")
     )
     (box :space-evenly false :halign "end" :spacing 10 :class "boxright"
-      (label :text cava :class "cava")
+      ; (label :text cava :class "cava")
       (button :class "${blue_light_filter_on == 'true' ? 'hyprsunset_button_active' : 'hyprsunset_button'}" :onclick "nu ~/.config/eww/scripts/hyprsunset.nu set"
        (label :text "" :class "icon")
       )
