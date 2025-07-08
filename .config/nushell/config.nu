@@ -54,7 +54,8 @@ def conf [file:string] {
     "hypr" => { cd ~/.config/hypr ; hx hyprland.conf },
     "eww" => {cd ~/.config/eww ; hx eww.yuck },
     "matugen" => {cd ~/.config/matugen ; hx config.toml},
-    "kitty" => {cd ~/.config/kitty ; hx kitty.conf }
+    "kitty" => {cd ~/.config/kitty ; hx kitty.conf },
+    "niri" => {cd ~/.config/niri ; hx config.kdl }
   }
 }
 
