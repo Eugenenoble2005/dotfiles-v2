@@ -62,3 +62,4 @@ def conf [file:string] {
 def dotnet_new_list [] {
   dotnet new list | detect columns --skip 3 --guess  | rename TemplateName ShortName Language Tags
 }
+alias nirictl = niri msg

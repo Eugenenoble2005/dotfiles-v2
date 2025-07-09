@@ -257,4 +257,6 @@ element-text {
 
 //@theme "/usr/share/rofi/themes/gruvbox-light.rasi"
 
-@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+@theme "/home/noble/.local/share/rofi/themes/squared-material-red.rasi"

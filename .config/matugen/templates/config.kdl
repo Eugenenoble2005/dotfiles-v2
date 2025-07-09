@@ -192,13 +192,13 @@ layout {
         // off
 
         width 4
-        // active-color "#df3ed2"
-        inactive-color "#f5b9a5"
+        // active-color "{{ colors.source_color.default.hex }}"
+        inactive-color "{{ colors.tertiary.default.hex }}"
 
         // Color of the border around windows that request your attention.
-        urgent-color "#ffb4ab"
+        urgent-color "{{ colors.error.default.hex }}"
 
-        active-gradient from="#df3ed2" to="#f5b9a5" relative-to="workspace-view"
+        active-gradient from="{{colors.source_color.default.hex }}" to="{{colors.tertiary.default.hex }}" relative-to="workspace-view"
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
