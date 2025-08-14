@@ -1,7 +1,1 @@
-@import "colors-gtk.css";
-
-* {
-	font-family: Iosevka;
-	font-weight: bold;
-	font-style: italic;
-}
+@import 'colors.css';

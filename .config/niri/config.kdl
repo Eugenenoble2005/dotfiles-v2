@@ -17,7 +17,7 @@ input {
             // layout "us,ru"
             // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
         }
-        repeat-delay 200
+        repeat-delay 300
         repeat-rate 50
         // Enable numlock on startup, omitting this setting disables it.
         numlock
@@ -115,9 +115,11 @@ layout {
     // - "always", the focused column will always be centered.
     // - "on-overflow", focusing a column will center it if it doesn't fit
     //   together with the previously focused column.
-    center-focused-column "never"
+    center-focused-column "on-overflow"
 
-    // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
+    always-center-single-column
+
+   // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
         // Proportion sets the width as a fraction of the output width, taking gaps into account.
         // For example, you can perfectly fit four windows sized "proportion 0.25" on an output.
@@ -134,6 +136,7 @@ layout {
        proportion 1.0
     }
 
+    background-color "transparent"
     // You can change the default width of the new windows.
     default-column-width { proportion 0.5; }
     // If you leave the brackets empty, the windows themselves will decide their initial width.
@@ -192,13 +195,13 @@ layout {
         // off
 
         width 4
-        // active-color "#df3ed2"
-        inactive-color "#f5b9a5"
+        // active-color "#aa6544"
+        inactive-color "#d1c88f"
 
         // Color of the border around windows that request your attention.
         urgent-color "#ffb4ab"
 
-        active-gradient from="#df3ed2" to="#f5b9a5" relative-to="workspace-view"
+        active-gradient from="#aa6544" to="#d1c88f" relative-to="workspace-view"
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
@@ -263,7 +266,6 @@ spawn-at-startup "yin"
 spawn-at-startup "nu" "~/restore_yin.nu"
 
 //swww for overview
-spawn-at-startup "swww-daemon"
 spawn-at-startup "xwayland-satellite"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
@@ -348,7 +350,40 @@ binds {
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "rofi" "-show" "drun"; }
     Mod+S hotkey-overlay-title="Run an Application: fuzzel" { spawn "rofi" "-show" "window"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+
+
+    KP_END             { focus-workspace 1;}
+    KP_DOWN            { focus-workspace 2;}
+    KP_NEXT            { focus-workspace 3;}
+    KP_LEFT            { focus-workspace 4;}
+    KP_BEGIN           { focus-workspace 5;}
+    KP_RIGHT           { focus-workspace 6;}
+    KP_HOME            { focus-workspace 7;}
+    KP_UP              { focus-workspace 8;}
+    KP_PRIOR           { focus-workspace 9;}
+
     KP_INSERT {  toggle-overview; }
+
+    Mod+1 { focus-column 1;}
+    Mod+2 { focus-column 2;}
+    Mod+3 { focus-column 3;}
+    Mod+4 { focus-column 4;}
+    Mod+5 { focus-column 5;}
+    Mod+6 { focus-column 6;}
+    Mod+7 { focus-column 7;}
+    Mod+8 { focus-column 8;}
+    Mod+9 { focus-column 9;}
+
+    Alt+1 { focus-workspace 1;}
+    Alt+2 { focus-workspace 2;}
+    Alt+3 { focus-workspace 3;}
+    Alt+4 { focus-workspace 4;}
+    Alt+5 { focus-workspace 5;}
+    Alt+6 { focus-workspace 6;}
+    Alt+7 { focus-workspace 7;}
+    Alt+8 { focus-workspace 8;}
+    Alt+9 { focus-workspace 9;}
+    
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
     // Mod+T { spawn "bash" "-c" "notify-send hello && exec alacritty"; }
@@ -395,10 +430,10 @@ binds {
     Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+End  { move-column-to-last; }
 
-    Mod+Shift+Left  { focus-monitor-left; }
-    Mod+Shift+Down  { focus-monitor-down; }
-    Mod+Shift+Up    { focus-monitor-up; }
-    Mod+Shift+Right { focus-monitor-right; }
+    // Mod+Shift+Left  { focus-monitor-left; }
+    // Mod+Shift+Down  { focus-monitor-down; }
+    // Mod+Shift+Up    { focus-monitor-up; }
+    // Mod+Shift+Right { focus-monitor-right; }
     Mod+Shift+H     { focus-monitor-left; }
     Mod+Shift+J     { focus-monitor-down; }
     Mod+Shift+K     { focus-monitor-up; }
@@ -480,15 +515,6 @@ binds {
     //
     // For example, with 2 workspaces + 1 empty, indices 3, 4, 5 and so on
     // will all refer to the 3rd workspace.
-    Mod+1 { focus-workspace 1; }
-    Mod+2 { focus-workspace 2; }
-    Mod+3 { focus-workspace 3; }
-    Mod+4 { focus-workspace 4; }
-    Mod+5 { focus-workspace 5; }
-    Mod+6 { focus-workspace 6; }
-    Mod+7 { focus-workspace 7; }
-    Mod+8 { focus-workspace 8; }
-    Mod+9 { focus-workspace 9; }
     Mod+Shift+1 { move-column-to-workspace 1; }
     Mod+Shift+2 { move-column-to-workspace 2; }
     Mod+Shift+3 { move-column-to-workspace 3; }
@@ -520,8 +546,8 @@ binds {
     Mod+R { switch-preset-column-width; }
     Mod+Shift+R { switch-preset-window-height; }
     Mod+Ctrl+R { reset-window-height; }
-    Mod+F { maximize-column; }
-    Mod+Shift+F { fullscreen-window; }
+    Mod+F { fullscreen-window; }
+    // Mod+Shift+F { fullscreen-window; }
 
     // Expand the focused column to space not taken up by other fully visible columns.
     // Makes the column "fill the rest of the space".
@@ -540,12 +566,15 @@ binds {
     // * adjust width as a percentage of screen width: "-10%" or "+10%"
     // Pixel sizes use logical, or scaled, pixels. I.e. on an output with scale 2.0,
     // set-column-width "100" will make the column occupy 200 physical screen pixels.
-    Mod+Minus { set-column-width "-10%"; }
-    Mod+Equal { set-column-width "+10%"; }
-
+    // Mod+Minus { set-column-width "-10%"; }
+    // Mod+Equal { set-column-width "+10%"; }
+    Mod+Shift+Left { set-column-width "-10%"; }
+    Mod+Shift+Right { set-column-width "+10%"; }
+    Mod+Shift+Up { set-window-height "+10%"; }
+    Mod+Shift+Down { set-window-height "-10%"; }
     // Finer height adjustments when in column with other windows.
-    Mod+Shift+Minus { set-window-height "-10%"; }
-    Mod+Shift+Equal { set-window-height "+10%"; }
+    // Mod+Shift+Minus { set-window-height "-10%"; }
+    // Mod+Shift+Equal { set-window-height "+10%"; }
 
     // Move the focused window between the floating and the tiling layout.
     Mod+V       { toggle-window-floating; }
@@ -586,7 +615,7 @@ binds {
 
 environment {
     DISPLAY ":1"
-    QT_QPA_PLATFORM "wayland,xcb"
+    QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME  "qt6ct"
 }
 
@@ -595,7 +624,7 @@ hotkey-overlay {
 } 
 
 layer-rule {
-   match namespace="swww-daemon"
+   match namespace="wallpaper"
    place-within-backdrop true
 }
 
@@ -605,5 +634,26 @@ window-rule {
 }
 window-rule {
     match app-id="xdg-desktop-portal-gtk"
+    open-floating true
+}
+window-rule {
+    match app-id="Spotify"
+    opacity 0.95
+}
+window-rule {
+    match app-id="kitty"
+    default-column-width { proportion 0.75; }
+}
+window-rule {
+    match app-id="zen"
+    default-column-width { proportion 0.75; }
+}
+window-rule {
+    match app-id="nautilus"
+    default-column-width { proportion 0.75; }
+}
+
+window-rule {
+    match app-id="Wff"
     open-floating true
 }

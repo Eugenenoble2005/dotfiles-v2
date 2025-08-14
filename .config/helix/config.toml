@@ -1,4 +1,4 @@
-theme="colors-helix"
+theme="base16_transparent"
 [editor.soft-wrap]
 enable=true
 
