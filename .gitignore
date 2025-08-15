@@ -1,7 +1,9 @@
 Pictures/wallpapers/*.gif
-.local/state/*
-.local/share/Trash/*
+.local/*
 Pictures/wallpapers/preconvert
 Pictures/Screenshots/*
 
 .config/hypr/wallpaper_effects/*
+!.local/share/rofi/
+!.local/share/rofi/**
+

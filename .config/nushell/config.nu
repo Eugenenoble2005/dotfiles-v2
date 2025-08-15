@@ -1,6 +1,5 @@
 
 source ~/.zoxide.nu
-source ~/.oh-my-posh.nu
 source ~/.config/nushell/gen-vivaldi-theme.nu
 
 $env.config.show_banner = false
@@ -12,7 +11,7 @@ alias btm = btm --basic --process_memory_as_value
 $env.PATH ++= ["~/.spicetify","~/.local/bin","/var/lib/snapd/snap/bin","/var/lib/snapd/desktop", "/home/noble/.dotnet/tools" , "/home/noble/.local/share/pipx/venvs"]
 # $env.config.table.mode = "ascii_rounded"
 $env.wap = $"($env.HOME)/Pictures/wallpapers"
-$env.POSH_THEME =  "/home/noble/.cache/oh-my-posh/themes/powerline.omp.json"
+$env.POSH_THEME = "/home/noble/.config/nushell/themes/powgerline.json"
 $env.config.color_config.row_index = "red"
 $env.config.color_config.closure = "red"
 $env.config.color_config.header = "red"

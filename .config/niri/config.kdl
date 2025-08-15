@@ -267,6 +267,7 @@ spawn-at-startup "nu" "~/restore_yin.nu"
 
 //swww for overview
 spawn-at-startup "xwayland-satellite"
+spawn-at-startup "mako"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.
@@ -390,16 +391,16 @@ binds {
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
-    XF86audioraisevolume allow-when-locked=true { spawn "nu" "~/.config/hypr/scripts/Volume.nu" "inc"; }
-    XF86audiolowervolume allow-when-locked=true { spawn "nu" "~/.config/hypr/scripts/Volume.nu" "dec"; }
-    xf86AudioPlay  { spawn "nu" "~/.config/hypr/scripts/MediaCtrl.nu"  "pause"; }
-    xf86audioprev { spawn "nu" "~/.config/hypr/scripts/MediaCtrl.nu"  "prev" ;}
-    xf86audionext { spawn "nu" "~/.config/hypr/scripts/MediaCtrl.nu"  "next" ;}
+    XF86audioraisevolume allow-when-locked=true { spawn "fish" "/home/noble/.config/hypr/scripts/Volume.fish" "inc"; }
+    XF86audiolowervolume allow-when-locked=true { spawn "fish" "/home/noble/.config/hypr/scripts/Volume.fish" "dec"; }
+    xf86AudioPlay  { spawn "fish" "/home/noble/.config/hypr/scripts/MediaCtrl.fish"  "pause"; }
+    xf86audioprev { spawn "fish" "/home/noble/.config/hypr/scripts/MediaCtrl.fish"  "prev" ;}
+    xf86audionext { spawn "fish" "/home/noble/.config/hypr/scripts/MediaCtrl.fish"  "next" ;}
     Super+T {spawn "nautilus";}
     Mod+Q { close-window; }
-    xf86monbrightnessdown { spawn "nu"  "~/.config/hypr/scripts/Brightness.nu" "dec"  "3";}
-    xf86monbrightnessup { spawn "nu"  "~/.config/hypr/scripts/Brightness.nu" "inc"  "3";}
-    Super+Shift+P { spawn "nu" "~/.config/hypr/scripts/choose_accent.nu" ;}
+    xf86monbrightnessdown { spawn "fish" "/home/noble/.config/hypr/scripts/Brightness.fish" "dec";}
+    xf86monbrightnessup { spawn "fish" "/home/noble/.config/hypr/scripts/Brightness.fish" "inc" ;}
+    Super+Shift+P { spawn "fish" "/home/noble/.config/hypr/scripts/choose_accent.fish" ;}
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
     Mod+Up    { focus-window-up; }
@@ -614,7 +615,7 @@ binds {
 }
 
 environment {
-    DISPLAY ":1"
+    DISPLAY ":0"
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME  "qt6ct"
 }
@@ -645,7 +646,7 @@ window-rule {
     default-column-width { proportion 0.75; }
 }
 window-rule {
-    match app-id="zen"
+    match app-id="firefox"
     default-column-width { proportion 0.75; }
 }
 window-rule {
