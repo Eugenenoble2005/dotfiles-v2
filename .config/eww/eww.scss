@@ -1,52 +1,14 @@
-@import "styles/colors-eww.scss";
-@import "styles/topbar.scss";
-
-* {
-  /* font-family: Iosevka; */
-  /* font-style: italic; */
-  /* color: $foreground; */
-}
-
-
-.music {
-  background: $background;
-}
-
-.music-time {
-  font-size: 50px;
-  color: $foreground;
-}
-
-.music-time-second {
-  font-size: 20px;
-}
-
-.music .box-outline-right {
-  border-right: 1px solid $outline;
-}
-
-.music .box-outline-top {
-  border-top: 1px solid $outline;
-}
-
-.music .box-outline-bottom {
-  border-bottom: 1px solid $outline;
-}
-
-.music .song-title {
-  font-size: 25px
-}
-
-.music .media-box {
-  //margin-top: 35px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-
+@import "colors-eww.scss";
+.desktop {
+  background:transparent;
   label {
-    margin-top: 15px;
+    color:$foreground;
+    
   }
-}
-
-.music .cava {
-  color: $source;
+  .bigtext{
+    font-size: 190px;
+  }
+  .mediumtext {
+    font-size:20px
+  }
 }

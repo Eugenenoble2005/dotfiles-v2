@@ -1,4 +1,1 @@
-(include "windows/topbar.yuck")
-(include "windows/artist-lyrics.yuck")
-(include "windows/treegrowth.yuck")
-
+(include "desktop.yuck")

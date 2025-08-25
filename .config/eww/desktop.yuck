@@ -1,0 +1,21 @@
+(defwindow desktop
+  :exclusive false
+  :stacking "bg"  
+  :monitor 0
+  :geometry (geometry :anchor "top right" :height "100px" :x "20")
+  (box :class "main" :orientation "vertical" :space-evenly false :spacing -40
+    (label :text hour :class "bigtext")
+    (label :text minute :class "bigtext")
+    (box :orientation "vertical" :space-evenly false :spacing 20
+      (label :text "Power: ${round(EWW_BATTERY.total_avg, 0)}%" :class "mediumtext" )
+      (label :text "Network: ${net}" :class "mediumtext" )
+      ; (label :text "Music: ${music_title} ${music_artist}" :class "mediumtext" :truncate true :halign "start")
+    )
+  )
+)
+
+(defpoll hour :interval "1s" `date +%H`)
+(defpoll minute :interval "1s" `date +%M`)
+(defpoll net :interval "30s" `nmcli -t -f active,ssid dev wifi | grep -e '^yes' | cut -d':' -f2`)
+(defpoll music_title :interval "1s" `playerctl metadata title`)
+(defpoll music_artist :interval "1s" `playerctl metadata artist`)

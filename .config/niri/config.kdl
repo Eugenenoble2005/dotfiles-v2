@@ -107,7 +107,7 @@ input {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 20
+    gaps 5
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -117,7 +117,7 @@ layout {
     //   together with the previously focused column.
     center-focused-column "on-overflow"
 
-    always-center-single-column
+    // always-center-single-column
 
    // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
     preset-column-widths {
@@ -170,7 +170,7 @@ layout {
         active-color "#7fc8ff"
 
         // Color of the ring on inactive monitors.
-        inactive-color "#505050"
+        // inactive-color "#505050"
 
         // You can also use gradients. They take precedence over solid colors.
         // Gradients are rendered the same as CSS linear-gradient(angle, from, to).
@@ -196,7 +196,7 @@ layout {
 
         width 4
         // active-color "#aa6544"
-        inactive-color "#d1c88f"
+        // inactive-color "#d1c88f"
 
         // Color of the border around windows that request your attention.
         urgent-color "#ffb4ab"
@@ -263,8 +263,8 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 // spawn-at-startup "waybar"
 spawn-at-startup "yin"
-spawn-at-startup "nu" "~/restore_yin.nu"
-
+spawn-at-startup "eww" "open" "desktop"
+spawn-at-startup "/home/noble/restore-yin.sh"
 //swww for overview
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "mako"
@@ -365,25 +365,25 @@ binds {
 
     KP_INSERT {  toggle-overview; }
 
-    Mod+1 { focus-column 1;}
-    Mod+2 { focus-column 2;}
-    Mod+3 { focus-column 3;}
-    Mod+4 { focus-column 4;}
-    Mod+5 { focus-column 5;}
-    Mod+6 { focus-column 6;}
-    Mod+7 { focus-column 7;}
-    Mod+8 { focus-column 8;}
-    Mod+9 { focus-column 9;}
+    // Mod+1 { focus-column 1;}
+    // Mod+2 { focus-column 2;}
+    // Mod+3 { focus-column 3;}
+    // Mod+4 { focus-column 4;}
+    // Mod+5 { focus-column 5;}
+    // Mod+6 { focus-column 6;}
+    // Mod+7 { focus-column 7;}
+    // Mod+8 { focus-column 8;}
+    // Mod+9 { focus-column 9;}
 
-    Alt+1 { focus-workspace 1;}
-    Alt+2 { focus-workspace 2;}
-    Alt+3 { focus-workspace 3;}
-    Alt+4 { focus-workspace 4;}
-    Alt+5 { focus-workspace 5;}
-    Alt+6 { focus-workspace 6;}
-    Alt+7 { focus-workspace 7;}
-    Alt+8 { focus-workspace 8;}
-    Alt+9 { focus-workspace 9;}
+    Mod+1 { focus-workspace 1;}
+    Mod+2 { focus-workspace 2;}
+    Mod+3 { focus-workspace 3;}
+    Mod+4 { focus-workspace 4;}
+    Mod+5 { focus-workspace 5;}
+    Mod+6 { focus-workspace 6;}
+    Mod+7 { focus-workspace 7;}
+    Mod+8 { focus-workspace 8;}
+    Mod+9 { focus-workspace 9;}
     
     // You can also use a shell. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument in the end.
@@ -391,16 +391,16 @@ binds {
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
-    XF86audioraisevolume allow-when-locked=true { spawn "fish" "/home/noble/.config/hypr/scripts/Volume.fish" "inc"; }
-    XF86audiolowervolume allow-when-locked=true { spawn "fish" "/home/noble/.config/hypr/scripts/Volume.fish" "dec"; }
-    xf86AudioPlay  { spawn "fish" "/home/noble/.config/hypr/scripts/MediaCtrl.fish"  "pause"; }
-    xf86audioprev { spawn "fish" "/home/noble/.config/hypr/scripts/MediaCtrl.fish"  "prev" ;}
-    xf86audionext { spawn "fish" "/home/noble/.config/hypr/scripts/MediaCtrl.fish"  "next" ;}
-    Super+T {spawn "nautilus";}
+    XF86audioraisevolume allow-when-locked=true { spawn "/home/noble/.config/hypr/scripts/Volume.sh" "inc"; }
+    XF86audiolowervolume allow-when-locked=true { spawn  "/home/noble/.config/hypr/scripts/Volume.sh" "dec"; }
+    xf86AudioPlay  { spawn  "/home/noble/.config/hypr/scripts/MediaCtrl.sh"  "pause"; }
+    xf86audioprev { spawn  "/home/noble/.config/hypr/scripts/MediaCtrl.sh"  "prev" ;}
+    xf86audionext { spawn  "/home/noble/.config/hypr/scripts/MediaCtrl.sh"  "next" ;}
+    Super+T {spawn "thunar";}
     Mod+Q { close-window; }
-    xf86monbrightnessdown { spawn "fish" "/home/noble/.config/hypr/scripts/Brightness.fish" "dec";}
-    xf86monbrightnessup { spawn "fish" "/home/noble/.config/hypr/scripts/Brightness.fish" "inc" ;}
-    Super+Shift+P { spawn "fish" "/home/noble/.config/hypr/scripts/choose_accent.fish" ;}
+    xf86monbrightnessdown { spawn  "/home/noble/.config/hypr/scripts/Brightness.sh" "dec";}
+    xf86monbrightnessup { spawn  "/home/noble/.config/hypr/scripts/Brightness.sh" "inc" ;}
+    Super+Shift+P { spawn  "/home/noble/.config/hypr/scripts/choose_accent.sh" ;}
     Mod+Left  { focus-column-left; }
     Mod+Down  { focus-window-down; }
     Mod+Up    { focus-window-up; }
@@ -571,8 +571,8 @@ binds {
     // Mod+Equal { set-column-width "+10%"; }
     Mod+Shift+Left { set-column-width "-10%"; }
     Mod+Shift+Right { set-column-width "+10%"; }
-    Mod+Shift+Up { set-window-height "+10%"; }
-    Mod+Shift+Down { set-window-height "-10%"; }
+    Mod+Shift+Up { set-window-height "-10%"; }
+    Mod+Shift+Down { set-window-height "+10%"; }
     // Finer height adjustments when in column with other windows.
     // Mod+Shift+Minus { set-window-height "-10%"; }
     // Mod+Shift+Equal { set-window-height "+10%"; }
@@ -613,7 +613,6 @@ binds {
     Ctrl+Alt+Delete { quit; }
 
 }
-
 environment {
     DISPLAY ":0"
     QT_QPA_PLATFORM "wayland"
@@ -641,18 +640,18 @@ window-rule {
     match app-id="Spotify"
     opacity 0.95
 }
-window-rule {
-    match app-id="kitty"
-    default-column-width { proportion 0.75; }
-}
-window-rule {
-    match app-id="firefox"
-    default-column-width { proportion 0.75; }
-}
-window-rule {
-    match app-id="nautilus"
-    default-column-width { proportion 0.75; }
-}
+// window-rule {
+//     match app-id="kitty"
+//     default-column-width { proportion 0.75; }
+// }
+// window-rule {
+//     match app-id="firefox"
+//     default-column-width { proportion 0.75; }
+// }
+// window-rule {
+//     match app-id="thunar"
+//     default-column-width { proportion 0.75; }
+// }
 
 window-rule {
     match app-id="Wff"

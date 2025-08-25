@@ -19,7 +19,7 @@ output_path="~/.config/rofi/wallust/colors-rofi.rasi"
 
 [templates.eww]
 input_path="./templates/colors-eww.scss"
-output_path="~/.config/eww/styles/colors-eww.scss"
+output_path="~/.config/eww/colors-eww.scss"
 
 [templates.qt5]
 input_path="./templates/colors-qt.conf"
